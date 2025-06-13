@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:bg="https://bufdir.no/generelt.v1.0.0"  
+	xmlns="https://bufdir.no/barnevern.generelt.v1.0.0" 
+	targetNamespace="https://bufdir.no/barnevern.generelt.v1.0.0" 
+	elementFormDefault="qualified" 
+	version="1.0.0">
+	<xs:import namespace="https://bufdir.no/generelt.v1.0.0" schemaLocation="bufdir.generelt.v1.0.0.xsd"/>
+
+	<xs:complexType name="BarnetsSituasjonOgBehovType" id="BUF_5A044770-FD46-496C-B04F-3E6A51B2889F">
+		<xs:sequence>
+			<xs:element name="BistandSamletBehov" type="bg:FritekstObligatorisk" id="BUF_D7577E46-86D7-4AFD-B170-E3D4C6D8234D"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="KunnskapsmodellBarnetsSituasjonOgBehovType" id="BUF_F9F73634-8308-48E6-A962-F9F2B8ACD0F6">
+		<xs:complexContent>
+			<xs:extension base="BarnetsSituasjonOgBehovType" >
+				<xs:sequence>
+					<xs:element name="OmradeBeskrivelse" type="KunnskapsmodellOmradeBeskrivelseType" minOccurs="11" maxOccurs="11" id="BUF_5E9BDD35-9188-4C44-9921-F557F4E8BB08">
+						<xs:unique name="KunnskapsmodellOmrade">
+							<xs:selector xpath="Omrade"></xs:selector>
+							<xs:field xpath="."></xs:field>
+						</xs:unique>
+					</xs:element>
+					<xs:element name="DimensjonVurdering" type="KunnskapsmodellDimensjonVurderingType" minOccurs="3" maxOccurs="3" id="BUF_CCD23FB1-1CEE-4F26-AB89-4E45FCF6214A">
+						<xs:unique name="KunnskapsmodellDimensjon">
+							<xs:selector xpath="Dimensjon"></xs:selector>
+							<xs:field xpath="."></xs:field>
+						</xs:unique>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="DagtilbudType" id="BUF_DAADF7BD-D8BA-4B6E-8552-FFC81CEB0ACC">
+		<xs:annotation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Type" type="DagtilbudTypeType" id="BUF_FBD88251-E5D6-4E8E-AF2A-0BD2417C1DA4">
+				<xs:annotation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DagtilbudAnnet" type="bg:Enlinje" minOccurs="0" id="BUF_4B2C77C1-22A4-4ECF-830F-F816F95A8890">
+				<xs:annotation>
+					<xs:appinfo>
+						<enable>Type=9</enable>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Beskrivelse" type="bg:Fritekst" minOccurs="0" id="BUF_B0CF0017-A1B2-4F28-8050-BDC3EAE93457">
+				<xs:annotation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="IndividuellPlanKoordinatorType" id="BUF_801447D3-281D-4351-AA04-1C4C7FCAB444">
+		<xs:annotation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Kontaktperson" type="bg:KontaktpersonType" id="BUF_30E231DB-D91D-4E72-8098-593AF7F4157D"/>
+			<xs:element name="Instans" type="bg:EnlinjeObligatorisk" id="BUF_493608A6-843E-4034-B3EE-1176594C2D35"/>
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:complexType name="IndividuellPlanType" id="BUF_41E9643E-F727-42C6-A459-3D2E4612306D">
+		<xs:annotation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Status" type="IndividuellPlanStatusType" id="BUF_4801A8A8-F57E-46F1-99B4-0A85A66A324A"/>
+			<xs:element name="GyldigFra" type="xs:date"  minOccurs="0" id="BUF_5EEB3D6A-523F-40CE-8871-9E2075D22221">
+				<xs:annotation>
+					<xs:appinfo>
+						<enable>Status=1</enable>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Koordinator" type="IndividuellPlanKoordinatorType" minOccurs="0" id="BUF_056EDE9A-A696-49C4-9967-8AE7A4CE67E6">
+				<xs:annotation>
+					<xs:appinfo>
+						<enable>Status=1,2,3</enable>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="ForeldreInvolveringUtenSamvaerType" id="BUF_7E27ACBE-F5FC-49F9-B3C7-5ED651B77DB3">
+		<xs:annotation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ForeldrenesMedvirkning" type="bg:FritekstObligatorisk" id="BUF_ABB6710A-BE5B-49B8-ADB2-A7275F714C89">
+				<xs:annotation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ForeldreInvolveringType" id="BUF_1287BB07-C395-42F2-AAFF-4298CDAFD640">
+		<xs:annotation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="ForeldreInvolveringUtenSamvaerType">
+				<xs:sequence>
+					<xs:element name="SamvaerOgKontakt" type="bg:FritekstObligatorisk" id="BUF_2893D1A7-FFDF-45C6-BD55-FF00D28EDA2A">
+						<xs:annotation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="KlientIdentifikatorType" id="BUF_13216163-4A73-4297-ABA7-7C49DF9C82FA">
+		<xs:sequence>
+			<xs:choice>
+				<xs:element name="Fodselsnummer" type="bg:FodselsnummerType" id="BUF_AA59F2BF-8085-4661-88AB-E188667A612F">
+					<xs:annotation>
+						<xs:appinfo>
+						</xs:appinfo>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="DUFnummer" type="bg:DUFNummerType" id="BUF_49AA99A5-7593-4FF9-9A52-7C732422D63A">
+					<xs:annotation>
+						<xs:appinfo>
+						</xs:appinfo>
+					</xs:annotation>
+				</xs:element>
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+	
+	
+
+	<xs:complexType name="KlientBarnevernType" id="BUF_3F4742FC-20F0-4488-B5F4-A7DD924ABF80">
+		<xs:sequence>
+			<xs:element name="Identifikator" type="KlientIdentifikatorType" id="BUF_7CFECA91-738D-4388-9C28-8168036F3F4A">
+			</xs:element>
+			<xs:element name="KommunalSaksId" type="bg:EnlinjeObligatorisk" id="BUF_CF0CF9F2-BD9C-4293-94E0-BDEC56FA1543">
+				<xs:annotation>
+					<xs:documentation>
+						Barn-/Saksid i kommunalt fagsystem. Brukes også ved fakturering
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Bosted" type="bg:Fritekst" minOccurs="0" id="BUF_4F9A9C6B-113B-4D3C-BB79-17DA1AE9867E">
+			</xs:element>
+			<xs:element name="BehovForTolk" type="BehovForTolkType" minOccurs="0" id="BUF_C4315249-A3E6-4D85-8CE3-6B8BEBDA9641">
+				<xs:annotation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="KlientBarnevernMedUfodtType" id="BUF_C711B206-F0CD-4C4F-BEA9-1A0663CC5924">
+		<xs:complexContent>
+			<xs:extension base="KlientBarnevernType">
+				<xs:sequence>
+					<xs:element name="Ufodt" type="xs:boolean" id="BUF_EC27AD6F-06A5-404D-93D6-4051D677ED2F">
+					</xs:element>
+					<xs:element name="TerminDato" type="xs:date" minOccurs="0" id="BUF_B5FB52CD-AE16-475A-9CE8-21B08A3F6ED5">
+						<xs:annotation>
+							<xs:appinfo>
+								<enable>Ufodt=1</enable>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="KlientBarnevernMedEMAType" id="BUF_F49A3722-FD10-4558-B2B1-DF427229D5FE">
+		<xs:complexContent>
+			<xs:extension base="KlientBarnevernType">
+				<xs:sequence>
+					<xs:element name="EMA" type="xs:boolean" id="BUF_490F140A-4994-413E-9E7B-49A97AD6603E"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="KlientBarnevernMedUfodtOgEMAType" id="BUF_C51424B8-17A1-4B7E-B799-4EE441FD91BB">
+		<xs:complexContent>
+			<xs:extension base="KlientBarnevernMedUfodtType">
+				<xs:sequence>
+					<xs:element name="EMA" type="xs:boolean" id="BUF_B4AAD458-5785-44F5-A0DA-6DAFCAF083B7"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+	<xs:complexType name="BarnetsMedvirkningType" id="BUF_9B0CC631-2BF4-4C42-A5AB-5DEBE86CC095">
+		<xs:annotation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="RammerForGjennomforing" type="bg:FritekstObligatorisk" id="BUF_569F439B-3F31-42A9-9D7D-41BF4BFCB624">
+				<xs:annotation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BarnetsSynspunkter" type="bg:FritekstObligatorisk" id="BUF_6A70D5D5-9178-4618-A267-F2B589FB52D4">
+				<xs:annotation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="VektingAvBarnetsSysnpunkt" type="bg:FritekstObligatorisk" id="BUF_4E368AC0-FF61-4064-B2F5-15BC20E6D9C6">
+				<xs:annotation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+
+	
+	
+	<xs:complexType name="BehovForTolkType" id="BUF_512AE196-82C8-47ED-8F01-DFBDA193FEEA">
+		<xs:sequence>
+			<xs:element name="BehovForTolk" type="xs:boolean" id="BUF_722387E5-1AF7-4F88-A6C7-80B2DAEF4339">
+				<xs:annotation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Sprak" type="bg:SprakType" id="BUF_B004A41B-4320-4463-8084-C52877C5FCDC">
+				<xs:annotation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BehovForTolkBeskrivelse" type="bg:Fritekst" minOccurs="0" id="BUF_2291F0E6-4A57-4AC0-A0B1-698735DA3C9F">
+				<xs:annotation>
+					<xs:appinfo>
+						<enable>BehovForTolk=1</enable>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="KunnskapsmodellOmradeBeskrivelseType" id="BUF_8B111992-F4D7-4FC8-A1F5-6775ABFE9E6B">
+		<xs:annotation>
+		</xs:annotation>		
+		<xs:sequence>
+			<xs:element name="Omrade" type="KunnskapsmodellOmradeType" id="BUF_F1E2E935-4B31-49A4-BE3D-2BD5729FBEF9">
+				<xs:annotation>
+				</xs:annotation>
+			</xs:element>
+			<xs:choice id="BUF_A4059B68-B6A2-4E88-AFE9-1215735AB5E3">
+				<xs:element name="Beskrivelse" type="bg:FritekstObligatorisk" id="BUF_02E03054-70DA-4618-BD00-21F99145DF56">
+					<xs:annotation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="BegrunnelseForIkkeAngitt" type="bg:FritekstObligatorisk" id="BUF_E4F9272C-138F-4D65-8EC3-4D409A5FE79B">
+					<xs:annotation>
+						<xs:documentation>
+							Hvis beskrivelse ikke fylles ut må begrunnelse angis
+						</xs:documentation>
+					</xs:annotation>
+			</xs:element>
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="KunnskapsmodellDimensjonVurderingType" id="BUF_E9961EA0-06FF-4EF5-9248-5B8E7FD7FF60">
+		<xs:annotation>
+		</xs:annotation>		
+		<xs:sequence>
+			<xs:element name="Dimensjon" type="KunnskapsmodellDimensjonType" id="BUF_88A60E41-D527-4198-A112-76A42EEBB772">
+				<xs:annotation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Vurdering" type="bg:FritekstObligatorisk" minOccurs="1" id="BUF_3ADD85AF-222F-4A93-9BD6-D5868B18318B">
+					<xs:annotation>
+					</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="KommunensPlanForTiltaketType" id="BUF_7BA3C032-0BD7-43D3-B7E2-AB36255F6CF7">
+		<xs:annotation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Beskrivelse" type="bg:FritekstObligatorisk" id="BUF_41EA2A29-0616-4A60-B862-3D45EA69A6C5">
+				<xs:annotation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RammerOpphold" type="bg:FritekstObligatorisk" id="BUF_A059E9FC-D65D-4413-90D0-7B5C0909EA7C">
+				<xs:annotation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="PeriodeApenTilDatoType" id="BUF_8CDDE32C-55FA-4EFD-85AA-795DA6323FD8">
+		<xs:annotation>
+			<xs:documentation>Periodeangivelse med åpen til-dato
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="FraDato" minOccurs="1" id="BUF_5F6D65C8-718A-4224-B063-272979D56EE0">
+				<xs:annotation>
+					<xs:documentation>Fra og med dato</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TilDato" minOccurs="0" id="BUF_C7BF12F4-FF8E-4448-B386-4F434F53414F">
+				<xs:annotation>
+					<xs:documentation>Til og med dato</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	
+	<xs:complexType name="VedtakType" id="BUF_653C0E1D-E638-4FC7-99D9-2861878D0099">
+		<xs:annotation>
+			<xs:documentation>
+				Elementet "Lovhjemmel" må innføres for aktuell henvisningstype (Total liste ligger i VedtakHenvisningParagrafType)
+				Elementet "VedtakStatus" må innføres for aktuell henvisningstype (Total liste ligger i VedtakStatusType)
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="FattetAv" type="VedtakInstansType" minOccurs="0" id="BUF_A2DF7E82-25DB-4764-8C24-93FBAAE34116">
+				<xs:annotation>
+					<xs:appinfo>
+						<enable>Status=1</enable>
+					</xs:appinfo>
+				</xs:annotation>			
+			</xs:element>
+			<xs:element name="Dato" type="xs:date" minOccurs="0" id="BUF_16F048A6-0C19-4726-BD48-B7B12B750046">
+				<xs:annotation>
+					<xs:appinfo>
+						<enable>Status=1</enable>
+					</xs:appinfo>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="VedtakOmsorgType" id="BUF_3F5E245F-CAE0-4E4D-BF1F-B6B8C95BC13A">
+		<xs:complexContent>
+			<xs:extension base="VedtakType">
+				<xs:sequence>
+					<xs:element name="Status" type="VedtakStatusType" id="BUF_24C3A623-74D5-42AC-945A-0AE9D6A81996"/>
+					<xs:element name="NemndsbehandlingStatus" type="NemndsbehandlingStatusType" id="BUF_77751E42-4E85-4B2D-967B-606561A86D15">
+						<xs:annotation>
+							<xs:appinfo>
+								<enable>FattetAv!=3</enable>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="NemndsbehandlingDato" type="xs:date" minOccurs="0" id="BUF_C122795C-C29B-4AFC-93E9-31D6F112C719">
+						<xs:annotation>
+							<xs:appinfo>
+								<enable>NemndsbehandlingStatus=1</enable>
+							</xs:appinfo>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>	
+	</xs:complexType>
+
+	<xs:complexType name="VedtakIkkeOmsorgType" id="BUF_AE08818A-11AF-43BB-A99A-D18E38A5BAD6">
+		<xs:complexContent>
+			<xs:extension base="VedtakType">
+				<xs:sequence>
+					<xs:element name="Status" type="VedtakStatusIkkeOmsorgType" id="BUF_4F9C335D-62E9-43EB-BC43-A42D77E08E71"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>	
+	</xs:complexType>
+
+
+<!-- Enum, kodeliste = bufdir.barnevern.kodelister.v1.0.0.xml -->
+
+	<xs:simpleType name="DagtilbudTypeType" id="BUF_B5FF17B2-B04D-4AC0-857B-11517C84A541">
+		<xs:annotation>
+			<xs:documentation>
+				1 = Ingen dagtilbud
+				2 = Dagmamma
+				3 = Barnehage
+				4 = Barneskole
+				5 = Ungdomskole
+				6 = Videregåendeskole
+				7 = Jobb
+				9 = Annet
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="3"/>
+			<xs:enumeration value="4"/>
+			<xs:enumeration value="5"/>
+			<xs:enumeration value="6"/>
+			<xs:enumeration value="7"/>
+			<xs:enumeration value="9"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="IndividuellPlanStatusType" id="BUF_02847FD3-74E7-4658-9295-90FEDCCA71BB">
+		<xs:annotation>
+			<xs:documentation>
+				1 = Foreligger
+				2 = Under arbeid
+				3 = Vurderes
+				4 = Ikke aktuell
+            </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="3"/>
+			<xs:enumeration value="4"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="KontaktFrekvensType" id="BUF_7D99356E-191B-40E5-A583-2EEE4059E354">
+		<xs:annotation>
+			<xs:documentation>
+                1 = Regelmessig
+                2 = Sporadisk
+				3 = Ingen
+            </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:length value="1"/>
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="KunnskapsmodellDimensjonType" id="BUF_68013692-AF12-4731-905F-44CC1218BB02">
+		<xs:annotation>
+			<xs:documentation>
+				1 = Barnets utvikling
+				2 = Foreldrenes omsorg
+				3 = Familie og miljø			
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="KunnskapsmodellOmradeType" id="BUF_C113BA46-0BFE-4FE7-839B-6F039FEA0197">
+		<xs:annotation>
+			<xs:documentation>
+				1.1 = Helse							
+				1.2 = Barnehage og skole				
+				1.3 = Følelser og uttrykk			
+				1.4 = Venner og fritid				
+				2.1 = Grunnleggende omsorg			
+				2.2 = Følelsesmessig tilgjengelighet	
+				2.3= Stimulering og veiledning		
+				2.4 = Beskyttelse					
+				3.1 = Familieforhold					
+				3.2 = Bolig, økonomi og arbeid		
+			    3.3 = Nettverk og sosial integrering	
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1.1"/>
+			<xs:enumeration value="1.2"/>
+			<xs:enumeration value="1.3"/>
+			<xs:enumeration value="1.4"/>
+			<xs:enumeration value="2.1"/>
+			<xs:enumeration value="2.2"/>
+			<xs:enumeration value="2.3"/>
+			<xs:enumeration value="2.4"/>
+			<xs:enumeration value="3.1"/>
+			<xs:enumeration value="3.2"/>
+			<xs:enumeration value="3.3"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="LovType" id="BUF_365F5EFF-E99A-41EF-9BD3-A84493366067">
+		<xs:annotation>
+			<xs:documentation>
+					1 = BVL 1992
+					2 = BVL 2021
+				</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="OmsorgsrelasjonType" id="BUF_EDA6F43C-5280-4A9C-8016-5C7B6A924BAB">
+		<xs:annotation>
+			<xs:documentation>
+                1 = Mor
+                2 = Far
+                3 = Verge
+				9 = Annet
+            </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:length value="1"/>
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="3"/>
+			<xs:enumeration value="9"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="OmsorgType" id="BUF_006637AF-CE1A-46A2-AE58-065F13754203">
+		<xs:annotation>
+			<xs:documentation>
+                1 = Ingen
+                2 = Daglig omsorg
+                3 = Delt Omsorg
+                4 = Samvær
+                9 = Annet
+            </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:length value="1"/>
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="3"/>
+			<xs:enumeration value="4"/>
+			<xs:enumeration value="9"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="SoskenRelasjonType" id="BUF_DCC037FD-2382-4459-A1D0-549B5A3C1E1A">
+		<xs:annotation>
+			<xs:documentation>
+                1 = Søster
+                2 = Bror
+				9 = Annet
+            </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:length value="1"/>
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="9"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="VedtakBakgrunnType" id="BUF_116E83C7-DA5F-44B0-8A14-4B680FBB8B45">
+		<xs:annotation>
+			<xs:documentation>
+			1 = Forhold ved omsorgen i hjemmet 
+			2 = Alvorlige atferdsvansker
+			3 = Vedvarende rusmisbruk
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="VedtakHenvisningParagrafType" id="BUF_1E902327-85D7-4C70-B63C-893F4542757C">
+		<xs:annotation>
+			<xs:documentation>
+				2-3 = § 2-3. Utredning i senter for foreldre og barn
+				2-6 = § 2-6. Tverrfaglig helsekartlegging
+				3-1 = § 3-1. Frivillig hjelpetiltak
+				3-2 = § 3-2. Fosterhjem og barnevernsinstitusjon som frivillig hjelpetiltak
+				3-4 = § 3-4. Pålegg om hjelpetiltak
+				3-5 = § 3-5. Foreldrestøttende hjelpetiltak uten barnets samtykke
+				3-6 = § 3-6. Hjelpetiltak til ungdom over 18 år
+				4-1 = § 4-1. Akuttvedtak om hjelpetiltak dersom barn er uten omsorg
+				4-2 = § 4-2. Akuttvedtak om omsorgsovertakelse
+				4-3 = § 4-3. Vedtak om midlertidig flytteforbud
+				4-4 = § 4-4. Akuttvedtak om plassering i barnevernsinstitusjon
+				4-5 = § 4-5. Akuttvedtak om plassering av barn i institusjon når det er fare for menneskehandel
+				5-1 = § 5-1. Vedtak om omsorgsovertakelse bokstav a-g
+				6-1 = § 6-1. Vedtak om opphold i barnevernsinstitusjon etter samtykke
+				6-2 = § 6-2. Vedtak om plassering i barnevernsinstitusjon uten samtykke
+				6-3 = § 6-3. Plassering i fosterhjem med særlige forutsetninger eller i institusjoner med hjem
+				6-4 = § 6-6. Vedtak om plassering i institusjon når det er fare for at barnet kan utnyttes til menneskehandel
+				11-1= § 11-1.Opphold på omsorgssenter for enslige mindreårige asylsøkere
+             </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="2-3"/>
+			<xs:enumeration value="2-6"/>
+			<xs:enumeration value="3-1"/>
+			<xs:enumeration value="3-2"/>
+			<xs:enumeration value="3-4"/>
+			<xs:enumeration value="3-5"/>
+			<xs:enumeration value="3-6"/>
+			<xs:enumeration value="4-1"/>
+			<xs:enumeration value="4-2"/>
+			<xs:enumeration value="4-3"/>
+			<xs:enumeration value="4-4"/>
+			<xs:enumeration value="4-5"/>
+			<xs:enumeration value="5-1"/>
+			<xs:enumeration value="6-1"/>
+			<xs:enumeration value="6-2"/>
+			<xs:enumeration value="6-3"/>
+			<xs:enumeration value="6-6"/>
+			<xs:enumeration value="11-1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="VedtakInstansType" id="BUF_13F44734-E1A3-49E7-A629-405CED5ACA28">
+		<xs:annotation>
+			<xs:documentation>
+                1 = Domstol
+				2 = Kommune
+				3 = Barneverns- og helsenemnda
+				4 = Politi/barnevernsvakt
+				5 = Utlendingsdirektoratet(UDI)
+             </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="3"/>
+			<xs:enumeration value="4"/>
+			<xs:enumeration value="5"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	
+
+	<xs:simpleType name="VedtakStatusType" id="BUF_F0A9CE46-BE05-454F-A04C-61C3CD18DA35">
+		<xs:annotation>
+			<xs:documentation>
+                1 = Vedtak fattet
+                2 = Vil bli fattet når tiltak foreligger
+                3 = Avventer nemndsbehandling
+             </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="VedtakStatusIkkeOmsorgType" id="BUF_18990DA8-ABF0-4614-8DC9-82702FADB6C3">
+		<xs:annotation>
+			<xs:documentation>
+                1 = Vedtak fattet
+                2 = Vil bli fattet når tiltak foreligger
+             </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="VedtakStatusType">
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="NemndsbehandlingStatusType" id="BUF_268C27AE-F202-404A-B4E5-77EE7CE85F86">
+		<xs:annotation>
+			<xs:documentation>
+                1 = Planlagt nemndsbehandling
+				2 = Sak fremmet, ikke dato
+				3 = Sak fremmet, familie i samtaleprosess
+				4 = Ikke aktuelt
+             </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="3"/>
+			<xs:enumeration value="4"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>

@@ -1,0 +1,22 @@
+{
+  "kodelister": [
+    {
+      "id": "BUF_E2A1CC6A-1E2A-407C-9EDE-0B126467A75E",
+      "navn": "FeilkodeType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Alternativ 1"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Alternativ 2"
+        },
+        {
+          "verdi": "9",
+          "tekst": "Annet"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "kodelister": [
+    {
+      "id": "BUF_30F7A6FE-6D88-4C5A-9881-12A69821780D",
+      "navn": "MeldingsForbindelseType",
+      "variabel": [
+        {
+          "id": "BUF_3FF75323-A986-4FEC-98FD-069181CDEB3D",
+          "navn": "retning",
+          "kodelisteId": "",
+          "kodelisteNavn": ""
+        }
+      ],
+      "kode": [
+        {
+          "verdi": "Duplikat",
+          "tekst": "Samme melding sendt igjen (av tekniske årsaker)",
+          "variabel": [
+            {
+              "navn": "retning",
+              "verdi": "sendt"
+            }
+          ]
+        },
+        {
+          "verdi": "Oppdatering",
+          "tekst": "Oppdatering av tidligere melding",
+          "variabel": [
+            {
+              "navn": "retning",
+              "verdi": "sendt"
+            }
+          ]
+        },
+        {
+          "verdi": "Tillegg",
+          "tekst": "Tillegg til melding, f.eks. vedlegg",
+          "variabel": [
+            {
+              "navn": "retning",
+              "verdi": "sendt"
+            }
+          ]
+        },
+        {
+          "verdi": "Trukket",
+          "tekst": "Trukket melding (det melding gjalt er ikke aktuelt mer)",
+          "variabel": [
+            {
+              "navn": "retning",
+              "verdi": "sendt"
+            }
+          ]
+        },
+        {
+          "verdi": "Slettet",
+          "tekst": "Slettet melding (feiltakelse, skal slettes hos mottaker)",
+          "variabel": [
+            {
+              "navn": "retning",
+              "verdi": "sendt"
+            }
+          ]
+        },
+        {
+          "verdi": "ApplikasjonsKvittering",
+          "tekst": "Kvittering på mottatt melding (fra fagsystem)",
+          "variabel": [
+            {
+              "navn": "retning",
+              "verdi": "mottatt"
+            }
+          ]
+        },
+        {
+          "verdi": "SaksbehandlerKvittering",
+          "tekst": "Kvittering på mottatt melding (fra saksbehandler)",
+          "variabel": [
+            {
+              "navn": "retning",
+              "verdi": "mottatt"
+            }
+          ]
+        },
+        {
+          "verdi": "Svar",
+          "tekst": "Svar på mottatt melding",
+          "variabel": [
+            {
+              "navn": "retning",
+              "verdi": "mottatt"
+            }
+          ]
+        },
+        {
+          "verdi": "Feil",
+          "tekst": "Mottatt melding kan ikke behandles",
+          "variabel": [
+            {
+              "navn": "retning",
+              "verdi": "mottatt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

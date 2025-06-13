@@ -1,0 +1,22 @@
+{
+  "kodelister": [
+    {
+      "id": "BUF_ADC8C757-15A5-4874-923E-82F25B5EE27F",
+      "navn": "TestEnumType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Alternativ 1"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Alternativ 2"
+        },
+        {
+          "verdi": "9",
+          "tekst": "Annet"
+        }
+      ]
+    }
+  ]
+}

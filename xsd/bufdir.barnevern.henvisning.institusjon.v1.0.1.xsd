@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns="https://bufdir.no/barnevern.henvisning.institusjon.v1.0.1" 
+	targetNamespace="https://bufdir.no/barnevern.henvisning.institusjon.v1.0.1" 
+	xmlns:bv="https://bufdir.no/barnevern.generelt.v1.0.0" 
+	xmlns:henv="https://bufdir.no/barnevern.henvisning.v1.0.1" 
+	xmlns:mld="https://bufdir.no/melding.v1.0.1" 
+	elementFormDefault="qualified" 
+	version="1.0.1">
+
+	<xs:import namespace="https://bufdir.no/barnevern.henvisning.v1.0.1" schemaLocation="bufdir.barnevern.henvisning.v1.0.1.xsd"/>
+	<xs:import namespace="https://bufdir.no/barnevern.generelt.v1.0.0" schemaLocation="bufdir.barnevern.generelt.v1.0.0.xsd"/>
+
+	<xs:complexType name="HenvisningInstitusjonVedtakType" id="BUF_653C0E1D-E638-4FC7-99D9-2861878D0099">
+		<xs:complexContent>
+			<xs:extension base="bv:VedtakOmsorgType">
+				<xs:sequence>
+					<xs:element name="Lovhjemmel" type="henv:HenvisningLovparagrafInstitusjonType" id="BUF_FB059DC3-BC4E-4BF1-AD17-81E193879DF0">
+						<xs:annotation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>	
+	</xs:complexType>
+
+
+	<xs:complexType name="HenvisningInstitusjonType" id="BUF_6C3034A4-4596-4E14-8F3F-4D4E39F22473">
+		<xs:complexContent>
+			<xs:extension base="henv:OmsorgstiltakHenvisningType">
+				<xs:sequence>
+					<xs:element name="ForespurtBistand" type="henv:HenvisningForespurtBistandInstitusjonType" id="BUF_C0A2B9A6-86CE-452B-8121-928091AE4736"/>
+					<xs:element name="Vedtak" type="HenvisningInstitusjonVedtakType" id="BUF_EF5E6649-D2E3-49EA-869B-A7D910BA1A3F"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>	
+	</xs:complexType>
+	
+<!-- Element-definisjon -->	
+
+	<xs:element name="Henvisning" type="HenvisningInstitusjonType" id="BUF_0A755807-50A8-46CE-B890-10979092C3CF">
+		<xs:annotation>
+			<xs:appinfo>
+				<MeldingsForbindelse>Ny|Oppdatering</MeldingsForbindelse>
+				<AvsenderType>1.Linje</AvsenderType>
+				<MottakerType>2.Linje</MottakerType>
+			</xs:appinfo>
+		</xs:annotation>
+	</xs:element>
+	
+</xs:schema>

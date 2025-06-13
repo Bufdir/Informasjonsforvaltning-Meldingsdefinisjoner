@@ -1,0 +1,120 @@
+{
+  "kodelister": [
+    {
+      "id": "BUF_D960BB0E-3A3E-4F81-AA5A-DDEA3F51061E",
+      "navn": "HenvisningForespurtBistandType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Fosterhjem"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Behandlingsinstitusjon"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Omsorgsinstitusjon"
+        },
+        {
+          "verdi": "4",
+          "tekst": "Omsorgsinstitusjon/Spesialisert fosterhjem"
+        },
+        {
+          "verdi": "5",
+          "tekst": "Senter for foreldre og barn - Utredning"
+        },
+        {
+          "verdi": "6",
+          "tekst": "Senter for foreldre og barn - Omsorgsendrende hjelpetiltak"
+        },
+        {
+          "verdi": "7",
+          "tekst": "Hjelpetiltak i hjemmet - RFT"
+        },
+        {
+          "verdi": "8",
+          "tekst": "Hjelpetiltak i hjemmet - MST"
+        },
+        {
+          "verdi": "9",
+          "tekst": "Hjelpetiltak i hjemmet - Annet"
+        },
+        {
+          "verdi": "10",
+          "tekst": "Familieråd"
+        },
+        {
+          "verdi": "11",
+          "tekst": "Tverrfaglig helsekartlegging"
+        }
+      ]
+    },
+    {
+      "id": "BUF_CAC09C0F-E1F4-4FA1-B978-8F874373306F",
+      "navn": "HenvisningBistandArenaType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Hjemme"
+        },
+        {
+          "verdi": "2",
+          "tekst": "I senter / institusjon"
+        }
+      ]
+    },
+    {
+      "id": "BUF_AAFE640D-9200-4089-B70F-51B7FA117724",
+      "navn": "KanPlasseresINettverkType",
+      "kode": [
+        {
+          "verdi": "0",
+          "tekst": "Nei"
+        },
+        {
+          "verdi": "1",
+          "tekst": "Ja"
+        },
+        {
+          "verdi": "9",
+          "tekst": "Uavklart"
+        }
+      ]
+    },
+    {
+      "id": "BUF_AF2116C4-C312-4ED2-82B4-2C697DBADF3F",
+      "navn": "PlanEtterTiltakType",
+      "kode": [
+        {
+          "verdi": "2",
+          "tekst": "Fosterhjem"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Behandlingsinstitusjon"
+        },
+        {
+          "verdi": "4",
+          "tekst": "Omsorgsinstitusjon"
+        },
+        {
+          "verdi": "5",
+          "tekst": "Omsorgsinstitusjon / spesialisert fosterhjem"
+        },
+        {
+          "verdi": "6",
+          "tekst": "Hjelpetiltak i hjemmet"
+        },
+        {
+          "verdi": "7",
+          "tekst": "Etableres i egen bolig"
+        },
+        {
+          "verdi": "9",
+          "tekst": "Annet"
+        }
+      ]
+    }
+  ]
+}

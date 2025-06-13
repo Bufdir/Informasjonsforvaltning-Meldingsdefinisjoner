@@ -1,0 +1,1336 @@
+{
+  "kodelister": [
+    {
+      "id": "BUF_B5FF17B2-B04D-4AC0-857B-11517C84A541",
+      "navn": "DagtilbudTypeType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Ingen dagtilbud"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Dagmamma"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Barnehage",
+          "gyldigFra": ""
+        },
+        {
+          "verdi": "4",
+          "tekst": "Barneskole"
+        },
+        {
+          "verdi": "5",
+          "tekst": "Ungdomskole"
+        },
+        {
+          "verdi": "6",
+          "tekst": "Videregående skole"
+        },
+        {
+          "verdi": "7",
+          "tekst": "Jobb"
+        },
+        {
+          "verdi": "9",
+          "tekst": "Annet"
+        }
+      ]
+    },
+    {
+      "id": "BUF_02847FD3-74E7-4658-9295-90FEDCCA71BB",
+      "navn": "IndividuellPlanStatusType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Foreligger"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Under arbeid"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Vurderes"
+        },
+        {
+          "verdi": "4",
+          "tekst": "Ikke aktuell"
+        }
+      ]
+    },
+    {
+      "id": "BUF_7D99356E-191B-40E5-A583-2EEE4059E354",
+      "navn": "KontaktFrekvensType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Regelmessig"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Sporadisk"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Ingen"
+        }
+      ]
+    },
+    {
+      "id": "BUF_68013692-AF12-4731-905F-44CC1218BB02",
+      "navn": "KunnskapsmodellDimensjonType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Barnets utvikling"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Foreldrenes omsorg"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Familie og miljø"
+        }
+      ]
+    },
+    {
+      "id": "BUF_C113BA46-0BFE-4FE7-839B-6F039FEA0197",
+      "navn": "KunnskapsmodellOmradeType",
+      "variabel": [
+        {
+          "id": "BUF_17357195-1699-458E-9787-2DD96E23A9D6",
+          "navn": "dimensjon",
+          "kodelisteId": "BUF_68013692-AF12-4731-905F-44CC1218BB02",
+          "kodelisteNavn": "KunnskapsmodellDimensjonType"
+        }
+      ],
+      "kode": [
+        {
+          "verdi": "1.1",
+          "tekst": "Helse",
+          "variabel": [
+            {
+              "navn": "dimensjon",
+              "verdi": "1"
+            }
+          ]
+        },
+        {
+          "verdi": "1.2",
+          "tekst": "Barnehage og skole",
+          "variabel": [
+            {
+              "navn": "dimensjon",
+              "verdi": "1"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3",
+          "tekst": "Følelser og uttrykk",
+          "variabel": [
+            {
+              "navn": "dimensjon",
+              "verdi": "1"
+            }
+          ]
+        },
+        {
+          "verdi": "1.4",
+          "tekst": "Venner og fritid",
+          "variabel": [
+            {
+              "navn": "dimensjon",
+              "verdi": "1"
+            }
+          ]
+        },
+        {
+          "verdi": "2.1",
+          "tekst": "Grunnleggende omsorg",
+          "beskrivelse": "",
+          "variabel": [
+            {
+              "navn": "dimensjon",
+              "verdi": "2"
+            }
+          ]
+        },
+        {
+          "verdi": "2.2",
+          "tekst": "Følelsesmessig tilgjengelighet",
+          "variabel": [
+            {
+              "navn": "dimensjon",
+              "verdi": "2"
+            }
+          ]
+        },
+        {
+          "verdi": "2.3",
+          "tekst": "Stimulering og veiledning",
+          "variabel": [
+            {
+              "navn": "dimensjon",
+              "verdi": "2"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4",
+          "tekst": "Beskyttelse",
+          "variabel": [
+            {
+              "navn": "dimensjon",
+              "verdi": "2"
+            }
+          ]
+        },
+        {
+          "verdi": "3.1",
+          "tekst": "Familieforhold",
+          "variabel": [
+            {
+              "navn": "dimensjon",
+              "verdi": "3"
+            }
+          ]
+        },
+        {
+          "verdi": "3.2",
+          "tekst": "Bolig, økonomi og arbeid",
+          "variabel": [
+            {
+              "navn": "dimensjon",
+              "verdi": "3"
+            }
+          ]
+        },
+        {
+          "verdi": "3.3",
+          "tekst": "Nettverk og sosial integrering",
+          "variabel": [
+            {
+              "navn": "dimensjon",
+              "verdi": "3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BUF_68013692-AF12-4731-905F-44CC1218ABAB",
+      "navn": "KunnskapsmodellSaksinnholdDetaljType",
+      "variabel": [
+        {
+          "id": "BUF_17357195-1699-458E-9787-2DD96E23A9D6",
+          "navn": "omrade",
+          "kodelisteId": "BUF_C113BA46-0BFE-4FE7-839B-6F039FEA0197",
+          "kodelisteNavn": "KunnskapsmodellOmradeType"
+        }
+      ],
+      "kode": [
+        {
+          "verdi": "1.1.1",
+          "tekst": "Fysisk helse og utvikling",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.1"
+            }
+          ]
+        },
+        {
+          "verdi": "1.1.2",
+          "tekst": "Psykisk helse og utvikling",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.1"
+            }
+          ]
+        },
+        {
+          "verdi": "1.1.3",
+          "tekst": "Barn med funksjonsnedsettelser",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.1"
+            }
+          ]
+        },
+        {
+          "verdi": "1.1.4",
+          "tekst": "Tilgang til helse- og tannhelsetjenester",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.1"
+            }
+          ]
+        },
+        {
+          "verdi": "1.2.1",
+          "tekst": "Læring",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.2"
+            }
+          ]
+        },
+        {
+          "verdi": "1.2.2",
+          "tekst": "Skoleresultater",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.2"
+            }
+          ]
+        },
+        {
+          "verdi": "1.2.3",
+          "tekst": "Trivsel i barnehage og skole",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.2"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3.1",
+          "tekst": "Atferd",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3.2",
+          "tekst": "Følelser og temperament",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3.3",
+          "tekst": "Holdninger og verdier",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3.4",
+          "tekst": "Identitet",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3.5",
+          "tekst": "Selvstendighet",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3.6",
+          "tekst": "Tilknytning",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3.7",
+          "tekst": "Stress og mestring",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3.8",
+          "tekst": "Traumer",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3.9",
+          "tekst": "Rus",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3.10",
+          "tekst": "Skadelig seksuell atferd",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3.11",
+          "tekst": "Barn som begår straffbare handlinger",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.4.1",
+          "tekst": "Lek og fritid",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.4"
+            }
+          ]
+        },
+        {
+          "verdi": "1.4.2",
+          "tekst": "Relasjoner til andre barn og voksne",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.4"
+            }
+          ]
+        },
+        {
+          "verdi": "1.4.3",
+          "tekst": "Mobbing",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.4"
+            }
+          ]
+        },
+        {
+          "verdi": "1.4.4",
+          "tekst": "Digital hverdag",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.1.1",
+          "tekst": "Ansvar",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.1"
+            }
+          ]
+        },
+        {
+          "verdi": "2.1.2",
+          "tekst": "Nærmere om grunnleggende omsorg",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.1"
+            }
+          ]
+        },
+        {
+          "verdi": "2.1.3",
+          "tekst": "Hverdagsrutiner",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.1"
+            }
+          ]
+        },
+        {
+          "verdi": "2.2.1",
+          "tekst": "Stimulering og engasjement",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.2"
+            }
+          ]
+        },
+        {
+          "verdi": "2.2.2",
+          "tekst": "Oppdragelse, veiledning og grenser",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.2"
+            }
+          ]
+        },
+        {
+          "verdi": "2.2.1",
+          "tekst": "Følelsesmessig regulering",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.2"
+            }
+          ]
+        },
+        {
+          "verdi": "2.2.2",
+          "tekst": "Følelsesmessig støtte",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.2"
+            }
+          ]
+        },
+        {
+          "verdi": "2.2.3",
+          "tekst": "Trygg relasjon mellom barn og foreldre",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.2"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.1",
+          "tekst": "Beskyttelse mot æresrelatert vold og negativ sosial kontroll",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.2",
+          "tekst": "Beskyttelse mot å være vitne til vold i familien",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.3",
+          "tekst": "Beskyttelse mot alvorlige konflikter mellom foreldre",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.4",
+          "tekst": "Beskyttelse mot vold",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.5",
+          "tekst": "Beskyttelse mot menneskehandel",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.6",
+          "tekst": "Beskyttelse mot seksuelle overgrep og seksuell utnyttelse",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.7",
+          "tekst": "Beskyttelse mot skadelige tradisjoner og skikker",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.8",
+          "tekst": "Beskyttelse mot vold og overgrep fra jevnaldrende",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "3.1.1",
+          "tekst": "Familiens sammensetning",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.1"
+            }
+          ]
+        },
+        {
+          "verdi": "3.1.2",
+          "tekst": "Foreldres helse og livsstil",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.1"
+            }
+          ]
+        },
+        {
+          "verdi": "3.1.3",
+          "tekst": "Søskens helse og trivsel",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.1"
+            }
+          ]
+        },
+        {
+          "verdi": "3.1.4",
+          "tekst": "Tidligere hendelser av betydning i familien",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.1"
+            }
+          ]
+        },
+        {
+          "verdi": "3.1.5",
+          "tekst": "Foreldres erfaring fra egen oppvekst",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.1"
+            }
+          ]
+        },
+        {
+          "verdi": "3.1.6",
+          "tekst": "Foreldre med rusrelaterte utfordringer",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.1"
+            }
+          ]
+        },
+        {
+          "verdi": "3.1.7",
+          "tekst": "Barn som pårørende",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.1"
+            }
+          ]
+        },
+        {
+          "verdi": "3.2.1",
+          "tekst": "Nærmere om bolig, økonomi og arbeid",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.2"
+            }
+          ]
+        },
+        {
+          "verdi": "3.2.2",
+          "tekst": "Fattigdom",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.2"
+            }
+          ]
+        },
+        {
+          "verdi": "3.3.1",
+          "tekst": "Familiens profesjonelle nettverk",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.3"
+            }
+          ]
+        },
+        {
+          "verdi": "3.3.2",
+          "tekst": "Familiens sosiale nettverk og integrering",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.3"
+            }
+          ]
+        },
+        {
+          "verdi": "3.3.3",
+          "tekst": "Lukkede religiøse samfunn",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.3"
+            }
+          ]
+        },
+        {
+          "verdi": "3.3.4",
+          "tekst": "Minoritetsspråklige familier",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.3"
+            }
+          ]
+        },
+        {
+          "verdi": "3.3.5",
+          "tekst": "Radikalisering og voldelig ekstremisme",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.3"
+            }
+          ]
+        },
+        {
+          "verdi": "3.3.6",
+          "tekst": "Urfolk og nasjonale minoriteter",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BUF_68013692-AF12-4731-905F-44CC1218ABAC",
+      "navn": "KunnskapsmodellSaksinnholdDetaljSsbType",
+      "variabel": [
+        {
+          "id": "BUF_17357195-1699-458E-9787-2DD96E23A9D6",
+          "navn": "omrade",
+          "kodelisteId": "BUF_C113BA46-0BFE-4FE7-839B-6F039FEA0197",
+          "kodelisteNavn": "KunnskapsmodellOmradeType"
+        }
+      ],
+      "kode": [
+        {
+          "verdi": "1.3.1",
+          "tekst": "Barnets rusmisbruk (15)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3.2",
+          "tekst": "Barnets atferd (25)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3.3",
+          "tekst": "Barnets kriminelle handlinger (26)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.3.4",
+          "tekst": "Barnets relasjonsvansker (mistanke om eller diagnostiserte tilknytningsvansker, problematikk knyttet til samspillet mellom barn og omsorgspersoner) (17)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.3"
+            }
+          ]
+        },
+        {
+          "verdi": "1.1.1",
+          "tekst": "Barnets psykiske problem/lidelse (14)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.1"
+            }
+          ]
+        },
+        {
+          "verdi": "1.2.1",
+          "tekst": "Barnets kognitive vansker (30)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "1.2"
+            }
+          ]
+        },
+        {
+          "verdi": "2.1.1",
+          "tekst": "Foreldres manglende oppfølging av barnets behov for barnehage, skole og pedagogiske tjenester (23)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.1"
+            }
+          ]
+        },
+        {
+          "verdi": "2.1.2",
+          "tekst": "Foreldres manglende oppfølging av barnets behov for helsetjenester (28)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.1"
+            }
+          ]
+        },
+        {
+          "verdi": "2.1.3",
+          "tekst": "Foreldres manglende ivaretakelse av grunnleggende og hverdagslig omsorg for barnet (8)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.1"
+            }
+          ]
+        },
+        {
+          "verdi": "2.2.1",
+          "tekst": "Foreldres manglende stimulering og regulering av barnet (21)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.2"
+            }
+          ]
+        },
+        {
+          "verdi": "2.2.2",
+          "tekst": "Foreldres manglende sensitivitet og følelsesmessige tilgjengelighet for barnet (22)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.2"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.1",
+          "tekst": "Barnet utsatt for fysisk vold (9)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.2",
+          "tekst": "Barnet utsatt for psykisk vold (10)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.3",
+          "tekst": "Barnet utsatt for seksuelle overgrep (11)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.4",
+          "tekst": "Foreldres manglende beskyttelse av barnet (20)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.5",
+          "tekst": "Konflikt mellom foreldre som ikke bor sammen (24)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.6",
+          "tekst": "Høy grad av konflikt hjemme (6)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.7",
+          "tekst": "Barnet er utsatt for negativ sosial kontroll (32)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.8",
+          "tekst": "Vold i hjemmet/ barnet vitne til vold i nære relasjoner (7)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "2.4.9",
+          "tekst": "Barnet utsatt for menneskehandel (27)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "2.4"
+            }
+          ]
+        },
+        {
+          "verdi": "3.1.1",
+          "tekst": "Foreldres somatiske sykdom (1)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.1"
+            }
+          ]
+        },
+        {
+          "verdi": "3.1.2",
+          "tekst": "Foreldres psykiske problem/lidelse (2)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.1"
+            }
+          ]
+        },
+        {
+          "verdi": "3.1.3",
+          "tekst": "Foreldres rusmisbruk (3)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.1"
+            }
+          ]
+        },
+        {
+          "verdi": "3.1.4",
+          "tekst": "Foreldres kognitive vansker (29)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.1"
+            }
+          ]
+        },
+        {
+          "verdi": "3.1.5",
+          "tekst": "Barnet mangler omsorgsperson (12)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.1"
+            }
+          ]
+        },
+        {
+          "verdi": "3.1.6",
+          "tekst": "Foreldres kriminalitet (5)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.1"
+            }
+          ]
+        },
+        {
+          "verdi": "3.2.1",
+          "tekst": "Foreldre har vedvarende økonomiske problemer/vedvarende lavinntekt (31)",
+          "variabel": [
+            {
+              "navn": "omrade",
+              "verdi": "3.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BUF_365F5EFF-E99A-41EF-9BD3-A84493366067",
+      "navn": "LovType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "BVL 1992",
+          "gyldigTil": "31.12.2022"
+        },
+        {
+          "verdi": "2",
+          "tekst": "BVL 2021",
+          "gyldigFra": "01.01.2023"
+        }
+      ]
+    },
+    {
+      "id": "BUF_EDA6F43C-5280-4A9C-8016-5C7B6A924BAB",
+      "navn": "OmsorgsrelasjonType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Mor"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Far"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Verge"
+        },
+        {
+          "verdi": "9",
+          "tekst": "Annet"
+        }
+      ]
+    },
+    {
+      "id": "BUF_006637AF-CE1A-46A2-AE58-065F13754203",
+      "navn": "OmsorgType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Ingen"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Daglig omsorg"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Delt omsorg"
+        },
+        {
+          "verdi": "4",
+          "tekst": "Samvær"
+        },
+        {
+          "verdi": "9",
+          "tekst": "Annet"
+        }
+      ]
+    },
+    {
+      "id": "BUF_DCC037FD-2382-4459-A1D0-549B5A3C1E1A",
+      "navn": "SoskenRelasjonType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Søster"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Bror"
+        },
+        {
+          "verdi": "9",
+          "tekst": "Annet"
+        }
+      ]
+    },
+    {
+      "id": "BUF_116E83C7-DA5F-44B0-8A14-4B680FBB8B45",
+      "navn": "VedtakBakgrunnType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Forhold ved omsorgen i hjemmet "
+        },
+        {
+          "verdi": "2",
+          "tekst": "Alvorlige atferdsvansker"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Vedvarende rusmisbruk"
+        }
+      ]
+    },
+    {
+      "id": "BUF_116E83C7-DA5F-44B0-8A14-4B680FBB8B45",
+      "navn": "VedtakBakgrunnType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Forhold ved omsorgen i hjemmet "
+        },
+        {
+          "verdi": "2",
+          "tekst": "Alvorlige atferdsvansker"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Vedvarende rusmisbruk"
+        }
+      ]
+    },
+    {
+      "id": "BUF_1E902327-85D7-4C70-B63C-893F4542757C",
+      "navn": "VedtakHenvisningParagrafType",
+      "variabel": [
+        {
+          "id": "",
+          "navn": "FosterhjemHenvisning",
+          "kodelisteId": "",
+          "kodelisteNavn": ""
+        },
+        {
+          "id": "",
+          "navn": "InstitusjonHenvisning",
+          "kodelisteId": "",
+          "kodelisteNavn": ""
+        },
+        {
+          "id": "",
+          "navn": "Frivillig",
+          "kodelisteId": "",
+          "kodelisteNavn": ""
+        }
+      ],
+      "kode": [
+        {
+          "verdi": "2-3",
+          "tekst": "§ 2-3. Utredning i senter for foreldre og barn"
+        },
+        {
+          "verdi": "2-6",
+          "tekst": "§ 2-6. Tverrfaglig helsekartlegging"
+        },
+        {
+          "verdi": "3-1",
+          "tekst": "§ 3-1. Frivillig hjelpetiltak"
+        },
+        {
+          "verdi": "3-2",
+          "tekst": "§ 3-2. Fosterhjem og barnevernsinstitusjon som frivillig hjelpetiltak"
+        },
+        {
+          "verdi": "3-4",
+          "tekst": "§ 3-4. Pålegg om hjelpetiltak"
+        },
+        {
+          "verdi": "3-5",
+          "tekst": "§ 3-5. Foreldrestøttende hjelpetiltak uten barnets samtykke"
+        },
+        {
+          "verdi": "3-6",
+          "tekst": "§ 3-6. Hjelpetiltak til ungdom over 18 år"
+        },
+        {
+          "verdi": "4-1",
+          "tekst": "§ 4-1. Akuttvedtak om hjelpetiltak dersom barn er uten omsorg"
+        },
+        {
+          "verdi": "4-2",
+          "tekst": "§ 4-2. Akuttvedtak om omsorgsovertakelse"
+        },
+        {
+          "verdi": "4-3",
+          "tekst": "§ 4-3. Vedtak om midlertidig flytteforbud"
+        },
+        {
+          "verdi": "4-4",
+          "tekst": "§ 4-4. Akuttvedtak om plassering i barnevernsinstitusjon"
+        },
+        {
+          "verdi": "4-5",
+          "tekst": "§ 4-5. Akuttvedtak om plassering av barn i institusjon når det er fare for menneskehandel"
+        },
+        {
+          "verdi": "5-1",
+          "tekst": "§ 5-1. Vedtak om omsorgsovertakelse bokstav a-g"
+        },
+        {
+          "verdi": "6-1",
+          "tekst": "§ 6-1. Vedtak om opphold i barnevernsinstitusjon etter samtykke"
+        },
+        {
+          "verdi": "6-2",
+          "tekst": "§ 6-2. Vedtak om plassering i barnevernsinstitusjon uten samtykke"
+        },
+        {
+          "verdi": "6-3",
+          "tekst": "§ 6-3. Plassering i fosterhjem med særlige forutsetninger eller i institusjoner med hjem"
+        },
+        {
+          "verdi": "6-6",
+          "tekst": "§ 6-6. Vedtak om plassering i institusjon når det er fare for at barnet kan utnyttes til menneskehandel"
+        },
+        {
+          "verdi": "11-1",
+          "tekst": "§ 11-1. Opphold på omsorgssenter for enslige mindreårige asylsøkere"
+        }
+      ]
+    },
+    {
+      "id": "BUF_13F44734-E1A3-49E7-A629-405CED5ACA28",
+      "navn": "VedtakInstansType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Domstol"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Kommune"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Barneverns- og helsenemnda"
+        },
+        {
+          "verdi": "4",
+          "tekst": "Politi/barnevernsvakt"
+        },
+        {
+          "verdi": "5",
+          "tekst": "Utlendingsdirektoratet(UDI)"
+        }
+      ]
+    },
+    {
+      "id": "BUF_F0A9CE46-BE05-454F-A04C-61C3CD18DA35",
+      "navn": "VedtakStatusType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Vedtak fattet"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Vil bli fattet når tiltak foreligger"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Avventer nemndsbehandling"
+        }
+      ]
+    },
+    {
+      "id": "BUF_268C27AE-F202-404A-B4E5-77EE7CE85F86",
+      "navn": "NemndsbehandlingStatusType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Planlagt nemndsbehandling"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Sak fremmet, ikke dato"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Sak fremmet, familie i samtaleprosess"
+        },
+        {
+          "verdi": "4",
+          "tekst": "Ikke aktuelt"
+        }
+      ]
+    }
+  ]
+}

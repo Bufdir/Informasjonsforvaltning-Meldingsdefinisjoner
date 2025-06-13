@@ -1,0 +1,115 @@
+{
+	"$schema": "http://json-schema.org/draft-06/schema#",
+	"properties": {
+		"kodelister": {
+		"type": "array",
+			"items": {
+				"$ref": "#/definitions/Kodelister"
+			}
+		}
+	},
+	"required": [
+		"kodelister"
+	],
+	"definitions": {
+		"Kodelister": {
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"navn": {
+					"type": "string"
+				},
+				"kode": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/Kode"
+					}
+				},
+				"variabel": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/KodelisterVariabel"
+					}
+				}
+			},
+			"required": [
+				"id",
+				"kode",
+				"navn"
+			],
+			"title": "Kodelister"
+		},
+		"Kode": {
+			"type": "object",
+			"properties": {
+				"verdi": {
+					"type": "string"
+				},
+				"tekst": {
+					"type": "string"
+				},
+				"gyldigFra": {
+					"type": "string"
+				},
+				"variabel": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/KodeVariabel"
+					}
+				},
+				"beskrivelse": {
+					"type": "string"
+				},
+				"gyldigTil": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"tekst",
+				"verdi"
+			],
+			"title": "Kode"
+		},
+		"KodeVariabel": {
+			"type": "object",
+			"properties": {
+				"navn": {
+					"type": "string"
+				},
+				"verdi": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"navn",
+				"verdi"
+			],
+			"title": "KodeVariabel"
+		},
+		"KodelisterVariabel": {
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"navn": {
+					"type": "string"
+				},
+				"kodelisteId": {
+					"type": "string"
+				},
+				"kodelisteNavn": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"id",
+				"kodelisteId",
+				"navn"
+			],
+			"title": "KodelisterVariabel"
+		}
+	}
+}

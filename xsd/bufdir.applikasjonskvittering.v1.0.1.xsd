@@ -1,0 +1,33 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:bg="https://bufdir.no/generelt.v1.0.0" 
+	xmlns:mld="https://bufdir.no/melding.v1.0.1" 
+	xmlns="https://bufdir.no/Applikasjonskvittering.v1.0.1" 
+	targetNamespace="https://bufdir.no/Applikasjonskvittering.v1.0.1" 
+	elementFormDefault="qualified" 
+	version="1.0.1">
+	<xs:import namespace="https://bufdir.no/generelt.v1.0.0" schemaLocation="bufdir.generelt.v1.0.0.xsd"/>
+	<xs:import namespace="https://bufdir.no/melding.v1.0.1" schemaLocation="bufdir.melding.v1.0.1.xsd"/>
+
+	<xs:element name="Kvittering" id="BUF_9A785BB1-65B7-4BFC-8F0F-FB255938C933">
+		<xs:annotation>
+			<xs:documentation>
+				Kvittering fra mottakerapplikasjon, indikerer at melding er mottatt.
+			</xs:documentation>
+			<xs:appinfo>
+				<MeldingsForbindelse>ApplikasjonsKvittering</MeldingsForbindelse>
+				<AvsenderType>System</AvsenderType>
+				<MottakerType>*</MottakerType>
+			</xs:appinfo>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="mld:MeldingType">
+					<xs:sequence>
+						<xs:element name="Resultat" type="xs:integer" minOccurs="0" id="BUF_4D262D06-56D5-4402-BECF-9A11A1FBB907"/>
+						<xs:element name="Informasjon" type="bg:Fritekst" minOccurs="0" id="BUF_DBB8017C-FD15-4182-974E-2D070B560538"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>		
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

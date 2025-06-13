@@ -1,0 +1,1822 @@
+{
+  "kodelister": [
+    {
+      "id": "BUF_26D1F613-F2E1-4589-A444-0810ECD0508D",
+      "navn": "KjonnFregType",
+      "kode": [
+        {
+          "verdi": "mann",
+          "tekst": "Mann / Gutt",
+          "gyldigFra": "16.08.2024",
+          "alternativVerdi": "1"
+        },
+        {
+          "verdi": "kvinne",
+          "tekst": "Kvinne / Jente",
+          "gyldigFra": "16.08.2024",
+          "alternativVerdi": "2"
+        }
+      ]
+    },
+    {
+      "id": "BUF_B454E56F-DCDF-49A1-8DE1-3381E638C062",
+      "navn": "JaNeiType",
+      "kode": [
+        {
+          "verdi": "0",
+          "tekst": "Nei"
+        },
+        {
+          "verdi": "1",
+          "tekst": "Ja"
+        }
+      ]
+    },
+    {
+      "id": "BUF_A5204974-A743-4CC9-83E7-13FADDD7ADB1",
+      "navn": "LandkodeType",
+      "kode": [
+        {
+          "verdi": "NO",
+          "tekst": "Norge"
+        },
+        {
+          "verdi": "AE",
+          "tekst": "De forente arabiske emirater"
+        },
+        {
+          "verdi": "AF",
+          "tekst": "Afghanistan"
+        },
+        {
+          "verdi": "AG",
+          "tekst": "Antigua og Barbuda"
+        },
+        {
+          "verdi": "AI",
+          "tekst": "Anguilla"
+        },
+        {
+          "verdi": "AL",
+          "tekst": "Albania"
+        },
+        {
+          "verdi": "AM",
+          "tekst": "Armenia"
+        },
+        {
+          "verdi": "AO",
+          "tekst": "Angola"
+        },
+        {
+          "verdi": "AQ",
+          "tekst": "Antarktis"
+        },
+        {
+          "verdi": "AR",
+          "tekst": "Argentina"
+        },
+        {
+          "verdi": "AS",
+          "tekst": "Amerikansk Samoa"
+        },
+        {
+          "verdi": "AT",
+          "tekst": "Østerrike"
+        },
+        {
+          "verdi": "AU",
+          "tekst": "Australia"
+        },
+        {
+          "verdi": "AW",
+          "tekst": "Aruba"
+        },
+        {
+          "verdi": "AX",
+          "tekst": "Åland"
+        },
+        {
+          "verdi": "AD",
+          "tekst": "Andorra"
+        },
+        {
+          "verdi": "AZ",
+          "tekst": "Aserbajdsjan"
+        },
+        {
+          "verdi": "BA",
+          "tekst": "Bosnia-Hercegovina"
+        },
+        {
+          "verdi": "BB",
+          "tekst": "Barbados"
+        },
+        {
+          "verdi": "BD",
+          "tekst": "Bangladesh"
+        },
+        {
+          "verdi": "BE",
+          "tekst": "Belgia"
+        },
+        {
+          "verdi": "BF",
+          "tekst": "Burkina Faso"
+        },
+        {
+          "verdi": "BG",
+          "tekst": "Bulgaria"
+        },
+        {
+          "verdi": "BH",
+          "tekst": "Bahrain"
+        },
+        {
+          "verdi": "BI",
+          "tekst": "Burundi"
+        },
+        {
+          "verdi": "BJ",
+          "tekst": "Benin"
+        },
+        {
+          "verdi": "BL",
+          "tekst": "Saint-Barthélemy"
+        },
+        {
+          "verdi": "BM",
+          "tekst": "Bermuda"
+        },
+        {
+          "verdi": "BN",
+          "tekst": "Brunei"
+        },
+        {
+          "verdi": "BO",
+          "tekst": "Bolivia"
+        },
+        {
+          "verdi": "BQ",
+          "tekst": "Bonaire, Sint Eustatius og Saba"
+        },
+        {
+          "verdi": "BR",
+          "tekst": "Brasil"
+        },
+        {
+          "verdi": "BS",
+          "tekst": "Bahamas"
+        },
+        {
+          "verdi": "BT",
+          "tekst": "Bhutan"
+        },
+        {
+          "verdi": "BV",
+          "tekst": "Bouvetøya"
+        },
+        {
+          "verdi": "BW",
+          "tekst": "Botswana"
+        },
+        {
+          "verdi": "BY",
+          "tekst": "Belarus"
+        },
+        {
+          "verdi": "BZ",
+          "tekst": "Belize"
+        },
+        {
+          "verdi": "CA",
+          "tekst": "Canada"
+        },
+        {
+          "verdi": "CC",
+          "tekst": "Kokosøyene"
+        },
+        {
+          "verdi": "CD",
+          "tekst": "Den demokratiske republikken Kongo"
+        },
+        {
+          "verdi": "CF",
+          "tekst": "Den sentralafrikanske republikk"
+        },
+        {
+          "verdi": "CG",
+          "tekst": "Republikken Kongo"
+        },
+        {
+          "verdi": "CH",
+          "tekst": "Sveits"
+        },
+        {
+          "verdi": "CI",
+          "tekst": "Elfenbenskysten"
+        },
+        {
+          "verdi": "CK",
+          "tekst": "Cookøyene"
+        },
+        {
+          "verdi": "CL",
+          "tekst": "Chile"
+        },
+        {
+          "verdi": "CM",
+          "tekst": "Kamerun"
+        },
+        {
+          "verdi": "CN",
+          "tekst": "Kina"
+        },
+        {
+          "verdi": "CO",
+          "tekst": "Colombia"
+        },
+        {
+          "verdi": "CR",
+          "tekst": "Costa Rica"
+        },
+        {
+          "verdi": "CU",
+          "tekst": "Cuba"
+        },
+        {
+          "verdi": "CV",
+          "tekst": "Kapp Verde"
+        },
+        {
+          "verdi": "CW",
+          "tekst": "Curaçao"
+        },
+        {
+          "verdi": "CX",
+          "tekst": "Christmasøya"
+        },
+        {
+          "verdi": "CY",
+          "tekst": "Kypros"
+        },
+        {
+          "verdi": "CZ",
+          "tekst": "Tsjekkia"
+        },
+        {
+          "verdi": "DE",
+          "tekst": "Tyskland"
+        },
+        {
+          "verdi": "DJ",
+          "tekst": "Djibouti"
+        },
+        {
+          "verdi": "DK",
+          "tekst": "Danmark"
+        },
+        {
+          "verdi": "DM",
+          "tekst": "Dominica"
+        },
+        {
+          "verdi": "DO",
+          "tekst": "Den dominikanske republikk"
+        },
+        {
+          "verdi": "DZ",
+          "tekst": "Algerie"
+        },
+        {
+          "verdi": "EC",
+          "tekst": "Ecuador"
+        },
+        {
+          "verdi": "EE",
+          "tekst": "Estland"
+        },
+        {
+          "verdi": "EG",
+          "tekst": "Egypt"
+        },
+        {
+          "verdi": "EH",
+          "tekst": "Vest-Sahara"
+        },
+        {
+          "verdi": "ER",
+          "tekst": "Eritrea"
+        },
+        {
+          "verdi": "ES",
+          "tekst": "Spania"
+        },
+        {
+          "verdi": "ET",
+          "tekst": "Etiopia"
+        },
+        {
+          "verdi": "FI",
+          "tekst": "Finland"
+        },
+        {
+          "verdi": "FJ",
+          "tekst": "Fiji"
+        },
+        {
+          "verdi": "FK",
+          "tekst": "Falklandsøyene"
+        },
+        {
+          "verdi": "FM",
+          "tekst": "Mikronesiaføderasjonen"
+        },
+        {
+          "verdi": "FO",
+          "tekst": "Færøyene"
+        },
+        {
+          "verdi": "FR",
+          "tekst": "Frankrike"
+        },
+        {
+          "verdi": "GA",
+          "tekst": "Gabon"
+        },
+        {
+          "verdi": "GB",
+          "tekst": "Storbritannia"
+        },
+        {
+          "verdi": "GD",
+          "tekst": "Grenada"
+        },
+        {
+          "verdi": "GE",
+          "tekst": "Georgia"
+        },
+        {
+          "verdi": "GF",
+          "tekst": "Fransk Guyana"
+        },
+        {
+          "verdi": "GG",
+          "tekst": "Guernsey"
+        },
+        {
+          "verdi": "GH",
+          "tekst": "Ghana"
+        },
+        {
+          "verdi": "GI",
+          "tekst": "Gibraltar"
+        },
+        {
+          "verdi": "GL",
+          "tekst": "Grønland"
+        },
+        {
+          "verdi": "GM",
+          "tekst": "Gambia"
+        },
+        {
+          "verdi": "GN",
+          "tekst": "Guinea"
+        },
+        {
+          "verdi": "GP",
+          "tekst": "Guadeloupe"
+        },
+        {
+          "verdi": "GQ",
+          "tekst": "Ekvatorial-Guinea"
+        },
+        {
+          "verdi": "GR",
+          "tekst": "Hellas"
+        },
+        {
+          "verdi": "GS",
+          "tekst": "Sør-Georgia og Sør-Sandwichøyene"
+        },
+        {
+          "verdi": "GT",
+          "tekst": "Guatemala"
+        },
+        {
+          "verdi": "GU",
+          "tekst": "Guam"
+        },
+        {
+          "verdi": "GW",
+          "tekst": "Guinea-Bissau"
+        },
+        {
+          "verdi": "GY",
+          "tekst": "Guyana"
+        },
+        {
+          "verdi": "HK",
+          "tekst": "Hongkong"
+        },
+        {
+          "verdi": "HM",
+          "tekst": "Heard- og McDonaldøyene"
+        },
+        {
+          "verdi": "HN",
+          "tekst": "Honduras"
+        },
+        {
+          "verdi": "HR",
+          "tekst": "Kroatia"
+        },
+        {
+          "verdi": "HT",
+          "tekst": "Haiti"
+        },
+        {
+          "verdi": "HU",
+          "tekst": "Ungarn"
+        },
+        {
+          "verdi": "ID",
+          "tekst": "Indonesia"
+        },
+        {
+          "verdi": "IE",
+          "tekst": "Irland"
+        },
+        {
+          "verdi": "IL",
+          "tekst": "Israel"
+        },
+        {
+          "verdi": "IM",
+          "tekst": "Man"
+        },
+        {
+          "verdi": "IN",
+          "tekst": "India"
+        },
+        {
+          "verdi": "IO",
+          "tekst": "Det britiske territoriet i Indiahavet"
+        },
+        {
+          "verdi": "IQ",
+          "tekst": "Irak"
+        },
+        {
+          "verdi": "IR",
+          "tekst": "Iran"
+        },
+        {
+          "verdi": "IS",
+          "tekst": "Island"
+        },
+        {
+          "verdi": "IT",
+          "tekst": "Italia"
+        },
+        {
+          "verdi": "JE",
+          "tekst": "Jersey"
+        },
+        {
+          "verdi": "JM",
+          "tekst": "Jamaica"
+        },
+        {
+          "verdi": "JO",
+          "tekst": "Jordan"
+        },
+        {
+          "verdi": "JP",
+          "tekst": "Japan"
+        },
+        {
+          "verdi": "KE",
+          "tekst": "Kenya"
+        },
+        {
+          "verdi": "KG",
+          "tekst": "Kirgisistan"
+        },
+        {
+          "verdi": "KH",
+          "tekst": "Kambodsja"
+        },
+        {
+          "verdi": "KI",
+          "tekst": "Kiribati"
+        },
+        {
+          "verdi": "KM",
+          "tekst": "Komorene"
+        },
+        {
+          "verdi": "KN",
+          "tekst": "Saint Kitts og Nevis"
+        },
+        {
+          "verdi": "KP",
+          "tekst": "Nord-Korea"
+        },
+        {
+          "verdi": "KR",
+          "tekst": "Sør-Korea"
+        },
+        {
+          "verdi": "KW",
+          "tekst": "Kuwait"
+        },
+        {
+          "verdi": "KY",
+          "tekst": "Caymanøyene"
+        },
+        {
+          "verdi": "KZ",
+          "tekst": "Kasakhstan"
+        },
+        {
+          "verdi": "LA",
+          "tekst": "Laos"
+        },
+        {
+          "verdi": "LB",
+          "tekst": "Libanon"
+        },
+        {
+          "verdi": "LC",
+          "tekst": "Saint Lucia"
+        },
+        {
+          "verdi": "LI",
+          "tekst": "Liechtenstein"
+        },
+        {
+          "verdi": "LK",
+          "tekst": "Sri Lanka"
+        },
+        {
+          "verdi": "LR",
+          "tekst": "Liberia"
+        },
+        {
+          "verdi": "LS",
+          "tekst": "Lesotho"
+        },
+        {
+          "verdi": "LT",
+          "tekst": "Litauen"
+        },
+        {
+          "verdi": "LU",
+          "tekst": "Luxembourg"
+        },
+        {
+          "verdi": "LV",
+          "tekst": "Latvia"
+        },
+        {
+          "verdi": "LY",
+          "tekst": "Libya"
+        },
+        {
+          "verdi": "MA",
+          "tekst": "Marokko"
+        },
+        {
+          "verdi": "MC",
+          "tekst": "Monaco"
+        },
+        {
+          "verdi": "MD",
+          "tekst": "Moldova"
+        },
+        {
+          "verdi": "ME",
+          "tekst": "Montenegro"
+        },
+        {
+          "verdi": "MF",
+          "tekst": "Saint-Martin"
+        },
+        {
+          "verdi": "MG",
+          "tekst": "Madagaskar"
+        },
+        {
+          "verdi": "MH",
+          "tekst": "Marshalløyene"
+        },
+        {
+          "verdi": "MK",
+          "tekst": "Makedonia"
+        },
+        {
+          "verdi": "ML",
+          "tekst": "Mali"
+        },
+        {
+          "verdi": "MM",
+          "tekst": "Myanmar"
+        },
+        {
+          "verdi": "MN",
+          "tekst": "Mongolia"
+        },
+        {
+          "verdi": "MO",
+          "tekst": "Macao"
+        },
+        {
+          "verdi": "MP",
+          "tekst": "Nord-Marianene"
+        },
+        {
+          "verdi": "MQ",
+          "tekst": "Martinique"
+        },
+        {
+          "verdi": "MR",
+          "tekst": "Mauritania"
+        },
+        {
+          "verdi": "MS",
+          "tekst": "Montserrat"
+        },
+        {
+          "verdi": "MT",
+          "tekst": "Malta"
+        },
+        {
+          "verdi": "MU",
+          "tekst": "Mauritius"
+        },
+        {
+          "verdi": "MV",
+          "tekst": "Maldivene"
+        },
+        {
+          "verdi": "MW",
+          "tekst": "Malawi"
+        },
+        {
+          "verdi": "MX",
+          "tekst": "Mexico"
+        },
+        {
+          "verdi": "MY",
+          "tekst": "Malaysia"
+        },
+        {
+          "verdi": "MZ",
+          "tekst": "Mosambik"
+        },
+        {
+          "verdi": "NA",
+          "tekst": "Namibia"
+        },
+        {
+          "verdi": "NC",
+          "tekst": "Ny-Caledonia"
+        },
+        {
+          "verdi": "NE",
+          "tekst": "Niger"
+        },
+        {
+          "verdi": "NF",
+          "tekst": "Norfolkøya"
+        },
+        {
+          "verdi": "NG",
+          "tekst": "Nigeria"
+        },
+        {
+          "verdi": "NI",
+          "tekst": "Nicaragua"
+        },
+        {
+          "verdi": "NL",
+          "tekst": "Nederland"
+        },
+        {
+          "verdi": "NP",
+          "tekst": "Nepal"
+        },
+        {
+          "verdi": "NR",
+          "tekst": "Nauru"
+        },
+        {
+          "verdi": "NU",
+          "tekst": "Niue"
+        },
+        {
+          "verdi": "NZ",
+          "tekst": "New Zealand"
+        },
+        {
+          "verdi": "OM",
+          "tekst": "Oman"
+        },
+        {
+          "verdi": "PA",
+          "tekst": "Panama"
+        },
+        {
+          "verdi": "PE",
+          "tekst": "Peru"
+        },
+        {
+          "verdi": "PF",
+          "tekst": "Fransk Polynesia"
+        },
+        {
+          "verdi": "PG",
+          "tekst": "Papua Ny-Guinea"
+        },
+        {
+          "verdi": "PH",
+          "tekst": "Filippinene"
+        },
+        {
+          "verdi": "PK",
+          "tekst": "Pakistan"
+        },
+        {
+          "verdi": "PL",
+          "tekst": "Polen"
+        },
+        {
+          "verdi": "PM",
+          "tekst": "Saint-Pierre og Miquelon"
+        },
+        {
+          "verdi": "PN",
+          "tekst": "Pitcairnøyene"
+        },
+        {
+          "verdi": "PR",
+          "tekst": "Puerto Rico"
+        },
+        {
+          "verdi": "PS",
+          "tekst": "Palestina"
+        },
+        {
+          "verdi": "PT",
+          "tekst": "Portugal"
+        },
+        {
+          "verdi": "PW",
+          "tekst": "Palau"
+        },
+        {
+          "verdi": "PY",
+          "tekst": "Paraguay"
+        },
+        {
+          "verdi": "QA",
+          "tekst": "Qatar"
+        },
+        {
+          "verdi": "RE",
+          "tekst": "Réunion"
+        },
+        {
+          "verdi": "RO",
+          "tekst": "Romania"
+        },
+        {
+          "verdi": "RS",
+          "tekst": "Serbia"
+        },
+        {
+          "verdi": "RU",
+          "tekst": "Russland"
+        },
+        {
+          "verdi": "RW",
+          "tekst": "Rwanda"
+        },
+        {
+          "verdi": "SA",
+          "tekst": "Saudi-Arabia"
+        },
+        {
+          "verdi": "SB",
+          "tekst": "Salomonøyene"
+        },
+        {
+          "verdi": "SC",
+          "tekst": "Seychellene"
+        },
+        {
+          "verdi": "SD",
+          "tekst": "Sudan"
+        },
+        {
+          "verdi": "SE",
+          "tekst": "Sverige"
+        },
+        {
+          "verdi": "SG",
+          "tekst": "Singapore"
+        },
+        {
+          "verdi": "SH",
+          "tekst": "St. Helena, Ascension og Tristan da Cunha"
+        },
+        {
+          "verdi": "SI",
+          "tekst": "Slovenia"
+        },
+        {
+          "verdi": "SJ",
+          "tekst": "Svalbard og Jan Mayen"
+        },
+        {
+          "verdi": "SK",
+          "tekst": "Slovakia"
+        },
+        {
+          "verdi": "SL",
+          "tekst": "Sierra Leone"
+        },
+        {
+          "verdi": "SM",
+          "tekst": "San Marino"
+        },
+        {
+          "verdi": "SN",
+          "tekst": "Senegal"
+        },
+        {
+          "verdi": "SO",
+          "tekst": "Somalia"
+        },
+        {
+          "verdi": "SR",
+          "tekst": "Surinam"
+        },
+        {
+          "verdi": "SS",
+          "tekst": "Sør-Sudan"
+        },
+        {
+          "verdi": "ST",
+          "tekst": "São Tomé og Príncipe"
+        },
+        {
+          "verdi": "SV",
+          "tekst": "El Salvador"
+        },
+        {
+          "verdi": "SX",
+          "tekst": "Sint Maarten"
+        },
+        {
+          "verdi": "SY",
+          "tekst": "Syria"
+        },
+        {
+          "verdi": "SZ",
+          "tekst": "Swaziland"
+        },
+        {
+          "verdi": "TC",
+          "tekst": "Turks- og Caicosøyene"
+        },
+        {
+          "verdi": "TD",
+          "tekst": "Tsjad"
+        },
+        {
+          "verdi": "TF",
+          "tekst": "De franske sørterritorier"
+        },
+        {
+          "verdi": "TG",
+          "tekst": "Togo"
+        },
+        {
+          "verdi": "TH",
+          "tekst": "Thailand"
+        },
+        {
+          "verdi": "TJ",
+          "tekst": "Tadsjikistan"
+        },
+        {
+          "verdi": "TK",
+          "tekst": "Tokelau"
+        },
+        {
+          "verdi": "TL",
+          "tekst": "Øst-Timor"
+        },
+        {
+          "verdi": "TM",
+          "tekst": "Turkmenistan"
+        },
+        {
+          "verdi": "TN",
+          "tekst": "Tunisia"
+        },
+        {
+          "verdi": "TO",
+          "tekst": "Tonga"
+        },
+        {
+          "verdi": "TR",
+          "tekst": "Tyrkia"
+        },
+        {
+          "verdi": "TT",
+          "tekst": "Trinidad og Tobago"
+        },
+        {
+          "verdi": "TV",
+          "tekst": "Tuvalu"
+        },
+        {
+          "verdi": "TW",
+          "tekst": "Taiwan"
+        },
+        {
+          "verdi": "TZ",
+          "tekst": "Tanzania"
+        },
+        {
+          "verdi": "UA",
+          "tekst": "Ukraina"
+        },
+        {
+          "verdi": "UG",
+          "tekst": "Uganda"
+        },
+        {
+          "verdi": "UM",
+          "tekst": "USAs ytre småøyer"
+        },
+        {
+          "verdi": "US",
+          "tekst": "USA"
+        },
+        {
+          "verdi": "UY",
+          "tekst": "Uruguay"
+        },
+        {
+          "verdi": "UZ",
+          "tekst": "Usbekistan"
+        },
+        {
+          "verdi": "VA",
+          "tekst": "Vatikanstaten"
+        },
+        {
+          "verdi": "VC",
+          "tekst": "Saint Vincent og Grenadinene"
+        },
+        {
+          "verdi": "VE",
+          "tekst": "Venezuela"
+        },
+        {
+          "verdi": "VG",
+          "tekst": "De britiske Jomfruøyer"
+        },
+        {
+          "verdi": "VI",
+          "tekst": "De amerikanske Jomfruøyer"
+        },
+        {
+          "verdi": "VN",
+          "tekst": "Vietnam"
+        },
+        {
+          "verdi": "VU",
+          "tekst": "Vanuatu"
+        },
+        {
+          "verdi": "WF",
+          "tekst": "Wallis og Futuna"
+        },
+        {
+          "verdi": "WS",
+          "tekst": "Samoa"
+        },
+        {
+          "verdi": "YE",
+          "tekst": "Jemen"
+        },
+        {
+          "verdi": "YT",
+          "tekst": "Mayotte"
+        },
+        {
+          "verdi": "ZA",
+          "tekst": "Sør-Afrika"
+        },
+        {
+          "verdi": "ZM",
+          "tekst": "Zambia"
+        },
+        {
+          "verdi": "ZW",
+          "tekst": "Zimbabwe"
+        }
+      ]
+    },
+    {
+      "id": "BUF_EC3036F2-A7F4-42A2-86DC-106C0CC020FD",
+      "navn": "SprakType",
+      "kode": [
+        {
+          "verdi": "no",
+          "tekst": "Norsk"
+        },
+        {
+          "verdi": "aa",
+          "tekst": "Afar"
+        },
+        {
+          "verdi": "ab",
+          "tekst": "Abkhasisk"
+        },
+        {
+          "verdi": "ae",
+          "tekst": "Avestisk"
+        },
+        {
+          "verdi": "af",
+          "tekst": "Afrikaans"
+        },
+        {
+          "verdi": "ak",
+          "tekst": "Akan"
+        },
+        {
+          "verdi": "am",
+          "tekst": "Amharisk"
+        },
+        {
+          "verdi": "an",
+          "tekst": "Aragonesisk"
+        },
+        {
+          "verdi": "ar",
+          "tekst": "Arabisk"
+        },
+        {
+          "verdi": "as",
+          "tekst": "Assamesisk"
+        },
+        {
+          "verdi": "av",
+          "tekst": "Avarisk"
+        },
+        {
+          "verdi": "ay",
+          "tekst": "Aymara"
+        },
+        {
+          "verdi": "az",
+          "tekst": "Aserbajdsjansk"
+        },
+        {
+          "verdi": "ba",
+          "tekst": "Basjkirsk"
+        },
+        {
+          "verdi": "be",
+          "tekst": "Belarusisk"
+        },
+        {
+          "verdi": "bg",
+          "tekst": "Bulgarsk"
+        },
+        {
+          "verdi": "bh",
+          "tekst": "Bihari"
+        },
+        {
+          "verdi": "bi",
+          "tekst": "Bislama"
+        },
+        {
+          "verdi": "bm",
+          "tekst": "Bambara"
+        },
+        {
+          "verdi": "bn",
+          "tekst": "Bengali"
+        },
+        {
+          "verdi": "bo",
+          "tekst": "Tibetansk"
+        },
+        {
+          "verdi": "br",
+          "tekst": "Bretonsk"
+        },
+        {
+          "verdi": "bs",
+          "tekst": "Bosnisk"
+        },
+        {
+          "verdi": "ca",
+          "tekst": "Katalansk"
+        },
+        {
+          "verdi": "cdo",
+          "tekst": "Min dong"
+        },
+        {
+          "verdi": "ce",
+          "tekst": "Tsjetsjensk"
+        },
+        {
+          "verdi": "ch",
+          "tekst": "Chamorro"
+        },
+        {
+          "verdi": "co",
+          "tekst": "Korsikansk"
+        },
+        {
+          "verdi": "cr",
+          "tekst": "Cree"
+        },
+        {
+          "verdi": "cs",
+          "tekst": "Tsjekkisk"
+        },
+        {
+          "verdi": "cu",
+          "tekst": "Kirkeslavisk"
+        },
+        {
+          "verdi": "cv",
+          "tekst": "Tsjuvasjisk"
+        },
+        {
+          "verdi": "cy",
+          "tekst": "Walisisk"
+        },
+        {
+          "verdi": "da",
+          "tekst": "Dansk"
+        },
+        {
+          "verdi": "de",
+          "tekst": "Tysk"
+        },
+        {
+          "verdi": "dv",
+          "tekst": "Dhivehi"
+        },
+        {
+          "verdi": "dz",
+          "tekst": "Dzongkha"
+        },
+        {
+          "verdi": "ee",
+          "tekst": "Ewe"
+        },
+        {
+          "verdi": "el",
+          "tekst": "Gresk"
+        },
+        {
+          "verdi": "en",
+          "tekst": "Engelsk"
+        },
+        {
+          "verdi": "eo",
+          "tekst": "Esperanto"
+        },
+        {
+          "verdi": "es",
+          "tekst": "Spansk"
+        },
+        {
+          "verdi": "et",
+          "tekst": "Estisk"
+        },
+        {
+          "verdi": "eu",
+          "tekst": "Baskisk"
+        },
+        {
+          "verdi": "fa",
+          "tekst": "Persisk"
+        },
+        {
+          "verdi": "ff",
+          "tekst": "Fulfulde"
+        },
+        {
+          "verdi": "fi",
+          "tekst": "Finsk"
+        },
+        {
+          "verdi": "fj",
+          "tekst": "Fijisk"
+        },
+        {
+          "verdi": "fo",
+          "tekst": "Færøysk"
+        },
+        {
+          "verdi": "fr",
+          "tekst": "Fransk"
+        },
+        {
+          "verdi": "fy",
+          "tekst": "Frisisk"
+        },
+        {
+          "verdi": "ga",
+          "tekst": "Irsk"
+        },
+        {
+          "verdi": "gd",
+          "tekst": "Skotsk gælisk"
+        },
+        {
+          "verdi": "gl",
+          "tekst": "Galisisk"
+        },
+        {
+          "verdi": "gn",
+          "tekst": "Guaraní"
+        },
+        {
+          "verdi": "gu",
+          "tekst": "Gujarati"
+        },
+        {
+          "verdi": "gv",
+          "tekst": "Mansk"
+        },
+        {
+          "verdi": "ha",
+          "tekst": "Hausa"
+        },
+        {
+          "verdi": "he",
+          "tekst": "Hebraisk"
+        },
+        {
+          "verdi": "hi",
+          "tekst": "Hindi"
+        },
+        {
+          "verdi": "ho",
+          "tekst": "Hiri motu"
+        },
+        {
+          "verdi": "hr",
+          "tekst": "Kroatisk"
+        },
+        {
+          "verdi": "ht",
+          "tekst": "Haitisk kreolsk"
+        },
+        {
+          "verdi": "hu",
+          "tekst": "Ungarsk"
+        },
+        {
+          "verdi": "hy",
+          "tekst": "Armensk"
+        },
+        {
+          "verdi": "hz",
+          "tekst": "Herero"
+        },
+        {
+          "verdi": "ia",
+          "tekst": "Interlingua (International Auxiliary Language Association)"
+        },
+        {
+          "verdi": "id",
+          "tekst": "Indonesisk"
+        },
+        {
+          "verdi": "ie",
+          "tekst": "Interlingue"
+        },
+        {
+          "verdi": "ig",
+          "tekst": "Ibo"
+        },
+        {
+          "verdi": "ii",
+          "tekst": "Yi"
+        },
+        {
+          "verdi": "ik",
+          "tekst": "Inupiak"
+        },
+        {
+          "verdi": "io",
+          "tekst": "Ido"
+        },
+        {
+          "verdi": "is",
+          "tekst": "Islandsk"
+        },
+        {
+          "verdi": "it",
+          "tekst": "Italiensk"
+        },
+        {
+          "verdi": "iu",
+          "tekst": "Inuittisk"
+        },
+        {
+          "verdi": "ja",
+          "tekst": "Japansk"
+        },
+        {
+          "verdi": "jv",
+          "tekst": "Javanesisk"
+        },
+        {
+          "verdi": "ka",
+          "tekst": "Georgisk"
+        },
+        {
+          "verdi": "kg",
+          "tekst": "kongo"
+        },
+        {
+          "verdi": "ki",
+          "tekst": "kikuya"
+        },
+        {
+          "verdi": "kj",
+          "tekst": "Kwanyama"
+        },
+        {
+          "verdi": "kk",
+          "tekst": "Kasakhisk"
+        },
+        {
+          "verdi": "kl",
+          "tekst": "Grønlandsk"
+        },
+        {
+          "verdi": "km",
+          "tekst": "Khmer"
+        },
+        {
+          "verdi": "kn",
+          "tekst": "Kannada"
+        },
+        {
+          "verdi": "ko",
+          "tekst": "Koreansk"
+        },
+        {
+          "verdi": "kr",
+          "tekst": "Kanuri"
+        },
+        {
+          "verdi": "ks",
+          "tekst": "Kasjmiri"
+        },
+        {
+          "verdi": "ku",
+          "tekst": "Kurdisk"
+        },
+        {
+          "verdi": "kv",
+          "tekst": "Syrjensk"
+        },
+        {
+          "verdi": "kw",
+          "tekst": "Kornisk"
+        },
+        {
+          "verdi": "ky",
+          "tekst": "Kirgisisk"
+        },
+        {
+          "verdi": "la",
+          "tekst": "Latin"
+        },
+        {
+          "verdi": "lb",
+          "tekst": "Luxembourgsk"
+        },
+        {
+          "verdi": "lg",
+          "tekst": "Luganda"
+        },
+        {
+          "verdi": "li",
+          "tekst": "Limburgsk"
+        },
+        {
+          "verdi": "ln",
+          "tekst": "Lingala"
+        },
+        {
+          "verdi": "lo",
+          "tekst": "Laotisk"
+        },
+        {
+          "verdi": "lt",
+          "tekst": "Litauisk"
+        },
+        {
+          "verdi": "lu",
+          "tekst": "Luba-Katanga"
+        },
+        {
+          "verdi": "lv",
+          "tekst": "Latvisk"
+        },
+        {
+          "verdi": "lvk",
+          "tekst": "Lavukaleve"
+        },
+        {
+          "verdi": "mg",
+          "tekst": "Gassisk"
+        },
+        {
+          "verdi": "mh",
+          "tekst": "Marshallesisk"
+        },
+        {
+          "verdi": "mi",
+          "tekst": "Maorisk"
+        },
+        {
+          "verdi": "mk",
+          "tekst": "Makedonsk"
+        },
+        {
+          "verdi": "ml",
+          "tekst": "Malayalam"
+        },
+        {
+          "verdi": "mn",
+          "tekst": "Mongolsk"
+        },
+        {
+          "verdi": "mo",
+          "tekst": "Moldovsk"
+        },
+        {
+          "verdi": "mr",
+          "tekst": "Marathi"
+        },
+        {
+          "verdi": "ms",
+          "tekst": "Malayisk"
+        },
+        {
+          "verdi": "mt",
+          "tekst": "Maltesisk"
+        },
+        {
+          "verdi": "my",
+          "tekst": "Burmesisk"
+        },
+        {
+          "verdi": "na",
+          "tekst": "Naurisk"
+        },
+        {
+          "verdi": "nb",
+          "tekst": "Bokmål"
+        },
+        {
+          "verdi": "nd",
+          "tekst": "Nord-ndebele"
+        },
+        {
+          "verdi": "ne",
+          "tekst": "Nepali"
+        },
+        {
+          "verdi": "ng",
+          "tekst": "Ndonga"
+        },
+        {
+          "verdi": "nl",
+          "tekst": "Nederlandsk"
+        },
+        {
+          "verdi": "nn",
+          "tekst": "Nynorsk"
+        },
+        {
+          "verdi": "nr",
+          "tekst": "Sør-ndebele"
+        },
+        {
+          "verdi": "nv",
+          "tekst": "Navajo"
+        },
+        {
+          "verdi": "ny",
+          "tekst": "Chichewa"
+        },
+        {
+          "verdi": "oc",
+          "tekst": "Oksitansk"
+        },
+        {
+          "verdi": "oj",
+          "tekst": "Ojibwa"
+        },
+        {
+          "verdi": "om",
+          "tekst": "Oromo"
+        },
+        {
+          "verdi": "or",
+          "tekst": "Oriya"
+        },
+        {
+          "verdi": "os",
+          "tekst": "Ossetisk"
+        },
+        {
+          "verdi": "pa",
+          "tekst": "Punjabi"
+        },
+        {
+          "verdi": "pi",
+          "tekst": "Pali"
+        },
+        {
+          "verdi": "pl",
+          "tekst": "Polsk"
+        },
+        {
+          "verdi": "ps",
+          "tekst": "Pashto"
+        },
+        {
+          "verdi": "pt",
+          "tekst": "Portugisisk"
+        },
+        {
+          "verdi": "qu",
+          "tekst": "Quechua"
+        },
+        {
+          "verdi": "rm",
+          "tekst": "Retoromansk"
+        },
+        {
+          "verdi": "rn",
+          "tekst": "Kirundi"
+        },
+        {
+          "verdi": "ro",
+          "tekst": "Rumensk"
+        },
+        {
+          "verdi": "ru",
+          "tekst": "Russisk"
+        },
+        {
+          "verdi": "rw",
+          "tekst": "Kinyarwanda"
+        },
+        {
+          "verdi": "sa",
+          "tekst": "Sanskrit"
+        },
+        {
+          "verdi": "sc",
+          "tekst": "Sardisk"
+        },
+        {
+          "verdi": "sd",
+          "tekst": "Sindhi"
+        },
+        {
+          "verdi": "se",
+          "tekst": "Nordsamisk"
+        },
+        {
+          "verdi": "sg",
+          "tekst": "Sango"
+        },
+        {
+          "verdi": "sh",
+          "tekst": "Serbokroatisk"
+        },
+        {
+          "verdi": "si",
+          "tekst": "Singalesisk"
+        },
+        {
+          "verdi": "sk",
+          "tekst": "Slovakisk"
+        },
+        {
+          "verdi": "sl",
+          "tekst": "Slovensk"
+        },
+        {
+          "verdi": "sm",
+          "tekst": "Samoansk"
+        },
+        {
+          "verdi": "sn",
+          "tekst": "Shona"
+        },
+        {
+          "verdi": "so",
+          "tekst": "Somali"
+        },
+        {
+          "verdi": "sq",
+          "tekst": "Albansk"
+        },
+        {
+          "verdi": "sr",
+          "tekst": "Serbisk"
+        },
+        {
+          "verdi": "ss",
+          "tekst": "Swati"
+        },
+        {
+          "verdi": "st",
+          "tekst": "Sesotho"
+        },
+        {
+          "verdi": "su",
+          "tekst": "Sundanesisk"
+        },
+        {
+          "verdi": "sv",
+          "tekst": "Svensk"
+        },
+        {
+          "verdi": "sw",
+          "tekst": "Swahili"
+        },
+        {
+          "verdi": "ta",
+          "tekst": "Tamilsk"
+        },
+        {
+          "verdi": "te",
+          "tekst": "Telugu"
+        },
+        {
+          "verdi": "tg",
+          "tekst": "Tadsjikisk"
+        },
+        {
+          "verdi": "th",
+          "tekst": "Thai"
+        },
+        {
+          "verdi": "ti",
+          "tekst": "Tigrinya"
+        },
+        {
+          "verdi": "tk",
+          "tekst": "Turkmensk"
+        },
+        {
+          "verdi": "tl",
+          "tekst": "Tagalog"
+        },
+        {
+          "verdi": "tn",
+          "tekst": "Tswana"
+        },
+        {
+          "verdi": "to",
+          "tekst": "Tonganesisk"
+        },
+        {
+          "verdi": "tr",
+          "tekst": "Tyrkisk"
+        },
+        {
+          "verdi": "ts",
+          "tekst": "Tsonga"
+        },
+        {
+          "verdi": "tt",
+          "tekst": "Tatarisk"
+        },
+        {
+          "verdi": "tw",
+          "tekst": "Twi"
+        },
+        {
+          "verdi": "ty",
+          "tekst": "Tahitisk"
+        },
+        {
+          "verdi": "uk",
+          "tekst": "Ukrainsk"
+        },
+        {
+          "verdi": "ug",
+          "tekst": "Uigurisk"
+        },
+        {
+          "verdi": "ur",
+          "tekst": "Urdu"
+        },
+        {
+          "verdi": "uz",
+          "tekst": "Usbekisk"
+        },
+        {
+          "verdi": "ve",
+          "tekst": "Venda"
+        },
+        {
+          "verdi": "vi",
+          "tekst": "Vietnamesisk"
+        },
+        {
+          "verdi": "vo",
+          "tekst": "Volapük"
+        },
+        {
+          "verdi": "wa",
+          "tekst": "Vallonsk"
+        },
+        {
+          "verdi": "wo",
+          "tekst": "Wolof"
+        },
+        {
+          "verdi": "xh",
+          "tekst": "Xhosa"
+        },
+        {
+          "verdi": "yi",
+          "tekst": "Jiddisk"
+        },
+        {
+          "verdi": "yo",
+          "tekst": "Joruba"
+        },
+        {
+          "verdi": "za",
+          "tekst": "Zhuang"
+        },
+        {
+          "verdi": "zea",
+          "tekst": "Zeeuws"
+        },
+        {
+          "verdi": "zh",
+          "tekst": "Kinesisk"
+        },
+        {
+          "verdi": "zu",
+          "tekst": "Zulu"
+        },
+        {
+          "verdi": "zza",
+          "tekst": "Zazaki"
+        }
+      ]
+    },
+    {
+      "id": "BUF_7B3694CE-5A22-4840-93C7-30B5076FC322",
+      "navn": "VedleggTypeType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Menneskelig lesbar versjon av XML-melding"
+        },
+        {
+          "verdi": "10",
+          "tekst": "Plan i henhold til barnevernsloven"
+        },
+        {
+          "verdi": "999",
+          "tekst": "Annet"
+        }
+      ]
+    }
+  ]
+}

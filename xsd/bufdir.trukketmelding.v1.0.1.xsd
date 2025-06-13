@@ -1,0 +1,29 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:bg="https://bufdir.no/generelt.v1.0.0" 
+	xmlns:mld="https://bufdir.no/melding.v1.0.1" 
+	xmlns="https://bufdir.no/trukketmelding.v1.0.1" 
+	targetNamespace="https://bufdir.no/trukketmelding.v1.0.1" 
+	elementFormDefault="qualified" 
+	version="1.0.1">
+	<xs:import namespace="https://bufdir.no/generelt.v1.0.0" schemaLocation="bufdir.generelt.v1.0.0.xsd"/>
+	<xs:import namespace="https://bufdir.no/melding.v1.0.1" schemaLocation="bufdir.melding.v1.0.1.xsd"/>
+
+	<xs:element name="TrukketMelding" id="BUF_A2401CC8-45F6-49D3-9D38-F63B472C0F61">
+		<xs:annotation>
+			<xs:appinfo>
+				<MeldingsForbindelse>Trukket|Slettet</MeldingsForbindelse>
+				<AvsenderType>*</AvsenderType>
+				<MottakerType>*</MottakerType>
+			</xs:appinfo>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="mld:MeldingType">
+					<xs:sequence>
+						<xs:element name="Begrunnelse" type="bg:Fritekst" minOccurs="0" id="BUF_01595D60-3821-429B-AEDA-40B2B1D25FD0"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>		
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

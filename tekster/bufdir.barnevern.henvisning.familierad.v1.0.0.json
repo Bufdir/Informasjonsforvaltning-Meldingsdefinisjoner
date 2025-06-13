@@ -1,0 +1,49 @@
+{
+	"sprak": [
+		"nb-NO"
+	],
+	"skjema": {
+		"beskrivelse": "Veiledningstekster til henvisninger til Familieråd, Bufetat. Tekstene overstyrer i noen tilfelle de som ligger i generelle henvisningstekster.",
+		"versjon": "1.0.0",
+		"versjonsInformasjon": "Første testversjon",
+		"gyldigFra": "2025-05-26",
+		"skjemaelement": [
+			{
+				"navn": "Vedlegg",
+				"id": "BUF_C4705C17-35AB-443E-B574-2B03826495F9",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Vedlegg"
+					}
+				],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Situasjonsbeskrivelse og spørsmål til familierådet legges til som vedlegg.<br />Dersom det skal legges ved ytterligere dokumentasjon, må dette vurderes som relevant og nødvendig for å gi utfyllende informasjon om barnets behov. Barnevernets vurderinger av vedlagt informasjon må komme tydelig fram i henvisningsskjemaet."
+					}
+				],
+				"sortering": 9999
+			},
+			{
+				"navn": "BistandSamletBehov",
+				"id": "BUF_D7577E46-86D7-4AFD-B170-E3D4C6D8234D",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Bakgrunnen for familierådet og barnets situasjon"
+					}
+				],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}
+				],						
+				"sortering": 9999
+			}
+		],
+		"kodelistetekster": [
+		]
+	}
+}

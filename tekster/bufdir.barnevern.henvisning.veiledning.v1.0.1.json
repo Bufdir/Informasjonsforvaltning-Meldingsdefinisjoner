@@ -1,0 +1,1992 @@
+{
+	"sprak": [
+		"nb-NO"
+	],
+	"skjema": {
+		"beskrivelse": "Veiledningstekster til henvisninger til Bufetat",
+		"versjon": "1.0.0",
+		"versjonsInformasjon": "Første testversjon",
+		"gyldigFra": "2025-05-26",
+		"skjemaelement": [
+			{
+				"navn": "FodselsnummerType",
+				"id": "BUF_48A168D0-C049-44F0-94D4-6C252FCC8D17",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Fødselsnummer"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Fødselsnummer eller D-nummer"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "KjonnFregType",
+				"id": "BUF_26D1F613-F2E1-4589-A444-0810ECD0508D",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Kjønn"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Kjønn som det er registrert i FREG"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "TrukketMelding",
+				"id": "BUF_A2401CC8-45F6-49D3-9D38-F63B472C0F61",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Trukket / slettet melding"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Kontaktperson",
+				"id": "BUF_135B6A86-99D6-4A2A-BD9E-692B670A96F1",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Kontaktperson"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "AlternativKontaktperson",
+				"id": "BUF_3E9352C3-C977-499A-967E-8B8E090F5E6D",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Alternativt kontaktpunkt"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 101
+			},
+			{
+				"navn": "Meldingshode",
+				"id": "BUF_A96CA391-9868-4416-9C06-896EC995098C",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Meldingshode"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Standardisert informasjon som fagsystemet setter og som benyttes til alle forsendelsestyper"
+					}],
+				"sortering": 10
+			},
+			{
+				"navn": "OppfolgingAvMelding",
+				"id": "BUF_1DFCE9C1-F608-4E80-A32E-5B3765F55C56",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Oppfølging av tidligere melding"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "MeldingstypeNmsp",
+				"id": "BUF_8F21452E-E1DD-47D6-B9A0-F7810BF2FC1A",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Meldingstype nmsp"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "KvitteringsMelding",
+				"id": "BUF_4ED03B9B-FFEF-47C0-B44C-8781A28AAB4A",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Kvittering"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "DatoFra",
+				"id": "BUF_EF489DB6-24CD-4A05-9F44-16F772134B62",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Ønsket oppstartsdato"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Varighet",
+				"id": "BUF_97884515-3B1F-4B07-9BB2-3BA6C1926D3F",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Antatt varighet"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "KanPlasseresINettverk",
+				"id": "BUF_60BAC853-168E-4FF2-B9F0-FED3CA8291A9",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Kan barnet plasseres i familie eller nettverk?"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Vurdering",
+				"id": "BUF_B3707F9C-CF99-433D-B410-A5C98B98DFCC",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Beskriv kartleggingen og vurderingen"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "SoskenRelasjon",
+				"id": "BUF_3E816ABE-9127-4EF2-8EC9-0057A60F0CED",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Relasjon"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "SoskenRelasjonAnnet",
+				"id": "BUF_5043F20E-37F1-4F9A-BA32-32E6347E0332",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Beskriv annen relasjon"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "HenvisningMeldingsId",
+				"id": "BUF_0D907ADF-CB49-4B1D-BE8C-A1819AE119AD",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Meldings-id til allerede utfylt henvisning for barnet"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Familierad",
+				"id": "BUF_EBBF6A1F-9FD9-4BC0-B6A1-4B66B4106A0C",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Familieråd"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Vedlegg",
+				"id": "BUF_C4705C17-35AB-443E-B574-2B03826495F9",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Vedlegg"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Dersom det skal legges ved ytterligere dokumentasjon, må dette vurderes som relevant og nødvendig for å gi utfyllende informasjon om barnets behov. Barnevernets vurderinger av vedlagt informasjon må komme tydelig fram i henvisningsskjemaet."
+					}],
+				"sortering": 9999
+			},
+			{
+				"navn": "PlasseringINettverk",
+				"id": "BUF_73A3AB62-5202-484E-BAA3-48E1B9CDFD0C",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Plassering i familie eller nettverk"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 50
+			},
+			{
+				"navn": "TiltakHistorikk",
+				"id": "BUF_CF961F26-2624-4DFB-BF7D-BADEB828C7F8",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Oversikt over tidligere relevante tiltak"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 60
+			},
+			{
+				"navn": "TiltakHistorikk",
+				"id": "BUF_7D5B1906-7419-4734-B28F-40ED5BF152A3",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Oversikt over tidligere relevante tiltak"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 60
+			},
+			{
+				"navn": "BarnetsBehovOgSituasjon",
+				"id": "BUF_CC9A7CDF-B998-415D-995A-6275CBCCA465",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Beskrivelse og vurdering av barnets behov"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "<b>Kunnskapsmodellen “Barnets behov i sentrum”</b><br />Kunnskapsmodellen “Barnets behov i sentrum” gir en enhetlig og kunnskapsbasert struktur for identifisering og oppfølging av barnets behov. Modellens tre dimensjoner representerer ulike sider ved barnets behov. Dimensjonene må forstås i et helhetsperspektiv. Det er derfor vesentlig at det gis relevant og nødvendig informasjon om barnets situasjon og om den beskyttelse og risiko som omgir barnet ved alle modellens dimensjoner."
+					}],
+				"sortering": 160
+			},
+			{
+				"navn": "BarnetsBehovOgSituasjon",
+				"id": "BUF_FDA1B583-5224-4E74-BC74-00409A85550F",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Beskrivelse og vurdering av barnets behov"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 160
+			},
+			{
+				"navn": "BistandSamletBehov",
+				"id": "BUF_D7577E46-86D7-4AFD-B170-E3D4C6D8234D",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Samlet vurdering av barnets behov for bistand"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Her gjøres den samlede vurderingen av barnets behov for bistand. I dette inngår totalvurderingen av den beskyttelsen og risikoen som omgir barnet, de ressurser og belastninger som påvirker barnet og barnets utvikling, og av hvor mottakelig barnet er for det ønskede tiltaket. Dette innbefatter også en samlet vurdering av de behovene barnet må få tilfredsstilt for å kunne ha god utvikling. Barnets beste skal være et grunnleggende hensyn i dette. I vurderingen skal også barnets rett til medvirkning ivaretas. Barnevernstjenestens vurdering av valg av tiltak skal også inngå her."
+					}],
+				"sortering": 9999
+			},
+			{
+				"navn": "PlanEtterOnsketTiltak",
+				"id": "BUF_CC17878B-D89D-40AA-AA43-A94D94141ACA",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Hva er kommunens foreløpige plan etter avsluttet tiltak"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Velg ønsket tiltak"
+					}],
+				"sortering": 130
+			},
+			{
+				"navn": "Henvisning",
+				"id": "BUF_9984DF44-4D83-4F82-BEE4-0E0672234956",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Henvisning Fosterhjem"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Henvisning",
+				"id": "BUF_0A755807-50A8-46CE-B890-10979092C3CF",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Henvisning Institusjon"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Henvisning",
+				"id": "BUF_98866B9A-00BA-4502-912A-E6A0517011D1",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Henvisning Hjelpetiltak"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Henvisning",
+				"id": "BUF_A7BD8F34-172A-4E6F-8C8A-23960E2C67DC",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Henvisning Familieråd"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Henvisning",
+				"id": "BUF_D380216B-FE93-4D2D-A9D4-44BC7EFEA482",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Vedlegg (til tidligere)"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Henvisning",
+				"id": "BUF_F995902D-B62F-4A50-9CF4-82A70C71AEA7",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Henvisning Senter for foreldre og barn"
+					}
+				],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100	
+			},
+			{
+				"navn": "Henvisning",
+				"id": "BUF_675E4599-2478-4E48-95EE-9E52C542152F",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Henvisning Tverrfaglig helsekartlegging"
+					}
+				],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100	
+			},
+			{
+				"navn": "OmradeBeskrivelse",
+				"id": "BUF_5E9BDD35-9188-4C44-9921-F557F4E8BB08",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Område"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "DagtilbudType",
+				"id": "BUF_DAADF7BD-D8BA-4B6E-8552-FFC81CEB0ACC",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Dagtilbud- barnehage/skole/arbeid"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Dagtilbud",
+				"id": "BUF_C4B6EEC5-231D-4F78-BCAD-49CD094381C0",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Barnets dagtilbud"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 70
+			},
+			{
+				"navn": "Type",
+				"id": "BUF_FBD88251-E5D6-4E8E-AF2A-0BD2417C1DA4",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Hva er barnets dagtilbud?"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "DagtilbudAnnet",
+				"id": "BUF_4B2C77C1-22A4-4ECF-830F-F816F95A8890",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Annet, beskriv"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Beskrivelse",
+				"id": "BUF_B0CF0017-A1B2-4F28-8050-BDC3EAE93457",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Beskriv dagtilbud"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "IndividuellPlan",
+				"id": "BUF_3F888520-7A2D-4BFD-8C77-62ED8F4888CB",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Individuell plan"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 140
+			},
+			{
+				"navn": "Koordinator",
+				"id": "BUF_056EDE9A-A696-49C4-9967-8AE7A4CE67E6",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Koordinator for individuell plan"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Kontaktperson/koordinator for individuell plan"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Annet",
+				"id": "BUF_3320A163-64CA-4993-92FA-7CE96B923E59",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Annet, beskriv"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "PlanType",
+				"id": "BUF_70880F3E-4DD0-4F67-AA9A-702CF3D54857",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Plan"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "ForeldreInvolvering",
+				"id": "BUF_5C3DCC89-B36C-4C28-9B2D-0C67F726D4A8",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Om foreldrene"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Samarbeid med og involvering av foreldre eller andre omsorgspersoner. Barnevernet skal legge til rette for samarbeid med barnets foreldre, og skal behandle dem med respekt. Barnevernet skal legge til rette for at barnets familie og nettverk involveres."
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "ForeldrenesMedvirkning",
+				"id": "BUF_ABB6710A-BE5B-49B8-ADB2-A7275F714C89",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Involvering av foreldre"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "<ul><li>Hvordan har barnevernstjenesten sikret at foreldrenes rett til å være involvert er ivaretatt i henvisningsprosessen?</li><li>På hvilke måter har foreldrene vært involvert i henvisningsprosessen?</li><li>Hvilke ønsker har foreldrene for barnets opphold på institusjon og for tiden etter endt opphold?</li><li>Hvilke forhold vil være viktig ved samarbeid med barnets foreldre og øvrig familie?</li></ul>"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "SamvaerOgKontakt",
+				"id": "BUF_2893D1A7-FFDF-45C6-BD55-FF00D28EDA2A",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Samvær og kontakt"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Hvem skal barnet ha samvær og kontakt med, og hvordan skal det tilrettelegges for dette?"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Ufodt",
+				"id": "BUF_EC27AD6F-06A5-404D-93D6-4051D677ED2F",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Ufødt barn"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Ved ufødt barn bruk personinformasjon til mor."
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "TerminDato",
+				"id": "BUF_B5FB52CD-AE16-475A-9CE8-21B08A3F6ED5",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Termindato"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Fodselsnummer",
+				"id": "BUF_AA59F2BF-8085-4661-88AB-E188667A612F",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Fødselsnummer"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Fødselsnummer eller D-nummer"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Fodselsnummer",
+				"id": "BUF_4C6A5262-44CE-4E89-872F-F35EC5D5AF1B",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Fødselsnummer"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Fødselsnummer eller D-nummer"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "DUFnummer",
+				"id": "BUF_49AA99A5-7593-4FF9-9A52-7C732422D63A",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "DUF-nummer"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "DUFnummer",
+				"id": "BUF_FAD2EC94-35A4-4725-83BA-2562F929DBA8",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "DUF-nummer"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Identifikator",
+				"id": "BUF_7CFECA91-738D-4388-9C28-8168036F3F4A",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Personinformasjon"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "KommunalSaksId",
+				"id": "BUF_CF0CF9F2-BD9C-4293-94E0-BDEC56FA1543",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Saks-Id"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "BehovForTolk",
+				"id": "BUF_C4315249-A3E6-4D85-8CE3-6B8BEBDA9641",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Språk"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "MedvirkningOgInvolvering",
+				"id": "BUF_3E4F89B4-239C-4756-9418-5F22168240D5",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Medvirkning"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 150
+			},
+			{
+				"navn": "MedvirkningOgInvolvering",
+				"id": "BUF_52AF9FB4-088E-4102-B8F2-FAE1936957CF",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Medvirkning"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 150
+			},
+			{
+				"navn": "BarnetsMedvirkning",
+				"id": "BUF_06D131AB-A289-4F7F-9878-F7498F2F1012",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Barnets medvirkning"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Barns rett til medvirkning omfatter både en rett for barnet til å få relevant informasjon tilpasset barnets alder og modenhet, en rett til å uttrykke seg fritt og uhindret, retten til å bli lyttet til og at barnets mening skal tillegges vekt ved beslutninger som berører barnet. Retten til å medvirke inkluderer også retten til ikke å medvirke."
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "RammerForGjennomforing",
+				"id": "BUF_569F439B-3F31-42A9-9D7D-41BF4BFCB624",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Rammer for gjennomføring av medvirkning"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "<ul><li>Hvilken informasjon er gitt til barnet?</li><li>Hvordan har barnevernstjenesten sikret at barnet har fått og forstått informasjon tilpasset alder og modenhet?</li><li>På hvilken måte er det lagt til rette for trygge rammer for barnets deltakelse?</li><li>Hvilke ønsker har barnet knyttet til medvirkningen fremover i tid?</li></ul>"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "BarnetsSynspunkter",
+				"id": "BUF_6A70D5D5-9178-4618-A267-F2B589FB52D4",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Barnets synspunkter"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Barnets egne synspunkter og tanker, her kan barnet selv utforme sin egen henvisning eller komme med sine tanker direkte inn i prosessen med f.eks. sine egne ord eller tegninger."
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "VektingAvBarnetsSysnpunkt",
+				"id": "BUF_4E368AC0-FF61-4064-B2F5-15BC20E6D9C6",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Barnevernstjenestens vekting av barnets synspunkter"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Hvordan er barnets synspunkter, meninger og tanker vektlagt i prosessen?"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "RelasjonAnnet",
+				"id": "BUF_A01FF1AC-6F13-4AC8-80C3-5F34DC312FBF",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Beskriv annen relasjon"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Omsorg",
+				"id": "BUF_BC98557F-A19A-401B-B83C-EEE2EC10FA83",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Omsorgssituasjon"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "GyldigFra",
+				"id": "BUF_5EEB3D6A-523F-40CE-8871-9E2075D22221",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Gyldig fra"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "KontaktFrekvens",
+				"id": "BUF_D9894232-2B77-4D67-A6BA-72AC558FD354",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Kontakt med barnet"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Sprak",
+				"id": "BUF_B004A41B-4320-4463-8084-C52877C5FCDC",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Språk"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "BehovForTolk",
+				"id": "BUF_722387E5-1AF7-4F88-A6C7-80B2DAEF4339",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Behov for tolk"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "OmradeBeskrivelse",
+				"id": "BUF_F1E2E935-4B31-49A4-BE3D-2BD5729FBEF9",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Område"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Beskrivelse",
+				"id": "BUF_02E03054-70DA-4618-BD00-21F99145DF56",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Beskrivelse"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Beskriv barnets situasjon, fungering og erfaringer"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "BegrunnelseForIkkeAngitt",
+				"id": "BUF_E4F9272C-138F-4D65-8EC3-4D409A5FE79B",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Ikke angitt, begrunn"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Begrunnelse for hvorfor det ikke gis informasjon på området"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Bosted",
+				"id": "BUF_4F9A9C6B-113B-4D3C-BB79-17DA1AE9867E",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Hvor bor barnet?"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Hvis det ikke bor på folkeregisteradresse"
+					}],
+				"sortering": 120
+			},
+			{
+				"navn": "PlanForTiltaket",
+				"id": "BUF_E112D04D-B1E9-4324-8308-5AFE7CB01C4D",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Hva er kommunens mål og plan for oppholdet/tiltaket"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Beskriv eller henvis til vedlegg med kommunens plan for oppholdet/tiltaket i henhold til barnevernloven"
+					}],
+				"sortering": 120
+			},
+			{
+				"navn": "Beskrivelse",
+				"id": "BUF_41EA2A29-0616-4A60-B862-3D45EA69A6C5",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Beskriv eller henvis til vedlegg med kommunens plan for oppholdet/tiltaket"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "RammerOpphold",
+				"id": "BUF_A059E9FC-D65D-4413-90D0-7B5C0909EA7C",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Beskrivelse av andre relevante rammer for oppholdet/tiltaket, for eksempel geografisk beliggenhet, dyrehold mm."
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Lovhjemmel",
+				"id": "BUF_DFBB27FC-E5EC-4EA5-BE8B-CF9FAC78766D",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Velg hjemmel"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 10
+			},
+			{
+				"navn": "Lovhjemmel",
+				"id": "BUF_FD18503F-5EA6-4440-91B4-3CAD05E23604",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Velg hjemmel"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 10
+			},
+			{
+				"navn": "Lovhjemmel",
+				"id": "BUF_FB059DC3-BC4E-4BF1-AD17-81E193879DF0",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Velg hjemmel"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 10
+			},
+			{
+				"navn": "FattetAv",
+				"id": "BUF_A2DF7E82-25DB-4764-8C24-93FBAAE34116",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Vedtak fattet av"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Dato",
+				"id": "BUF_16F048A6-0C19-4726-BD48-B7B12B750046",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Vedtaksdato"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Status",
+				"id": "BUF_4801A8A8-F57E-46F1-99B4-0A85A66A324A",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Status"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "KunnskapsmodellDimensjonType",
+				"id": "BUF_68013692-AF12-4731-905F-44CC1218BB02",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Dimensjon"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Dimensjon i kunnskapsmodellen"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Vurdering",
+				"id": "BUF_3ADD85AF-222F-4A93-9BD6-D5868B18318B",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Samlet vurdering av dimensjonen {tekst}"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "<ul><li>Vurdering av barnets situasjon, fungering og erfaring</li><li>Vurdering av beskyttelse og risiko</li><li>Vurdering av barnets behov for bistand</li><li>Andre relevante opplysninger</li></ul>"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "KunnskapsmodellOmradeType",
+				"id": "BUF_C113BA46-0BFE-4FE7-839B-6F039FEA0197",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Område"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Område i kunnskapsmodellen"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "SoskenSamplassering",
+				"id": "BUF_13699B3A-F193-4E18-B606-60B8739A0520",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Om søsken"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Dersom søsken ønskes plassert sammen, oppgi informasjon om hvilke søsken dette gjelder"
+					}],
+				"sortering": 90
+			},
+			{
+				"navn": "Sosken",
+				"id": "BUF_46F692C1-9F7C-4E2D-831B-B1421ECC1383",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Søsken"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "FagsystemAvsender",
+				"id": "BUF_9A2BA0E2-24A8-43ED-B60F-8F7A7C64E66D",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Fagsystem Avsender"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "SendtTidspunkt",
+				"id": "BUF_D12645CF-6FE0-4EA0-86C5-D9A9EFB5F31D",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Sendt (dato/tid)"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Settes av systemet i det melding sendes"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "KontaktInfoAvsender",
+				"id": "BUF_4CF80BAC-32E2-46B9-9257-517E31272F9C",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Kontaktinformasjon avsender"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "ForeldreInvolvering",
+				"id": "BUF_5C3DCC89-B36C-4C28-9B2D-0C67F726D4A8",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Samarbeid med og involvering av foreldre eller andre omsorgspersoner"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Barnevernet skal legge til rette for samarbeid med barnets foreldre, og skal behandle dem med respekt. Barnevernet skal legge til rette for at barnets familie og nettverk involveres."
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "ForeldreInvolvering",
+				"id": "BUF_2CA3CFB6-8F67-4602-9A4C-95B9E398404C",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Samarbeid med og involvering av foreldre eller andre omsorgspersoner"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Barnevernet skal legge til rette for samarbeid med barnets foreldre, og skal behandle dem med respekt. Barnevernet skal legge til rette for at barnets familie og nettverk involveres."
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "ForespurtBistand",
+				"id": "BUF_C0A2B9A6-86CE-452B-8121-928091AE4736",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Forespurt bistand"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 15
+			},
+			{
+				"navn": "NemndsbehandlingStatus",
+				"id": "BUF_77751E42-4E85-4B2D-967B-606561A86D15",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Status for nemndsbehandling"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 200
+			},
+			{
+				"navn": "NemndsbehandlingDato",
+				"id": "BUF_C122795C-C29B-4AFC-93E9-31D6F112C719",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Dato planlagt nemndsbehandling"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 201
+			},
+			{
+				"navn": "Status",
+				"id": "BUF_24C3A623-74D5-42AC-945A-0AE9D6A81996",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Status for vedtak"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 50
+			},
+			{
+				"navn": "Status",
+				"id": "BUF_4F9C335D-62E9-43EB-BC43-A42D77E08E71",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Status for vedtak"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 50
+			},
+			{
+				"navn": "Kommuneinfo",
+				"id": "BUF_B50BD657-4F24-46E8-B832-DA2EF456311F",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Kommune"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "FaktureresOrganisasjon",
+				"id": "BUF_43EBB832-7693-47F3-8CD4-9D96F0B3AD54",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Kommune med betalingsansvar"
+					}
+				], 
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Kommune med betalingsansvar dersom dette avviker fra avsenderkommune"
+					}],
+				"sortering": 15
+			},
+			{
+				"navn": "EMA",
+				"id": "BUF_B4AAD458-5785-44F5-A0DA-6DAFCAF083B7",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Enslig mindreårig flykning eller asylsøker"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Bistandsperiode",
+				"id": "BUF_B3FA7714-E438-4739-B288-2C0BA6FC2F59",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Ønsket bistandsperiode"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 20
+			},
+			{
+				"navn": "Dod",
+				"id": "BUF_CAC47084-DB07-41A8-9619-BECEBDC5D97A",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Død"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "MedvirkningOgInvolveringAnnet",
+				"id": "BUF_F8D18C62-FE29-4297-B7FA-E85A9D83A6C7",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Andre relevante opplysninger om medvirkning, samarbeid og kontakt"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Beskriv andre relevante opplysninger"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Klient",
+				"id": "BUF_E838A6AF-DF52-40BA-86F7-F20563C6F405",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Barn"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 40
+			},
+			{
+				"navn": "Klient",
+				"id": "BUF_C3A4819F-AE5C-4576-BCD6-E0BA34C3B93B",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Barn"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 40
+			},
+			{
+				"navn": "YtterligereBistand",
+				"id": "BUF_B2DF73D3-AEF7-40C9-9385-6A5D97A535A9",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Ønskes det i tillegg familieråd?"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 30
+			},
+			{
+				"navn": "IngenPlan",
+				"id": "BUF_52E6C969-A0BA-4236-A76E-D46895134E54",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Ingen videre plan"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "ForeldreOgOmsorgspersoner",
+				"id": "BUF_B4EC7A38-CAAD-4820-9FBC-8E3B1499EF3D",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Foreldre og personer med daglig omsorg"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 80
+			},
+			{
+				"navn": "ForeldreOgOmsorgspersoner",
+				"id": "BUF_04CC35D8-162F-4337-B442-3A38FD0228F2",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Foreldre og personer med daglig omsorg"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 80
+			},
+			{
+				"navn": "BehovForTolkBeskrivelse",
+				"id": "BUF_2291F0E6-4A57-4AC0-A0B1-698735DA3C9F",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Beskriv behovet for tolk"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "BistandArena",
+				"id": "BUF_AF0AEF56-E83A-4C0C-B968-FB137CB5621C",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Ønsket arena for bistand"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "BarnTilleggTilHenvist",
+				"id": "BUF_692E8D9E-BA41-4383-8A1E-C496361BCE20",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Ytterlige barn som skal være med under oppholdet"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "ForespurtBistand",
+				"id": "BUF_47527EE2-8683-4262-AC1A-C14C5DDB8DA8",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Forespurt bistand"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 15
+			},
+			{
+				"navn": "ForespurtBistand",
+				"id": "BUF_37219AF9-C0A7-4680-9B3D-C6C3E1A1F0B3",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Forespurt bistand"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 15
+			},
+			{
+				"navn": "ForespurtBistand",
+				"id": "BUF_0E3600ED-B5FA-4F33-94FE-5815C5899F8F",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Forespurt bistand"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 15
+			},
+			{
+				"navn": "Vedtak",
+				"id": "BUF_A4E5D820-ADD0-48C7-A348-294CCFE08F81",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Vedtak"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 20
+			},			
+			{
+				"navn": "Vedtak",
+				"id": "BUF_EF5E6649-D2E3-49EA-869B-A7D910BA1A3F",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Vedtak"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 20
+			},			
+			{
+				"navn": "Test",
+				"id": "BUF_9AA9BE43-3F75-402B-9E6B-3A430B7B0463",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Testmelding"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Testmelding for Bufdirs meldingsutveksling. Inneholder element som kan brukes til å teste transport og validering på flere nivå"
+					}],
+				"sortering": 100
+			},			
+			{
+				"navn": "ProvoserFeilkode",
+				"id": "BUF_A88091BC-6730-491C-8585-5E60A8423D89",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Provosér feilkode"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "En feilkode som finnes io registeret over feilkoder"
+					}],
+				"sortering": 150
+			},
+			{
+				"navn": "EnumTest",
+				"id": "BUF_7EE56439-E3AC-442F-876F-085DBE973B3C",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Kodelisteverdi"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Teste kodelisteverdi-validering"
+					}],
+				"sortering": 80
+			},
+			{
+				"navn": "EnumtestAnnet",
+				"id": "BUF_F5AEE241-86BA-4F5A-B936-0D8AAD104488",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Annet, Beskriv"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Obligatorisk når Kodelisteverdi = 9"
+					}],
+				"sortering": 90
+			},
+			{
+				"navn": "FremtidigDato",
+				"id": "BUF_5AFD1946-F82B-4CAE-B684-C603A989ADEE",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Dato"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Dato som må være dagens eller senere for å validere"
+					}],
+				"sortering": 120
+			},
+			{
+				"navn": "Fodselsnummer",
+				"id": "BUF_C6FBFB0C-C62F-4347-81B8-DD042E5F6093",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Fødselsnummer"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Må finnes i testregisteret for å validere"
+					}],
+				"sortering": 121
+			}			
+		],
+		"kodelistetekster": [
+			{
+				"id": "BUF_C113BA46-0BFE-4FE7-839B-6F039FEA0197",
+				"navn": "KunnskapsmodellOmradeType",
+				"element_id": "BUF_A4059B68-B6A2-4E88-AFE9-1215735AB5E3",
+				"element_navn": "Beskrivelse/begrunnelse for ikke besvart",
+				"verdier": [
+					{
+						"verdi": "1.1",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Helse"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "<b>Fysisk helse</b><br />Dette området kan handle om: fysisk helse og utvikling, tannhelse, funksjonsvariasjoner, relevante diagnoser og rettigheter og behov knyttet til disse, tilgang på relevante helsetjenester, sykdom, barnets faste medisiner og allergier og/eller andre hensyn<br /><b>Psykisk helse</b><br />Dette området kan inneholde: psykisk helse og utvikling, psykiske lidelser, relevante diagnoser og rettigheter og behov knyttet til disse"
+							}
+						]
+					},
+					{
+						"verdi": "1.2",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Barnehage og skole"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "<b>Skoleresultater og skoletrivsel</b><br />Dette området kan handle om: faglig utvikling, potensial for og muligheter til læring, språkforståelse, skolefravær, bytter av skole- og annet dagtilbud, relevante diagnoser og rettigheter knyttet til behov for tilpasset opplæring eller spesialundervisning, sosial kompetanse og relasjoner til jevnaldrende og voksne<br /><b>Fungering og trivsel i barnehage</b><br />Dette området kan inneholde: språklig og motorisk utvikling, sosial kompetanse og relasjoner til jevnaldrende og voksne, relevante diagnoser og rettigheter knyttet til behov for særskilt tilrettelegging"
+							}
+						]
+					},
+					{
+						"verdi": "1.3",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Følelser og uttrykk"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "<b>Adferd, følelser og temperament</b><br />Dette området kan handle om: kroppslige uttrykk og handlinger, empati, selvbeherskelse, utagering, aggressivitet og trusler, respons på omgivelser og endringer, barnets involvering i kriminalitet og eventuelle straffereaksjoner, problematisk og/eller skadelig seksuell atferd.<br /><b>Identitet, selvstendighet, holdninger og verdier</b><br />Dette området kan handle om: holdninger og verdier, utvikling av identitet, og tilhørighet til omsorgspersoner, utvikling av selvstendighet og evne til å sette grenser.<br /><b>Traumer og stress</b><br />Dette området kan inneholde: traumatiske hendelser og reaksjoner på disse, stressorer og evne til å mestre stress.<br /><b>Barnets forhold til rus</b><br />Dette området kan handle om: bruk av og holdning til rus, eksponering for rus, hvordan eventuell bruk av rusmidler påvirker barnet og omgivelsene"
+							}
+						]	
+					},
+					{
+						"verdi": "1.4",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Venner og fritid"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets relasjoner til barn og voksne på ulike arenaer, det vil si lek og samhandling med andre utover nærmeste omsorgspersoner. Dette kan være i nabolag, fritidsaktiviteter og tilgang på disse, hobbyer og interesser, relasjoner til andre barn og voksne, barnets digitale hverdag, osv.<br /><b>Dette området kan handle om:</b><br /><ul><li>Fritidsaktiviteter og tilgang på disse</li><li>Hobbyer og interesser</li><li>Relasjoner til andre barn og voksne</li><li>Barnets digitale hverdag</li></ul>"
+							}
+						]
+					},
+					{
+						"verdi": "2.1",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Grunnleggende omsorg"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets behov for ivaretakelse av fysisk og materiell omsorg. Det handler om barnets behov for regelmessig stell, søvn, mat, klær, god hygiene, et trygt sted å bo og rutiner i hverdagen.<br /><b>Dette området kan handle om:</b><br /><ul><li>Hverdagsrutiner, søvn og kosthold</li><li>Fysisk aktivitet, hygiene og klær</li></ul>"
+							}
+						]	
+					},
+					{
+						"verdi": "2.2",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Følelsesmessig tilgjengelighet"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets behov for omsorgspersoners regulering av sine følelser i samhandling med barnet, og hvordan omsorgspersoner gir støtte, varme og nærhet i møte med barnets følelsesmessige behov.<br /><b>Dette området kan handle om:</b><br /><ul><li>Følelsesmessig regulering</li><li>Følelsesmessig støtte</li></ul>"
+							}
+						]
+					},
+					{
+						"verdi": "2.3",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Stimulering og veiledning"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets behov for stimulering, grensesetting og veiledning. Veiledning handler om omsorgspersonens strategier for å hjelpe barnet å forstå sosiale og kulturelle normer slik at det blir i stand til å delta i fellesskapet. Stimulering og engasjement handler om ivaretagelse av barnets behov for lek, samspill og felles oppmerksomhet.<br /><b>Dette området kan handle om:</b><br /><ul><li>Grensesetting og veiledning</li><li>Stimulering og engasjement</li><li>Strategier for oppdragelse</li></ul>"
+							}
+						]	
+					},
+					{
+						"verdi": "2.4",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Beskyttelse"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets behov for beskyttelse og tilsyn. Dette handler om barnets behov for beskyttelse mot farer i hverdagen, og de grep omsorgspersoner tar for å hindre at barnet utsettes for eller er vitne til vold og omsorgssvikt.<br /><b>Dette området kan handle om:</b><br /><ul><li>Barnets erfaringer med alle former for vold og det å være vitne til vold</li><li>Barnets erfaringer med negativ sosial kontroll</li><li>Barnets erfaringer med menneskehandel</li><li>Barnets erfaringer med seksuelle overgrep og seksuell utnyttelse</li><li>Barnets erfaringer med skadelige tradisjoner og skikker <br /><li>Barnets erfaringer med radikalisering og voldelig ekstremisme"
+							}
+						]
+					},
+					{
+						"verdi": "3.1",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Familieforhold"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets plass i familien, om familiens situasjon og samspillet innad i familien. Hvem barnet bor sammen med, hvem barnet tilbringer tid sammen med (fysisk eller digitalt), hvem som er barnets omsorgspersoner, hvordan medlemmene i familien kommuniserer, og hva familien gjør sammen. Her inngår også familiens historikk.<br /><b>Dette området kan handle om:</b><br /><li>Nåværende familiesituasjon <br /><li>Barnets familiehistorikk <br /><li>Barnets flyttinger og relasjonsbrudd <br /><li>Barnets erfaringer som pårørende <br /><li>Tidligere hendelser av betydning i familien <br /><li>Foreldres helse og trivsel <br /><li>Søskens helse og trivsel"
+							}
+						]
+					},
+					{
+						"verdi": "3.2",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Bolig, økonomi og arbeid"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om de erfaringer barnet har med familiens økonomiske og fysiske rammebetingelser, samt foreldrenes tilhørighet til arbeidslivet.<br /><b>Dette området kan handle om:</b><br /><li>Foreldres tilknytning til arbeidsmarkedet <br /><li>Familiens økonomi og bostandard og hvorvidt dette sikrer barnets utvikling <br /><li>Barnets erfaringer med sosial nød, fattigdom og utenforskap"
+							}
+						]
+					},
+					{
+						"verdi": "3.3",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Nettverk og sosial integrering"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om kontakten familien har med privat nettverk (storfamilie, venner, nabolag, religiøse arenaer, organisasjoner) og profesjonelt nettverk. Her inngår også barnets og familiemedlemmenes tilhørighet til ulike sosiale, etniske, religiøse, kulturelle og språklige fellesskap.<br /><b>Dette området kan handle om:</b><br /><li>Barnets og familiens profesjonelle nettverk <br /><li>Barnets og familiens private nettverk <br /><li>Språklig og kulturell identitet, herunder også minoritetsspråklige familier og urfolk <br /><li>Barnets erfaringer med stigmatisering, rasisme og diskriminering <br /><li>Familiens deltagelse i aktiviteter og lokalsamfunn"
+							}
+						]
+					}
+				]
+			}
+			
+		]
+	}
+}

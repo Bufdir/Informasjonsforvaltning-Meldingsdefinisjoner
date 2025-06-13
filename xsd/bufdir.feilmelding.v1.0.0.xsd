@@ -1,0 +1,76 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+xmlns:bg="https://bufdir.no/generelt.v1.0.0" 
+xmlns:mld="https://bufdir.no/melding.v1.0.1" 
+xmlns="https://bufdir.no/feilmelding.v1.0.0" 
+targetNamespace="https://bufdir.no/feilmelding.v1.0.0" 
+elementFormDefault="qualified" 
+version="1.0.0">
+	<xs:import namespace="https://bufdir.no/generelt.v1.0.0" schemaLocation="bufdir.generelt.v1.0.0.xsd"/>
+	<xs:import namespace="https://bufdir.no/melding.v1.0.1" schemaLocation="bufdir.melding.v1.0.1.xsd"/>
+	
+	<xs:complexType name="FeilType" id="BUF_1590EBA8-8B68-4B01-B760-136E5C918594">
+		<xs:sequence>
+			<xs:element name="Feilkode" type="FeilkodeType" id="BUF_00F01663-7A32-4A56-987D-F5C53D64DC76">
+			</xs:element>
+			<xs:element name="Beskrivelse" type="xs:string" minOccurs="1" id="BUF_FABA7F74-6393-46DF-8461-B33EF194117F">
+			</xs:element>
+			<xs:element name="ElementXpath" type="xs:string" minOccurs="0" id="BUF_7D4EE827-C107-4F93-B9F2-27913277295C">
+				<xs:annotation>
+					<xs:documentation>
+Når feilen gjelder et spesifikt element, vanlig ved validering
+					</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="FeilkodeType" id="BUF_E2A1CC6A-1E2A-407C-9EDE-0B126467A75E">
+		<xs:annotation>
+			<xs:documentation>
+				1001 = Feil i XML-validering
+				1002 = Feil i utvidet XML-validering" /> 
+				9999 = Anne
+	            </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:length value="1"/>
+			<xs:enumeration value="1001"/>
+			<xs:enumeration value="1002"/>
+			<xs:enumeration value="9999"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="Feilmelding" id="BUF_9379CABE-E9C0-4C17-A168-003CDA34D7F3">
+		<xs:annotation>
+			<xs:documentation>
+Feilmelding for Bufdirs meldingsutveksling. Meldingen har en "hovedfeilkode" og kan detaljeres med flere feilspesifikasjoner i tillegg
+			</xs:documentation>
+			<xs:appinfo>
+				<MeldingsForbindelse>Feil</MeldingsForbindelse>
+				<AvsenderType>*</AvsenderType>
+				<MottakerType>*</MottakerType>
+			</xs:appinfo>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="mld:MeldingType">
+					<xs:sequence>
+						<xs:element name="Feil" type="FeilType" id="BUF_8465FCF7-C08A-442E-82AC-F1BCE2F96F19" minOccurs="1">
+							<xs:annotation>
+								<xs:documentation>
+									Hovedfeilkode
+								</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="DetaljFeil" type="FeilType" minOccurs="0" maxOccurs="unbounded" id="BUF_44D463E9-ABCF-4FD4-9A9C-375E1DB714F6">
+							<xs:annotation>
+								<xs:documentation>
+									Feildetaljer når hovedfeilmelding ikke gir det fulle bildet
+								</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

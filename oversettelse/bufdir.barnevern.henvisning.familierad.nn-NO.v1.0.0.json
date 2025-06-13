@@ -1,0 +1,24 @@
+{
+	"fil": "bufdir.barnevern.henvisning.familierad.v1.0.0.json",
+	"beskrivelse": "Oversettelser til nynorsk for henvisning til familieråd",
+	"sprak": "nn-NO",
+	"skjemaelement": [
+		{
+			"id": "BUF_D7577E46-86D7-4AFD-B170-E3D4C6D8234D",
+			"ledetekst": "Grunnlag for familierådet og barnets tilhøve",
+			"veiledning": ""
+		}
+	],
+	"kodelistetekster": [
+		{
+			"id": "BUF_C113BA46-0BFE-4FE7-839B-6F039FEA0197",
+			"koder": [
+				{
+					"verdi": "1.4",
+					"tekst": "Vener og fritid",
+					"beskrivelse": "Dette området gir kunnskap om relasjonane til barnet til barn og vaksne på ulike arenaer, det vil seia leik og samhandling med andre utover næraste omsorgspersonar. Dette kan vera i nabolag, fritidsaktivitetar og tilgang på desse, hobbyar og interesser, relasjonar til andre barn og vaksne, den digitale kvardagen til barnet, osb.<br /><b>Dette området kan handla om:</b><br /><ul><li>Fritidsaktivitetar og tilgang på desse</li><li>Hobbyar og interesser</li><li>Relasjonar til andre barn og vaksne</li><li>Den digitale kvardagen til barnet</li></ul>"
+				}
+			]
+		}
+	]
+}

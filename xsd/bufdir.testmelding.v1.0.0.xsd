@@ -1,0 +1,93 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:bg="https://bufdir.no/generelt.v1.0.0" 
+	xmlns:mld="https://bufdir.no/melding.v1.0.1" 
+	xmlns="https://bufdir.no/testmelding.v1.0.0" 
+	targetNamespace="https://bufdir.no/testmelding.v1.0.0" 
+	elementFormDefault="qualified" 
+	version="1.0.0">
+	<xs:import namespace="https://bufdir.no/generelt.v1.0.0" schemaLocation="bufdir.generelt.v1.0.0.xsd"/>
+	<xs:import namespace="https://bufdir.no/melding.v1.0.1" schemaLocation="bufdir.melding.v1.0.1.xsd"/>
+
+	<xs:simpleType name="TestEnumType" id="BUF_ADC8C757-15A5-4874-923E-82F25B5EE27F">
+		<xs:annotation>
+			<xs:documentation>
+                1 = Alternativ 1
+                2 = Alternativ 2
+				9 = Annet
+            </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:length value="1"/>
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="9"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:element name="Test" id="BUF_9AA9BE43-3F75-402B-9E6B-3A430B7B0463">
+		<xs:annotation>
+			<xs:documentation>
+Testmelding for Bufdirs meldingsutveksling. Inneholder element som kan brukes til å teste validering på flere nivå
+			</xs:documentation>
+			<xs:appinfo>
+				<MeldingsForbindelse>Ny</MeldingsForbindelse>
+				<AvsenderType>*</AvsenderType>
+				<MottakerType>*</MottakerType>
+			</xs:appinfo>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="mld:MeldingType">
+					<xs:sequence>
+						<xs:element name="ProvoserFeilkode" type="xs:integer" minOccurs="0" id="BUF_A88091BC-6730-491C-8585-5E60A8423D89">
+							<xs:annotation>
+								<xs:documentation>
+									Oppfordrer mottakersystemet til å generere denne spesifikke feilkoden
+								</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="Enumtest" type="TestEnumType" minOccurs="1" id="BUF_7EE56439-E3AC-442F-876F-085DBE973B3C"/>
+						<xs:element name="EnumtestAnnet" type="bg:Enlinje" minOccurs="0" id="BUF_F5AEE241-86BA-4F5A-B936-0D8AAD104488">
+							<xs:annotation>
+								<xs:documentation>
+									Obligatorisk når Enumtest=9
+								</xs:documentation>
+								<xs:appinfo>
+									<enable>Enumtest=9</enable>
+								</xs:appinfo>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="FremtidigDato" type="xs:date" minOccurs="0" id="BUF_5AFD1946-F82B-4CAE-B684-C603A989ADEE">
+							<xs:annotation>
+								<xs:documentation>
+									Dato valideres etter regelen "må være fremtidig"
+								</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="Klient" minOccurs="0" id="BUF_D2DE60E1-81E5-485B-9757-7B67DCD24A22">
+							<xs:annotation>
+								<xs:documentation>
+								    Når dette elementet er tilstede, representerer det en 'Klient-melding'
+								</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Fodselsnummer" type="bg:FodselsnummerType" minOccurs="0" id="BUF_C6FBFB0C-C62F-4347-81B8-DD042E5F6093" >
+										<xs:annotation>
+											<xs:documentation>
+									Kan brukes på flere måter:
+									1) gyldig testnummer - verifisere at man ikke får feil tilbake
+									2) bruke nummer som ikke finnes i FREG, provoserer dermed frem feilmelding hos mottaker
+									3) bruke nummer som er korrekt, men ikke passer til tjenesten (ex. eldre person for barneverntjeneste) - generere feil
+											</xs:documentation>
+										</xs:annotation>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>		
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
