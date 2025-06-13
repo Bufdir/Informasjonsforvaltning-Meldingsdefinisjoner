@@ -35,10 +35,14 @@
 					<xs:element name="Klient" type="bv:KlientBarnevernMedUfodtOgEMAType" id="BUF_7B136C2C-6B64-4712-8952-5B9E0A618603"/>
 					<xs:element name="ForespurtBistand" type="HenvisningForespurtBistandSenterForeldreBarnType" id="BUF_D0C99B6F-C1BF-491B-82CB-0A596D865C34"/>
 					<xs:element name="Vedtak" type="HenvisningSenterForeldreBarnVedtakType" id="BUF_DBE27CA3-8762-4AB7-9D85-17FC5415B0D8"/>
+  					<xs:element name="Bistandsperiode" type="henv:OnsketBistandsPeriodeType" id="BUF_B3FA7714-E438-4739-B288-2C0BA6FC2F59"/>
+					<xs:element name="SoskenSamplassering" type="henv:BarnetsSoskenSamplasseringType" id="BUF_13699B3A-F193-4E18-B606-60B8739A0520" />
 					<xs:element name="YtterligereBistand" type="henv:YtterligereBistandType" id="BUF_B2DF73D3-AEF7-40C9-9385-6A5D97A535A9" />
 					<xs:element name="BistandArena" type="henv:HenvisningBistandArenaType" id="BUF_AF0AEF56-E83A-4C0C-B968-FB137CB5621C"/>
 					<xs:element name="BarnTilleggTilHenvist" type="bg:Enlinje" id="BUF_692E8D9E-BA41-4383-8A1E-C496361BCE20"/>
 					<xs:element name="PlanEtterOnsketTiltak" type="henv:PlanEtterOnsketTiltakType" minOccurs="1" maxOccurs="1" id="BUF_CC17878B-D89D-40AA-AA43-A94D94141ACA" />
+					<xs:element name="PlanForTiltaket" type="bv:KommunensPlanForTiltaketType" id="BUF_E112D04D-B1E9-4324-8308-5AFE7CB01C4D"/>
+					<xs:element name="IndividuellPlan" type="bv:IndividuellPlanType" minOccurs="1" id="BUF_3F888520-7A2D-4BFD-8C77-62ED8F4888CB"/>
 					<xs:element name="TiltakHistorikk" type="bg:Fritekst" minOccurs="0" id="BUF_CF961F26-2624-4DFB-BF7D-BADEB828C7F8"/>
 					<xs:element name="Dagtilbud" type="bv:DagtilbudType" id="BUF_C4B6EEC5-231D-4F78-BCAD-49CD094381C0"/>
 					<xs:element name="ForeldreOgOmsorgspersoner" type="henv:BarnetsOmsorgspersonerMedFnrType" id="BUF_04CC35D8-162F-4337-B442-3A38FD0228F2"/>

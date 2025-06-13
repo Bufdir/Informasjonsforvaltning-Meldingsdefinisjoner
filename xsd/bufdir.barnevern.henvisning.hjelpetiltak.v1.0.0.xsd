@@ -16,7 +16,7 @@
 
 	<xs:complexType name="HenvisningHjelpetiltakVedtakType" id="BUF_6E4298F8-CF9B-4F80-B191-55998EA0630C">
 		<xs:complexContent>
-			<xs:extension base="bv:VedtakIkkeOmsorgType">
+			<xs:extension base="bv:VedtakOmsorgType">
 				<xs:sequence>
 					<xs:element name="Lovhjemmel" type="henv:HenvisningLovparagrafHjelpetiltakType" id="BUF_FD18503F-5EA6-4440-91B4-3CAD05E23604">
 						<xs:annotation>
@@ -35,6 +35,7 @@
 					<xs:element name="Klient" type="bv:KlientBarnevernType" id="BUF_C3A4819F-AE5C-4576-BCD6-E0BA34C3B93B"/>
 					<xs:element name="ForespurtBistand" type="henv:HenvisningForespurtBistandHjelpetiltakType" id="BUF_37219AF9-C0A7-4680-9B3D-C6C3E1A1F0B3"/>
   					<xs:element name="Bistandsperiode" type="henv:OnsketBistandsPeriodeType" id="BUF_B3FA7714-E438-4739-B288-2C0BA6FC2F59"/>
+					<xs:element name="SoskenSamplassering" type="henv:BarnetsSoskenSamplasseringType" id="BUF_13699B3A-F193-4E18-B606-60B8739A0520" />
 					<xs:element name="Vedtak" type="HenvisningHjelpetiltakVedtakType" id="BUF_67F437FA-D61A-4FAA-BA1C-A703F620AED9"/>
 					<xs:element name="YtterligereBistand" type="henv:YtterligereBistandType" id="BUF_B2DF73D3-AEF7-40C9-9385-6A5D97A535A9" />
 					<xs:element name="PlanEtterOnsketTiltak" type="henv:PlanEtterOnsketTiltakType" minOccurs="1" maxOccurs="1" id="BUF_CC17878B-D89D-40AA-AA43-A94D94141ACA" />
