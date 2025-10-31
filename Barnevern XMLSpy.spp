@@ -1,43 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
 	<Folder FolderName="kodelister" ExtStr="xml;xsd">
-		<File FilePath="kodelister\bufdir.kodelister.v1.0.0.schema.json" HomeFolder="Yes"/>
 		<File FilePath="kodelister\bufdir.barnevern.generelt.kodelister.v1.0.1.json" HomeFolder="Yes"/>
-		<File FilePath="kodelister\bufdir.barnevern.henvisning.kodelister.v1.0.1.json" HomeFolder="Yes"/>
+		<File FilePath="kodelister\bufdir.barnevern.henvisning.kodelister.v1.0.2.json" HomeFolder="Yes"/>
+		<File FilePath="Kodelister\bufdir.barnevern.henvisning.tverrfaglighelsekartlegging.kodelister.v1.0.0.json" HomeFolder="Yes"/>
 		<File FilePath="kodelister\bufdir.feilmelding.kodelister.v1.0.0.json" HomeFolder="Yes"/>
-		<File FilePath="kodelister\bufdir.generelt.kodelister.v1.0.0.json" HomeFolder="Yes"/>
-		<File FilePath="kodelister\bufdir.melding.kodelister.v1.0.0.json" HomeFolder="Yes"/>
+		<File FilePath="kodelister\bufdir.generelt.kodelister.v1.0.1.json" HomeFolder="Yes"/>
+		<File FilePath="kodelister\bufdir.kodelister.v1.0.0.schema.json" HomeFolder="Yes"/>
+		<File FilePath="kodelister\bufdir.melding.kodelister.v1.1.0.json" HomeFolder="Yes"/>
 		<File FilePath="kodelister\bufdir.testmelding.kodelister.v1.0.0.json" HomeFolder="Yes"/>
 	</Folder>
 	<Folder FolderName="XSL Files" ExtStr="xsl;xslt"/>
+	<Folder FolderName="Barnevernregisteret" ExtStr="xsd">
+		<File FilePath="..\Barnevernregisteret\Barnevern_V4.0.0.xsd" HomeFolder="Yes"/>
+	</Folder>
 	<Folder FolderName="XSD" ExtStr="xsd">
-		<File FilePath="xsd\bufdir.applikasjonskvittering.v1.0.1.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.barnevern.generelt.v1.0.0.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.barnevern.henvisning.familierad.v1.0.0.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.barnevern.henvisning.fosterhjem.v1.0.1.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.barnevern.henvisning.hjelpetiltak.v1.0.0.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.barnevern.henvisning.institusjon.v1.0.1.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.barnevern.henvisning.senterforeldrebarn.v1.0.0.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.barnevern.henvisning.tverrfaglighelsekartlegging.v1.0.0.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.barnevern.henvisning.v1.0.1.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.feilmelding.v1.0.0.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.generelt.v1.0.0.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.melding.v1.0.1.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.saksbehandlerkvittering.v1.0.1.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.testmelding.v1.0.0.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.trukketmelding.v1.0.1.xsd" HomeFolder="Yes"/>
-		<File FilePath="xsd\bufdir.vedleggmelding.v1.0.0.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.applikasjonskvittering.v1.0.2.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.barnevern.generelt.v1.2.0.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.barnevern.henvisning.familierad.v1.2.0.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.barnevern.henvisning.fosterhjem.v1.2.0.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.barnevern.henvisning.hjelpetiltak.v1.2.0.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.barnevern.henvisning.institusjon.v1.2.0.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.barnevern.henvisning.senterforeldrebarn.v1.2.0.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.barnevern.henvisning.tverrfaglighelsekartlegging.v1.2.0.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.barnevern.henvisning.v1.2.0.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.feilmelding.v1.0.1.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.generelt.v1.0.1.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.melding.v1.0.2.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.saksbehandlerkvittering.v1.0.2.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.testmelding.v1.0.1.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.trukketmelding.v1.0.2.xsd" HomeFolder="Yes"/>
+		<File FilePath="xsd\bufdir.vedleggmelding.v1.0.1.xsd" HomeFolder="Yes"/>
 	</Folder>
 	<Folder FolderName="Tillegg">
 		<File FilePath="Validering\bufdir.melding.v1.0.0.validering.json" HomeFolder="Yes"/>
+		<File FilePath="..\Fiks IO\bufdir.no.barnevern.ks.fiks.protokoll.v1.meldingstyper.json" HomeFolder="Yes"/>
 		<File FilePath="Validering\bufdir.validering.v1.0.0.xsd" HomeFolder="Yes"/>
 		<File FilePath="bufdir.xsd.oversikt.json" HomeFolder="Yes"/>
 	</Folder>
 	<Folder FolderName="tekster">
 		<File FilePath="tekster\bufdir.barnevern.henvisning.familierad.v1.0.0.json" HomeFolder="Yes"/>
-		<File FilePath="tekster\bufdir.barnevern.henvisning.senterfamilieogbarn.v1.0.0.json" HomeFolder="Yes"/>
-		<File FilePath="tekster\bufdir.barnevern.henvisning.veiledning.v1.0.1.json" HomeFolder="Yes"/>
+		<File FilePath="tekster\bufdir.barnevern.henvisning.senterfamilieogbarn.v1.1.0.json" HomeFolder="Yes"/>
 		<File FilePath="tekster\bufdir.barnevern.henvisning.veiledning.v1.0.2.schema.json" HomeFolder="Yes"/>
+		<File FilePath="tekster\bufdir.barnevern.henvisning.veiledning.v1.1.0.json" HomeFolder="Yes"/>
 	</Folder>
 	<Folder FolderName="Oversettelse" ExtStr="json">
 		<File FilePath="oversettelse\bufdir.barnevern.henvisning.familierad.nn-NO-eksempel.v1.0.0.json" HomeFolder="Yes"/>

@@ -1,0 +1,218 @@
+{
+	"sprak": [
+		"nb-NO"
+	],
+	"skjema": {
+		"beskrivelse": "Veiledningstekster til henvisninger til Senter for foreldre og barn, Bufetat. Tekstene i denne filen overstyrer de som ligger i generelle henvisningstekster.",
+		"versjon": "1.0.0",
+		"versjonsInformasjon": "Første testversjon",
+		"gyldigFra": "2025-05-26",
+		"skjemaelement": [
+			{
+				"navn": "PlanEtterOnsketTiltak",
+				"id": "BUF_CC17878B-D89D-40AA-AA43-A94D94141ACA",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Hva er kommunens foreløpige plan etter avsluttet tiltak"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 130
+			},
+			{
+				"navn": "Vurdering",
+				"id": "BUF_3ADD85AF-222F-4A93-9BD6-D5868B18318B",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Samlet vurdering av dimensjonen {tekst}"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "<ul><li>Vurdering av barnets situasjon, fungering og erfaringer, den beskyttelse og risiko som omgir barnet og barnets behov for bistand</li><li>Andre relevante opplysninger</li></ul>"
+					}],
+				"sortering": 100
+			}
+		],
+		"kodelistetekster": [
+			{
+				"id": "BUF_C113BA46-0BFE-4FE7-839B-6F039FEA0197",
+				"navn": "KunnskapsmodellOmradeType",
+				"element_id": "BUF_A4059B68-B6A2-4E88-AFE9-1215735AB5E3",
+				"element_navn": "Beskrivelse/begrunnelse for ikke besvart",
+				"verdier": [
+					{
+						"verdi": "1.1",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Helse"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets fysiske og psykiske helse, samt barnets tilgang til helsehjelp. Her inngår barnets allmenne helsetilstand, helseutfordringer, tannhelse, oppfølging av helsekontroller samt kontakt med helsetjenester.<br />Dette området kan handle om:<br /><ul><li>Fysisk helse og utvikling</li><li>Psykisk helse og utvikling</li><li>Psykiske vansker og lidelser, relevante diagnoser og rettigheter og behov knyttet til disse</li><li>Funksjonsvariasjoner, relevante diagnoser og rettigheter og behov knyttet til disse</li><li>Tilgang på relevante helsetjenester</li><li>Tannhelse</li><li>Barnets faste medisiner og allergier og/eller andre hensyn</li></ul>"
+							}
+						]
+					},
+					{
+						"verdi": "1.2",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Barnehage og skole"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets læring, mestring og trivsel i skole og barnehage og eventuelle andre dagtilbud. Her inngår barnets relasjoner til jevnaldrende og voksne, og hvordan barnehage/skole/dagtilbud legger til rette for barnets behov for læring og utvikling.<br />Dette området kan handle om:<br /><ul><li>Faglig utvikling i skolen</li><li>Trivsel i skole/bhg/annet dagtilbud</li><li>Skolefravær og bytter av skole- og annet dagtilbud</li><li>Språkforståelse</li><li>Sosial kompetanse og relasjoner til jevnaldrende og voksne</li><li>Relevante diagnoser og rettigheter knyttet til behov for tilpasset opplæring, spesialundervisning eller særskilt tilrettelegging</li></ul>"
+							}
+						]
+					},
+					{
+						"verdi": "1.3",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Følelser og uttrykk"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets følelsesmessige og atferdsmessige utvikling. Det vil si hvordan barnet uttrykker seg gjennom handlinger og følelsesuttrykk<br />Dette området kan handle om:<br /><ul><li>Atferd, følelser og temperament</li><li>Barnets involvering i kriminalitet og eventuelle straffereaksjoner</li><li>Problematisk og/eller skadelig seksuell atferd</li><li>Holdninger og verdier</li><li>Utvikling av identitet og tilhørighet til omsorgspersoner</li><li>Utvikling av selvstendighet og evne til å sette grenser</li><li>Traumatiske hendelser og reaksjoner på disse</li><li>Stressorer og evne til å mestre stress</li><li>Eksponering for og bruk av rus og holdning til rus</li><li>Hvordan eventuell bruk av rusmidler påvirker barnet og omgivelsene</li></ul>"
+							}
+						]	
+					},
+					{
+						"verdi": "1.4",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Venner og fritid"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets relasjoner til barn og voksne på ulike arenaer, det vil si lek og samhandling med andre utover nærmeste omsorgspersoner. Dette kan være i nabolag, fritidsaktiviteter osv.<br />Dette området kan handle om:<br /><ul><li>Fritidsaktiviteter og tilgang på disse</li><li>Hobbyer og interesser</li><li>Relasjoner til andre barn og voksne</li><li>Barnets digitale hverdag</li></ul>"
+							}
+						]
+					},
+					{
+						"verdi": "2.1",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Grunnleggende omsorg"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets behov for fysisk og materiell omsorg. Det handler om barnets behov for regelmessig stell, søvn, mat, klær, god hygiene, et trygt sted å bo og rutiner i hverdagen.<br /><ul><li>Hverdagsrutiner, søvn og kosthold</li><li>Fysisk aktivitet, hygiene og klær</li></ul>"
+							}
+						]	
+					},
+					{
+						"verdi": "2.2",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Følelsesmessig tilgjengelighet"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets behov for omsorgspersoners regulering av sine følelser i samhandling med barnet, og hvordan omsorgspersoner gir støtte, varme og nærhet i møte med barnets følelsesmessige behov.<br /><ul><li>Følelsesmessig regulering</li><li>Følelsesmessig støtte</li></ul>"
+							}
+						]
+					},
+					{
+						"verdi": "2.3",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Stimulering og veiledning"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets behov for stimulering, grensesetting og veiledning. Veiledning handler om omsorgspersonens strategier for å hjelpe barnet å forstå sosiale og kulturelle normer slik at det blir i stand til å delta i fellesskapet. Stimulering og engasjement handler om ivaretagelse av barnets behov for lek, samspill og felles oppmerksomhet.<br />Dette området kan handle om:<br /><ul><li>Grensesetting og veiledning</li><li>Stimulering og engasjement</li><li>Strategier for oppdragelse</li></ul>"
+							}
+						]	
+					},
+					{
+						"verdi": "2.4",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Beskyttelse"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets behov for beskyttelse og tilsyn. Dette handler om barnets behov for beskyttelse mot farer i hverdagen, og de grep omsorgspersoner tar for å hindre at barnet utsettes for eller er vitne til vold og omsorgssvikt.<br />Dette området kan handle om:<br /><ul><li>Barnets erfaringer med alle former for vold og det å være vitne til vold</li><li>Barnets erfaringer med negativ sosial kontroll</li><li>Barnets erfaringer med menneskehandel</li><li>Barnets erfaringer med seksuelle overgrep og seksuell utnyttelse</li><li>Barnets erfaringer med skadelige tradisjoner og skikker</li><li>Barnets erfaringer med radikalisering og voldelig ekstremisme</li></ul>"
+							}
+						]
+					},
+					{
+						"verdi": "3.1",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Familieforhold"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om barnets plass i familien, om familiens situasjon og samspillet innad i familien. Hvem barnet bor sammen med, hvem barnet tilbringer tid sammen med (fysisk eller digitalt), hvem som er barnets omsorgspersoner, hvordan medlemmene i familien kommuniserer, og hva familien gjør sammen. Her inngår også familiens historikk.<br />Dette området kan handle om:<br /><ul><li>Nåværende familiesituasjon</li><li>Barnets familiehistorikk</li><li>Barnets flyttinger og relasjonsbrudd</li><li>Barnets erfaringer som pårørende</li><li>Tidligere hendelser av betydning i familien</li><li>Foreldres helse og trivsel</li><li>Søskens helse og trivsel</li></ul>"
+							}
+						]
+					},
+					{
+						"verdi": "3.2",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Bolig, økonomi og arbeid"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om de erfaringer barnet har med familiens økonomiske og fysiske rammebetingelser, samt foreldrenes tilhørighet til arbeidslivet.<br />Dette området kan handle om:<br /><ul><li>Foreldres tilknytning til arbeidsmarkedet</li><li>Familiens økonomi og bostandard og hvorvidt dette sikrer barnets utvikling</li><li>Barnets erfaringer med sosial nød, fattigdom og utenforskap</li></ul>"
+							}
+						]
+					},
+					{
+						"verdi": "3.3",
+						"tekst": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Nettverk og sosial integrering"
+							}
+						],
+						"beskrivelse": [
+							{
+								"sprak": "nb-NO", 
+								"tekst": "Dette området gir kunnskap om kontakten familien har med privat nettverk (storfamilie, venner, nabolag, religiøse arenaer, organisasjoner) og profesjonelt nettverk. Her inngår også barnets og familiemedlemmenes tilhørighet til ulike sosiale, etniske, religiøse, kulturelle og språklige fellesskap.<br />Dette området kan handle om:<br /><ul><li>Barnets og familiens profesjonelle nettverk</li><li>Barnets og familiens private nettverk</li><li>Språklig og kulturell identitet, herunder også minoritetsspråklige familier og urfolk</li><li>Barnets erfaringer med stigmatisering, rasisme og diskriminering</li><li>Familiens deltagelse i aktiviteter og lokalsamfunn</li></ul>"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

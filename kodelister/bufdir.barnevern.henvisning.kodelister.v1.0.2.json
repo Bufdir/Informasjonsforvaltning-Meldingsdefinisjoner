@@ -30,15 +30,15 @@
         },
         {
           "verdi": "7",
-          "tekst": "Hjelpetiltak i hjemmet - RFT"
+          "tekst": "Hjelpetiltak - RFT"
         },
         {
           "verdi": "8",
-          "tekst": "Hjelpetiltak i hjemmet - MST"
+          "tekst": "Hjelpetiltak - MST"
         },
         {
           "verdi": "9",
-          "tekst": "Hjelpetiltak i hjemmet - Annet"
+          "tekst": "Hjelpetiltak - Annet"
         },
         {
           "verdi": "10",
@@ -104,7 +104,7 @@
         },
         {
           "verdi": "6",
-          "tekst": "Hjelpetiltak i hjemmet"
+          "tekst": "Hjelpetiltak"
         },
         {
           "verdi": "7",

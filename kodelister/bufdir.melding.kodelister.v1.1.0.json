@@ -103,6 +103,24 @@
           ]
         }
       ]
+    },
+    {
+      "id": "BUF_7B3694CE-5A22-4840-93C7-30B5076FC322",
+      "navn": "VedleggTypeType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Menneskelig lesbar versjon av XML-melding"
+        },
+        {
+          "verdi": "10",
+          "tekst": "Plan i henhold til barnevernsloven"
+        },
+        {
+          "verdi": "999",
+          "tekst": "Annet"
+        }
+      ]
     }
   ]
 }

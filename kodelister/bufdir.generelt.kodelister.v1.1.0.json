@@ -1035,13 +1035,27 @@
       ]
     },
     {
-      "id": "BUF_EC3036F2-A7F4-42A2-86DC-106C0CC020FD",
-      "navn": "SprakType",
+      "id": "BUF_84543DBB-5767-44CB-871F-F1EFAE66571D",
+      "navn": "SprakTypeNorsk",
       "kode": [
         {
           "verdi": "no",
           "tekst": "Norsk"
         },
+        {
+          "verdi": "nb",
+          "tekst": "Bokmål"
+        },
+        {
+          "verdi": "nn",
+          "tekst": "Nynorsk"
+        }
+      ]
+    },
+    {
+      "id": "BUF_C7CCB35F-4750-487D-8797-6DEC3FFA0B65",
+      "navn": "SprakTypeUtenNorsk",
+      "kode": [
         {
           "verdi": "aa",
           "tekst": "Afar"
@@ -1499,10 +1513,6 @@
           "tekst": "Naurisk"
         },
         {
-          "verdi": "nb",
-          "tekst": "Bokmål"
-        },
-        {
           "verdi": "nd",
           "tekst": "Nord-ndebele"
         },
@@ -1517,10 +1527,6 @@
         {
           "verdi": "nl",
           "tekst": "Nederlandsk"
-        },
-        {
-          "verdi": "nn",
-          "tekst": "Nynorsk"
         },
         {
           "verdi": "nr",
@@ -1797,24 +1803,6 @@
         {
           "verdi": "zza",
           "tekst": "Zazaki"
-        }
-      ]
-    },
-    {
-      "id": "BUF_7B3694CE-5A22-4840-93C7-30B5076FC322",
-      "navn": "VedleggTypeType",
-      "kode": [
-        {
-          "verdi": "1",
-          "tekst": "Menneskelig lesbar versjon av XML-melding"
-        },
-        {
-          "verdi": "10",
-          "tekst": "Plan i henhold til barnevernsloven"
-        },
-        {
-          "verdi": "999",
-          "tekst": "Annet"
         }
       ]
     }

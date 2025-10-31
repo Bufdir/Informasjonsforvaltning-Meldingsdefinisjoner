@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-	xmlns="https://bufdir.no/generelt.v1.0.0" 
-	targetNamespace="https://bufdir.no/generelt.v1.0.0" 
+	xmlns="https://bufdir.no/generelt.v1.0.1" 
+	targetNamespace="https://bufdir.no/generelt.v1.0.1" 
 	elementFormDefault="qualified" 
-	version="1.0.0">
+	version="1.0.1">
 
 	<xs:complexType name="AdresseType" id="BUF_C625B5CB-F30B-4A66-850E-00DCA90547D9">
 		<xs:sequence>
@@ -244,26 +244,6 @@ Benyttes kun for kommuner med bydeler
 		</xs:restriction>
 	</xs:simpleType>
 
-	<xs:complexType name="VedleggType" id="BUF_7BBE0323-CE82-4AC3-9ACA-0314B6E74362">
-		<xs:sequence>
-			<xs:element name="Filnavn" type="EnlinjeObligatorisk" id="BUF_C4BB1E69-D4CC-4052-88C1-FB9F605B7E3C">
-				<xs:unique name="unikFilnavn">
-					<xs:selector xpath="."/>
-					<xs:field xpath="."/>
-				</xs:unique>
-
-			</xs:element>
-			<xs:element name="VedleggType" type="VedleggTypeType" id="BUF_C44DA075-9127-4A93-B1FD-9E6C1E85649F"></xs:element>
-			<xs:element name="Beskrivelse" type="Enlinje" id="BUF_7B4340A3-D0D1-4BDE-8E5A-BA0E68B942A4">
-				<xs:annotation>
-					<xs:appinfo>
-						<enable>VedleggType=999</enable>
-					</xs:appinfo>
-				</xs:annotation>
-			</xs:element>
-		</xs:sequence>
-	</xs:complexType>
-	
 <!-- Enum, kodeliste = bufdir.kodelister.v1.0.0.xml -->
 
 	<xs:simpleType name="JaNeiType" id="BUF_B454E56F-DCDF-49A1-8DE1-3381E638C062">
@@ -552,9 +532,20 @@ Benyttes kun for kommuner med bydeler
 		</xs:restriction>
 	</xs:simpleType>
 
-	<xs:simpleType name="SprakType" id="BUF_EC3036F2-A7F4-42A2-86DC-106C0CC020FD">
+	<xs:simpleType name="SprakTypeNorsk" id="BUF_84543DBB-5767-44CB-871F-F1EFAE66571D">
 		<xs:annotation>
-			<xs:documentation></xs:documentation>
+			<xs:documentation>ISO 639-1 Språkkoder - norske</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="nb"/>
+			<xs:enumeration value="nn"/>
+			<xs:enumeration value="no"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="SprakTypeUtenNorsk" id="BUF_C7CCB35F-4750-487D-8797-6DEC3FFA0B65">
+		<xs:annotation>
+			<xs:documentation>ISO 639-1 Språkkoder minus norske</xs:documentation>
 		</xs:annotation>
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="aa"/>
@@ -671,13 +662,10 @@ Benyttes kun for kommuner med bydeler
 			<xs:enumeration value="mt"/>
 			<xs:enumeration value="my"/>
 			<xs:enumeration value="na"/>
-			<xs:enumeration value="nb"/>
 			<xs:enumeration value="nd"/>
 			<xs:enumeration value="ne"/>
 			<xs:enumeration value="ng"/>
 			<xs:enumeration value="nl"/>
-			<xs:enumeration value="nn"/>
-			<xs:enumeration value="no"/>
 			<xs:enumeration value="nr"/>
 			<xs:enumeration value="nv"/>
 			<xs:enumeration value="ny"/>
@@ -750,20 +738,11 @@ Benyttes kun for kommuner med bydeler
 		</xs:restriction>
 	</xs:simpleType>
 
-	<xs:simpleType name="VedleggTypeType" id="BUF_7B3694CE-5A22-4840-93C7-30B5076FC322">
+	<xs:simpleType name="SprakType" id="BUF_EC3036F2-A7F4-42A2-86DC-106C0CC020FD">
 		<xs:annotation>
-			<xs:documentation>
-			   Koder for kjente dokumenttyper:
-			   1 = Menneskelig lesbar versjon av XML-melding
-			  10 = Plan i henhold til barnevernsloven
-			 999 = Annet
-			</xs:documentation>
+			<xs:documentation>Sammensatt liste av alle språk (minus norsk) + norsk.</xs:documentation>
 		</xs:annotation>
-		<xs:restriction base="xs:string">
-			<xs:enumeration value="1"/>		
-			<xs:enumeration value="10"/>		
-			<xs:enumeration value="999"/>		
-		</xs:restriction>
-	</xs:simpleType>
+		<xs:union memberTypes="SprakTypeUtenNorsk SprakTypeNorsk"/>
+    </xs:simpleType>	
 
 </xs:schema>

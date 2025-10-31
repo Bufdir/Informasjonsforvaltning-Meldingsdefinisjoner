@@ -1,0 +1,132 @@
+{
+  "kodelister": [
+    {
+      "id": "BUF_C7BE4003-25A9-485D-9340-97DF87C507E6",
+      "navn": "DokumentinformasjonTverrfagligHelsekartleggingTypeType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Epikrise fra lege/sykehus"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Opplysninger fra helsestasjon"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Opplysninger fra tannlege"
+        },
+        {
+          "verdi": "4",
+          "tekst": "Relevante helseopplysninger om foreldre som de samtykker til å gi"
+        },
+        {
+          "verdi": "5",
+          "tekst": "Opplysninger om fosterlivet"
+        },
+        {
+          "verdi": "6",
+          "tekst": "Dokumentasjon fra skolehelsetjenesten"
+        },
+        {
+          "verdi": "7",
+          "tekst": "Utredninger fra Habiliteringstjenesten for barn og unge"
+        },
+        {
+          "verdi": "8",
+          "tekst": "Opplysninger fra instanser som fysioterapeut, logoped etc."
+        },
+        {
+          "verdi": "9",
+          "tekst": "Opplysninger fra BUP"
+        },
+        {
+          "verdi": "10",
+          "tekst": "Sakkyndig utredning"
+        },
+        {
+          "verdi": "11",
+          "tekst": "Dokumentasjon fra undersøkelser på Barnehuset"
+        },
+        {
+          "verdi": "12",
+          "tekst": "Dokumentasjon fra Flyktningehelsetjenesten eller flyktningmottak"
+        },
+        {
+          "verdi": "13",
+          "tekst": "Opplysninger fra barnehage"
+        },
+        {
+          "verdi": "14",
+          "tekst": "Opplysninger fra skole"
+        },
+        {
+          "verdi": "15",
+          "tekst": "Opplysninger fra PPT"
+        },
+        {
+          "verdi": "16",
+          "tekst": "Rapport fra opphold i beredskapshjem"
+        },
+        {
+          "verdi": "17",
+          "tekst": "Barnevernets undersøkelsesrapport"
+        },
+        {
+          "verdi": "18",
+          "tekst": "Rapport fra Senter for foreldre og barn"
+        },
+        {
+          "verdi": "19",
+          "tekst": "Opplysninger om gjennomførte hjelpetiltak"
+        },
+        {
+          "verdi": "20",
+          "tekst": "Samværsrapporter"
+        },
+        {
+          "verdi": "21",
+          "tekst": "Barnevernets plasseringsvedtak (der dom/vedtak fra nemnd ikke foreligger)"
+        },
+        {
+          "verdi": "22",
+          "tekst": "Vedtak om hjelpetiltak/flytting av barnet"
+        },
+        {
+          "verdi": "23",
+          "tekst": "Vedtak fra barneverns- og helsenemnda"
+        },
+        {
+          "verdi": "24",
+          "tekst": "Dom fra tingretten vedrørende tilbakeføringskrav/vurdering av samvær"
+        },
+        {
+          "verdi": "25",
+          "tekst": "Uttalelse fra oppnevnt sakkyndig ifm. nemnds-/tingrettsbehandling"
+        }
+      ]
+    },
+    {
+      "id": "BUF_07A03FD6-E154-4317-9011-9B229E4FCF1F",
+      "navn": "DokumentOversendelseType",
+      "kode": [
+        {
+          "verdi": "1",
+          "tekst": "Vedlegges henvisning"
+        },
+        {
+          "verdi": "2",
+          "tekst": "Oversendt tidligere"
+        },
+        {
+          "verdi": "3",
+          "tekst": "Vil bli oversendt"
+        },
+        {
+          "verdi": "4",
+          "tekst": "Ikke relevant"
+        }
+      ]
+    }
+  ]
+}

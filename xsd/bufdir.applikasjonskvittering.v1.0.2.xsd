@@ -1,12 +1,12 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-	xmlns:bg="https://bufdir.no/generelt.v1.0.0" 
-	xmlns:mld="https://bufdir.no/melding.v1.0.1" 
-	xmlns="https://bufdir.no/Applikasjonskvittering.v1.0.1" 
-	targetNamespace="https://bufdir.no/Applikasjonskvittering.v1.0.1" 
+	xmlns:bg="https://bufdir.no/generelt.v1.0.1" 
+	xmlns:mld="https://bufdir.no/melding.v1.0.2" 
+	xmlns="https://bufdir.no/Applikasjonskvittering.v1.0.2" 
+	targetNamespace="https://bufdir.no/Applikasjonskvittering.v1.0.2" 
 	elementFormDefault="qualified" 
-	version="1.0.1">
-	<xs:import namespace="https://bufdir.no/generelt.v1.0.0" schemaLocation="bufdir.generelt.v1.0.0.xsd"/>
-	<xs:import namespace="https://bufdir.no/melding.v1.0.1" schemaLocation="bufdir.melding.v1.0.1.xsd"/>
+	version="1.0.2">
+	<xs:import namespace="https://bufdir.no/generelt.v1.0.1" schemaLocation="bufdir.generelt.v1.0.1.xsd"/>
+	<xs:import namespace="https://bufdir.no/melding.v1.0.2" schemaLocation="bufdir.melding.v1.0.2.xsd"/>
 
 	<xs:element name="Kvittering" id="BUF_9A785BB1-65B7-4BFC-8F0F-FB255938C933">
 		<xs:annotation>

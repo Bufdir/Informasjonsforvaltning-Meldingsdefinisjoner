@@ -179,7 +179,7 @@
 				"ledetekst": [
 					{
 						"sprak": "nb-NO",
-						"tekst": "Kan barnet plasseres i familie eller nettverk?"
+						"tekst": "Kan noen i barnets familie eller nettverk velges som fosterhjem?"
 					}],
 				"veiledning": [
 					{
@@ -284,7 +284,7 @@
 				"ledetekst": [
 					{
 						"sprak": "nb-NO",
-						"tekst": "Plassering i familie eller nettverk"
+						"tekst": "Fosterhjem i barnets familie og nære nettverk"
 					}],
 				"veiledning": [
 					{
@@ -334,7 +334,7 @@
 				"veiledning": [
 					{
 						"sprak": "nb-NO",
-						"tekst": "<b>Kunnskapsmodellen “Barnets behov i sentrum”</b><br />Kunnskapsmodellen “Barnets behov i sentrum” gir en enhetlig og kunnskapsbasert struktur for identifisering og oppfølging av barnets behov. Modellens tre dimensjoner representerer ulike sider ved barnets behov. Dimensjonene må forstås i et helhetsperspektiv. Det er derfor vesentlig at det gis relevant og nødvendig informasjon om barnets situasjon og om den beskyttelse og risiko som omgir barnet ved alle modellens dimensjoner."
+						"tekst": "<b>Kunnskapsmodellen “Barnets behov i sentrum”</b><br />Kunnskapsmodellen “Barnets behov i sentrum” gir en enhetlig og kunnskapsbasert struktur for identifisering og oppfølging av barnets behov.<br />Modellens tre dimensjoner representerer ulike sider ved barnets liv. Dimensjonene er igjen delt inn i 11 behovsområder. Modellen må forstås i et helhetsperspektiv. Det er derfor vesentlig at det gis relevant og nødvendig informasjon om barnets behov og om beskyttelsen og risikoen som omgir barnet ved modellens ulike behovsområder."
 					}],
 				"sortering": 160
 			},
@@ -364,7 +364,7 @@
 				"veiledning": [
 					{
 						"sprak": "nb-NO",
-						"tekst": "Her gjøres den samlede vurderingen av barnets behov for bistand. I dette inngår totalvurderingen av den beskyttelsen og risikoen som omgir barnet, de ressurser og belastninger som påvirker barnet og barnets utvikling, og av hvor mottakelig barnet er for det ønskede tiltaket. Dette innbefatter også en samlet vurdering av de behovene barnet må få tilfredsstilt for å kunne ha god utvikling. Barnets beste skal være et grunnleggende hensyn i dette. I vurderingen skal også barnets rett til medvirkning ivaretas. Barnevernstjenestens vurdering av valg av tiltak skal også inngå her."
+						"tekst": "Her gjøres den samlede vurderingen av barnets behov for bistand. I dette inngår totalvurderingen av den beskyttelsen og risikoen som omgir barnet, de ressurser og belastninger som påvirker barnet og barnets utvikling, og av hvor mottakelig barnet er for ønsket tiltak. Dette innbefatter også en samlet vurdering av de behovene barnet må få tilfredsstilt for å kunne ha god utvikling. Barnets beste skal være et grunnleggende hensyn i dette. I vurderingen skal også barnets rett til medvirkning ivaretas. Barnevernstjenestens vurdering av valg av tiltak skal også inngå her."
 					}],
 				"sortering": 9999
 			},
@@ -439,7 +439,7 @@
 				"veiledning": [
 					{
 						"sprak": "nb-NO",
-						"tekst": ""
+						"tekst": "Tildeling av familierådskoordinator fra Bufetat med mål om at tildelingen skal skje innen 3 virkedager. Kostnadene dekkes av Bufetat."
 					}],
 				"sortering": 100
 			},
@@ -486,7 +486,7 @@
 				"veiledning": [
 					{
 						"sprak": "nb-NO",
-						"tekst": ""
+						"tekst": "Dette skjemaet brukes når barnevernstjenesten henviser til Bufetat om tverrfaglig helsekartlegging. Ved henvisning må barnevernstjenesten fylle ut henvisningsskjema, samt oversende bekreftelse på innhentet samtykke og utfylt sjekkliste for dokumentoversendelse.<br />Mer om tverrfaglig helsekartlegging på Bufdirs nettsider:<br /><a href='https://www.bufdir.no/prosjekter/tverrfaglig-helsekartlegging/'>https://www.bufdir.no/prosjekter/tverrfaglig-helsekartlegging/</a>"
 					}],
 				"sortering": 100	
 			},
@@ -666,7 +666,7 @@
 				"veiledning": [
 					{
 						"sprak": "nb-NO",
-						"tekst": "<ul><li>Hvordan har barnevernstjenesten sikret at foreldrenes rett til å være involvert er ivaretatt i henvisningsprosessen?</li><li>På hvilke måter har foreldrene vært involvert i henvisningsprosessen?</li><li>Hvilke ønsker har foreldrene for barnets opphold på institusjon og for tiden etter endt opphold?</li><li>Hvilke forhold vil være viktig ved samarbeid med barnets foreldre og øvrig familie?</li></ul>"
+						"tekst": "<ul><li>Hvordan har barnevernstjenesten sikret at foreldrenes rett til å være involvert er ivaretatt i henvisningsprosessen?</li><li>På hvilke måter har foreldrene vært involvert i henvisningsprosessen?</li><li>Hvilke ønsker har foreldrene om barnets tiltak og for tiden etter avsluttet tiltak?</li><li>Hvilke forhold vil være viktig ved samarbeid med barnets foreldre og øvrig familie?</li></ul>"
 					}],
 				"sortering": 100
 			},
@@ -761,6 +761,21 @@
 				"sortering": 100
 			},
 			{
+				"navn": "MorsFodselsnummer",
+				"id": "BUF_66DF6977-5021-43BE-8108-3D5019B1AC3D",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Mors fødselsnummer"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Brukes ved ufødt/nyfødt barn som ikke har fått fødselsnummer"
+					}],
+				"sortering": 100
+			},
+			{
 				"navn": "DUFnummer",
 				"id": "BUF_FAD2EC94-35A4-4725-83BA-2562F929DBA8",
 				"ledetekst": [
@@ -791,6 +806,36 @@
 				"sortering": 100
 			},
 			{
+				"navn": "Identifikator",
+				"id": "BUF_5677CF68-0E5D-4881-AC6C-D20FF53A8BC5",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Personinformasjon"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Mors fødselsnummer ved ufødt eller nyfødt barn som ikke har fått fødselsnummer"
+					}],
+				"sortering": 100
+			},
+			{
+				"navn": "Vedtak",
+				"id": "BUF_55319561-5457-4702-89B2-6AC66D8016F5",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Vedtak"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Spesifiser vedtak som er knyttet til tverrfaglig kartlegging"
+					}],
+				"sortering": 100
+			},
+			{
 				"navn": "KommunalSaksId",
 				"id": "BUF_CF0CF9F2-BD9C-4293-94E0-BDEC56FA1543",
 				"ledetekst": [
@@ -811,12 +856,12 @@
 				"ledetekst": [
 					{
 						"sprak": "nb-NO",
-						"tekst": "Språk"
+						"tekst": "Behov for tolk"
 					}],
 				"veiledning": [
 					{
 						"sprak": "nb-NO",
-						"tekst": ""
+						"tekst": "Fylles ut dersom ikke norsk"
 					}],
 				"sortering": 100
 			},
@@ -986,21 +1031,6 @@
 				"sortering": 100
 			},
 			{
-				"navn": "BehovForTolk",
-				"id": "BUF_722387E5-1AF7-4F88-A6C7-80B2DAEF4339",
-				"ledetekst": [
-					{
-						"sprak": "nb-NO",
-						"tekst": "Behov for tolk"
-					}],
-				"veiledning": [
-					{
-						"sprak": "nb-NO",
-						"tekst": ""
-					}],
-				"sortering": 100
-			},
-			{
 				"navn": "OmradeBeskrivelse",
 				"id": "BUF_F1E2E935-4B31-49A4-BE3D-2BD5729FBEF9",
 				"ledetekst": [
@@ -1066,12 +1096,12 @@
 				"ledetekst": [
 					{
 						"sprak": "nb-NO",
-						"tekst": "Hva er kommunens mål og plan for oppholdet/tiltaket"
+						"tekst": "Hva er kommunens mål og plan for tiltaket"
 					}],
 				"veiledning": [
 					{
 						"sprak": "nb-NO",
-						"tekst": "Beskriv eller henvis til vedlegg med kommunens plan for oppholdet/tiltaket i henhold til barnevernloven"
+						"tekst": "Beskriv eller henvis til vedlegg med kommunens plan for oppholdet/tiltaket i henhold til barnevernsloven"
 					}],
 				"sortering": 120
 			},
@@ -1246,12 +1276,12 @@
 				"ledetekst": [
 					{
 						"sprak": "nb-NO",
-						"tekst": "Om søsken"
+						"tekst": "Felles plassering av søsken"
 					}],
 				"veiledning": [
 					{
 						"sprak": "nb-NO",
-						"tekst": "Dersom søsken ønskes plassert sammen, oppgi informasjon om hvilke søsken dette gjelder"
+						"tekst": "Dersom søsken skal motta bistand sammen, oppgi informasjon om hvilke søsken dette gjelder. Husk at det må sendes en egen henvisning for hvert søsken."
 					}],
 				"sortering": 90
 			},
@@ -1810,7 +1840,52 @@
 						"tekst": "Må finnes i testregisteret for å validere"
 					}],
 				"sortering": 121
-			}			
+			},
+			{
+				"navn": "DokumentSjekkliste",
+				"id": "BUF_5CA47489-BFC4-465A-805B-FB736032E2BF",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Sjekkliste for dokumentoversendelse"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Bufdir har utarbeidet en sjekkliste for dokumentoversendelse som skal ivareta personopplysningssikkerhet, samt lette arbeidet for barnevernstjenesten i arbeidet med å innhente informasjon til tverrfaglig helsekartlegging.<br />Kartleggingsteamet vil behøve bred og god informasjon om både helse og omsorgshistorikk for å kunne gjøre en kvalitativt god kartlegging. I sjekklisten får saksbehandleren presentert hvilke dokumenter som vanligvis trengs til tverrfaglig helsekartlegging, og kan huke av for om informasjonen vedlegges henvisningen, er oversendt tidligere, vil bli oversendt, eller ikke er relevant. Listen er ikke uttømmende, og saksbehandler kan supplere ved å legge til flere dokumenter i listen der det er behov for det.<br />Dokumentene sendes som vedlegg til meldingen"
+					}],
+				"sortering": 121
+			},
+			{
+				"navn": "Dokument",
+				"id": "BUF_DA29CAA1-2096-48D0-B40B-E3AA97A84FCC",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Dokumenttype"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": ""
+					}],
+				"sortering": 122
+			},
+			{
+				"navn": "Samtykke",
+				"id": "BUF_BDFBCB21-284F-4DE1-872A-594709C70490",
+				"ledetekst": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Samtykke er innhentet og vedlagt"
+					}],
+				"veiledning": [
+					{
+						"sprak": "nb-NO",
+						"tekst": "Barnevernstjenesten må innhente nødvendig samtykke i forkant av tverrfaglig helsekartlegging. En tverrfaglig helsekartlegging kan bare gjennomføres med samtykke fra barnets foreldre. Barnevernstjenesten kan samtykke til helsekartleggingen dersom det er truffet vedtak etter § 4-2 (lovdata.no) eller § 5-1 (lovdata.no). Har barnet fylt 15 år er barnets samtykke tilstrekkelig.<br />Dersom henvisningen ikke vedlegges innhentet samtykke er den å anse som ufullstendig."
+					}],
+				"sortering": 120
+			}
 		],
 		"kodelistetekster": [
 			{
@@ -1830,7 +1905,7 @@
 						"beskrivelse": [
 							{
 								"sprak": "nb-NO", 
-								"tekst": "<b>Fysisk helse</b><br />Dette området kan handle om: fysisk helse og utvikling, tannhelse, funksjonsvariasjoner, relevante diagnoser og rettigheter og behov knyttet til disse, tilgang på relevante helsetjenester, sykdom, barnets faste medisiner og allergier og/eller andre hensyn<br /><b>Psykisk helse</b><br />Dette området kan inneholde: psykisk helse og utvikling, psykiske lidelser, relevante diagnoser og rettigheter og behov knyttet til disse"
+								"tekst": "Dette området gir kunnskap om barnets fysiske og psykiske helse, samt barnets tilgang til helsehjelp. Her inngår barnets allmenne helsetilstand, helseutfordringer, tannhelse, oppfølging av helsekontroller samt kontakt med helsetjenester.<br />Dette området kan handle om:<br /><ul><li>Fysisk helse og utvikling</li><li>Psykisk helse og utvikling</li><li>Psykiske vansker og lidelser, relevante diagnoser og rettigheter og behov knyttet til disse</li><li>Funksjonsvariasjoner, relevante diagnoser og rettigheter og behov knyttet til disse</li><li>Tilgang på relevante helsetjenester</li><li>Tannhelse</li><li>Barnets faste medisiner og allergier og/eller andre hensyn</li></ul><br />Særskilt for Senter for foreldre og barn:<br /><ul><li>Fysisk og psykisk utvikling</li><li>Psykomotorisk utvikling</li><li>Kognitiv utvikling</li><li>Temperament og følelsesregulering</li><li>Kommunikasjon: Språk, gester og mimikk</li><li>Tilpasningsevne</li><li>Initiativ og responsivitet</li><li>Ruseksponering under svangerskapet</li></ul><br />Hentet fra Kunnskapsbasert retningslinje for utredning av omsorgssituasjonen for barn mellom 0-6 år"
 							}
 						]
 					},
@@ -1845,7 +1920,7 @@
 						"beskrivelse": [
 							{
 								"sprak": "nb-NO", 
-								"tekst": "<b>Skoleresultater og skoletrivsel</b><br />Dette området kan handle om: faglig utvikling, potensial for og muligheter til læring, språkforståelse, skolefravær, bytter av skole- og annet dagtilbud, relevante diagnoser og rettigheter knyttet til behov for tilpasset opplæring eller spesialundervisning, sosial kompetanse og relasjoner til jevnaldrende og voksne<br /><b>Fungering og trivsel i barnehage</b><br />Dette området kan inneholde: språklig og motorisk utvikling, sosial kompetanse og relasjoner til jevnaldrende og voksne, relevante diagnoser og rettigheter knyttet til behov for særskilt tilrettelegging"
+								"tekst": "Dette området gir kunnskap om barnets læring, mestring og trivsel i skole og barnehage og eventuelle andre dagtilbud. Her inngår barnets relasjoner til jevnaldrende og voksne, og hvordan barnehage/skole/dagtilbud legger til rette for barnets behov for læring og utvikling.<br />Dette området kan handle om:<br /><ul><li>Faglig utvikling i skolen</li><li>Trivsel i skole/bhg/annet dagtilbud</li><li>Skolefravær og bytter av skole- og annet dagtilbud</li><li>Språkforståelse</li><li>Sosial kompetanse og relasjoner til jevnaldrende og voksne</li><li>Relevante diagnoser og rettigheter knyttet til behov for tilpasset opplæring, spesialundervisning eller særskilt tilrettelegging</li></ul>"
 							}
 						]
 					},
@@ -1860,7 +1935,7 @@
 						"beskrivelse": [
 							{
 								"sprak": "nb-NO", 
-								"tekst": "<b>Adferd, følelser og temperament</b><br />Dette området kan handle om: kroppslige uttrykk og handlinger, empati, selvbeherskelse, utagering, aggressivitet og trusler, respons på omgivelser og endringer, barnets involvering i kriminalitet og eventuelle straffereaksjoner, problematisk og/eller skadelig seksuell atferd.<br /><b>Identitet, selvstendighet, holdninger og verdier</b><br />Dette området kan handle om: holdninger og verdier, utvikling av identitet, og tilhørighet til omsorgspersoner, utvikling av selvstendighet og evne til å sette grenser.<br /><b>Traumer og stress</b><br />Dette området kan inneholde: traumatiske hendelser og reaksjoner på disse, stressorer og evne til å mestre stress.<br /><b>Barnets forhold til rus</b><br />Dette området kan handle om: bruk av og holdning til rus, eksponering for rus, hvordan eventuell bruk av rusmidler påvirker barnet og omgivelsene"
+								"tekst": "Dette området gir kunnskap om barnets følelsesmessige og atferdsmessige utvikling. Det vil si hvordan barnet uttrykker seg gjennom handlinger og følelsesuttrykk<br />Dette området kan handle om:<br /><ul><li>Atferd, følelser og temperament</li><li>Barnets involvering i kriminalitet og eventuelle straffereaksjoner</li><li>Problematisk og/eller skadelig seksuell atferd</li><li>Holdninger og verdier</li><li>Utvikling av identitet og tilhørighet til omsorgspersoner</li><li>Utvikling av selvstendighet og evne til å sette grenser</li><li>Traumatiske hendelser og reaksjoner på disse</li><li>Stressorer og evne til å mestre stress</li><li>Eksponering for og bruk av rus og holdning til rus</li><li>Hvordan eventuell bruk av rusmidler påvirker barnet og omgivelsene</li></ul><br />Særskilt for Senter for foreldre og barn:<br /><ul><li>Tilbaketrekkingssymptomer</li><li>Evne til å ta imot/søke trøst</li><li>Manglende kontakt med eller manglende interesse for omsorgspersoner</li><li>Overdreven og vedvarende bekymring for omsorgspersoner eller søsken</li></ul><br />Hentet fra Kunnskapsbasert retningslinje for utredning av omsorgssituasjonen for barn mellom 0-6 år"
 							}
 						]	
 					},
@@ -1875,7 +1950,7 @@
 						"beskrivelse": [
 							{
 								"sprak": "nb-NO", 
-								"tekst": "Dette området gir kunnskap om barnets relasjoner til barn og voksne på ulike arenaer, det vil si lek og samhandling med andre utover nærmeste omsorgspersoner. Dette kan være i nabolag, fritidsaktiviteter og tilgang på disse, hobbyer og interesser, relasjoner til andre barn og voksne, barnets digitale hverdag, osv.<br /><b>Dette området kan handle om:</b><br /><ul><li>Fritidsaktiviteter og tilgang på disse</li><li>Hobbyer og interesser</li><li>Relasjoner til andre barn og voksne</li><li>Barnets digitale hverdag</li></ul>"
+								"tekst": "Dette området gir kunnskap om barnets relasjoner til barn og voksne på ulike arenaer, det vil si lek og samhandling med andre utover nærmeste omsorgspersoner. Dette kan være i nabolag, fritidsaktiviteter osv.<br />Dette området kan handle om:<br /><ul><li>Fritidsaktiviteter og tilgang på disse</li><li>Hobbyer og interesser</li><li>Relasjoner til andre barn og voksne</li><li>Barnets digitale hverdag</li></ul>"
 							}
 						]
 					},
@@ -1890,7 +1965,7 @@
 						"beskrivelse": [
 							{
 								"sprak": "nb-NO", 
-								"tekst": "Dette området gir kunnskap om barnets behov for ivaretakelse av fysisk og materiell omsorg. Det handler om barnets behov for regelmessig stell, søvn, mat, klær, god hygiene, et trygt sted å bo og rutiner i hverdagen.<br /><b>Dette området kan handle om:</b><br /><ul><li>Hverdagsrutiner, søvn og kosthold</li><li>Fysisk aktivitet, hygiene og klær</li></ul>"
+								"tekst": "Dette området gir kunnskap om barnets behov for fysisk og materiell omsorg. Det handler om barnets behov for regelmessig stell, søvn, mat, klær, god hygiene, et trygt sted å bo og rutiner i hverdagen.<br /><ul><li>Hverdagsrutiner, søvn og kosthold</li><li>Fysisk aktivitet, hygiene og klær</li></ul><br />Særskilt for Senter for foreldre og barn:<br /><ul><li>Barnets kosthold og måltidsrutiner</li><li>Barnets følelsesmessige behov</li><li>Stellerutiner</li><li>Søvnvaner</li><li>Barnets behov for helsehjelp</li><li>Barnets sikkerhet</li><li>Gjenkjenne fare</li><li>Identifisere relevante forhold i hjemmet for å forhindre farlige situasjoner</li></ul><br />Hentet fra Kunnskapsbasert retningslinje for utredning av omsorgssituasjonen for barn mellom 0-6 år"
 							}
 						]	
 					},
@@ -1905,7 +1980,7 @@
 						"beskrivelse": [
 							{
 								"sprak": "nb-NO", 
-								"tekst": "Dette området gir kunnskap om barnets behov for omsorgspersoners regulering av sine følelser i samhandling med barnet, og hvordan omsorgspersoner gir støtte, varme og nærhet i møte med barnets følelsesmessige behov.<br /><b>Dette området kan handle om:</b><br /><ul><li>Følelsesmessig regulering</li><li>Følelsesmessig støtte</li></ul>"
+								"tekst": "Dette området gir kunnskap om barnets behov for omsorgspersoners regulering av sine følelser i samhandling med barnet, og hvordan omsorgspersoner gir støtte, varme og nærhet i møte med barnets følelsesmessige behov.<br /><ul><li>Følelsesmessig regulering</li><li>Følelsesmessig støtte</li></ul><br />Særskilt for Senter for foreldre og barn:<br /><ul><li>Følelsesmessig utilgjengelighet og manglende respons overfor spedbarn</li><li>Passivitet eller tilbaketrukket atferd</li><li>Støtte til barnets sosiale utvikling</li><li>Forventninger til barnet som ikke passer med barnets alder og utviklingsnivå</li><li>Barnet tillegges negative egenskaper eller intensjoner</li></ul><br />Hentet fra Kunnskapsbasert retningslinje for utredning av omsorgssituasjonen for barn mellom 0-6 år"
 							}
 						]
 					},
@@ -1920,7 +1995,7 @@
 						"beskrivelse": [
 							{
 								"sprak": "nb-NO", 
-								"tekst": "Dette området gir kunnskap om barnets behov for stimulering, grensesetting og veiledning. Veiledning handler om omsorgspersonens strategier for å hjelpe barnet å forstå sosiale og kulturelle normer slik at det blir i stand til å delta i fellesskapet. Stimulering og engasjement handler om ivaretagelse av barnets behov for lek, samspill og felles oppmerksomhet.<br /><b>Dette området kan handle om:</b><br /><ul><li>Grensesetting og veiledning</li><li>Stimulering og engasjement</li><li>Strategier for oppdragelse</li></ul>"
+								"tekst": "Dette området gir kunnskap om barnets behov for stimulering, grensesetting og veiledning. Veiledning handler om omsorgspersonens strategier for å hjelpe barnet å forstå sosiale og kulturelle normer slik at det blir i stand til å delta i fellesskapet. Stimulering og engasjement handler om ivaretagelse av barnets behov for lek, samspill og felles oppmerksomhet.<br />Dette området kan handle om:<br /><ul><li>Grensesetting og veiledning</li><li>Stimulering og engasjement</li><li>Strategier for oppdragelse</li></ul>"
 							}
 						]	
 					},
@@ -1935,7 +2010,7 @@
 						"beskrivelse": [
 							{
 								"sprak": "nb-NO", 
-								"tekst": "Dette området gir kunnskap om barnets behov for beskyttelse og tilsyn. Dette handler om barnets behov for beskyttelse mot farer i hverdagen, og de grep omsorgspersoner tar for å hindre at barnet utsettes for eller er vitne til vold og omsorgssvikt.<br /><b>Dette området kan handle om:</b><br /><ul><li>Barnets erfaringer med alle former for vold og det å være vitne til vold</li><li>Barnets erfaringer med negativ sosial kontroll</li><li>Barnets erfaringer med menneskehandel</li><li>Barnets erfaringer med seksuelle overgrep og seksuell utnyttelse</li><li>Barnets erfaringer med skadelige tradisjoner og skikker <br /><li>Barnets erfaringer med radikalisering og voldelig ekstremisme"
+								"tekst": "Dette området gir kunnskap om barnets behov for beskyttelse og tilsyn. Dette handler om barnets behov for beskyttelse mot farer i hverdagen, og de grep omsorgspersoner tar for å hindre at barnet utsettes for eller er vitne til vold og omsorgssvikt.<br />Dette området kan handle om:<br /><ul><li>Barnets erfaringer med alle former for vold og det å være vitne til vold</li><li>Barnets erfaringer med negativ sosial kontroll</li><li>Barnets erfaringer med menneskehandel</li><li>Barnets erfaringer med seksuelle overgrep og seksuell utnyttelse</li><li>Barnets erfaringer med skadelige tradisjoner og skikker</li><li>Barnets erfaringer med radikalisering og voldelig ekstremisme</li></ul>"
 							}
 						]
 					},
@@ -1950,7 +2025,7 @@
 						"beskrivelse": [
 							{
 								"sprak": "nb-NO", 
-								"tekst": "Dette området gir kunnskap om barnets plass i familien, om familiens situasjon og samspillet innad i familien. Hvem barnet bor sammen med, hvem barnet tilbringer tid sammen med (fysisk eller digitalt), hvem som er barnets omsorgspersoner, hvordan medlemmene i familien kommuniserer, og hva familien gjør sammen. Her inngår også familiens historikk.<br /><b>Dette området kan handle om:</b><br /><li>Nåværende familiesituasjon <br /><li>Barnets familiehistorikk <br /><li>Barnets flyttinger og relasjonsbrudd <br /><li>Barnets erfaringer som pårørende <br /><li>Tidligere hendelser av betydning i familien <br /><li>Foreldres helse og trivsel <br /><li>Søskens helse og trivsel"
+								"tekst": "Dette området gir kunnskap om barnets plass i familien, om familiens situasjon og samspillet innad i familien. Hvem barnet bor sammen med, hvem barnet tilbringer tid sammen med (fysisk eller digitalt), hvem som er barnets omsorgspersoner, hvordan medlemmene i familien kommuniserer, og hva familien gjør sammen. Her inngår også familiens historikk.<br />Dette området kan handle om:<br /><ul><li>Nåværende familiesituasjon</li><li>Barnets familiehistorikk</li><li>Barnets flyttinger og relasjonsbrudd</li><li>Barnets erfaringer som pårørende</li><li>Tidligere hendelser av betydning i familien</li><li>Foreldres helse og trivsel</li><li>Søskens helse og trivsel</li></ul>"
 							}
 						]
 					},
@@ -1965,7 +2040,7 @@
 						"beskrivelse": [
 							{
 								"sprak": "nb-NO", 
-								"tekst": "Dette området gir kunnskap om de erfaringer barnet har med familiens økonomiske og fysiske rammebetingelser, samt foreldrenes tilhørighet til arbeidslivet.<br /><b>Dette området kan handle om:</b><br /><li>Foreldres tilknytning til arbeidsmarkedet <br /><li>Familiens økonomi og bostandard og hvorvidt dette sikrer barnets utvikling <br /><li>Barnets erfaringer med sosial nød, fattigdom og utenforskap"
+								"tekst": "Dette området gir kunnskap om de erfaringer barnet har med familiens økonomiske og fysiske rammebetingelser, samt foreldrenes tilhørighet til arbeidslivet.<br />Dette området kan handle om:<br /><ul><li>Foreldres tilknytning til arbeidsmarkedet</li><li>Familiens økonomi og bostandard og hvorvidt dette sikrer barnets utvikling</li><li>Barnets erfaringer med sosial nød, fattigdom og utenforskap</li></ul>"
 							}
 						]
 					},
@@ -1980,7 +2055,7 @@
 						"beskrivelse": [
 							{
 								"sprak": "nb-NO", 
-								"tekst": "Dette området gir kunnskap om kontakten familien har med privat nettverk (storfamilie, venner, nabolag, religiøse arenaer, organisasjoner) og profesjonelt nettverk. Her inngår også barnets og familiemedlemmenes tilhørighet til ulike sosiale, etniske, religiøse, kulturelle og språklige fellesskap.<br /><b>Dette området kan handle om:</b><br /><li>Barnets og familiens profesjonelle nettverk <br /><li>Barnets og familiens private nettverk <br /><li>Språklig og kulturell identitet, herunder også minoritetsspråklige familier og urfolk <br /><li>Barnets erfaringer med stigmatisering, rasisme og diskriminering <br /><li>Familiens deltagelse i aktiviteter og lokalsamfunn"
+								"tekst": "Dette området gir kunnskap om kontakten familien har med privat nettverk (storfamilie, venner, nabolag, religiøse arenaer, organisasjoner) og profesjonelt nettverk. Her inngår også barnets og familiemedlemmenes tilhørighet til ulike sosiale, etniske, religiøse, kulturelle og språklige fellesskap.<br />Dette området kan handle om:<br /><ul><li>Barnets og familiens profesjonelle nettverk</li><li>Barnets og familiens private nettverk</li><li>Språklig og kulturell identitet, herunder også minoritetsspråklige familier og urfolk</li><li>Barnets erfaringer med stigmatisering, rasisme og diskriminering</li><li>Familiens deltagelse i aktiviteter og lokalsamfunn</li></ul>"
 							}
 						]
 					}

@@ -1,5 +1,147 @@
 # Endringslogg for bufdirs meldingsformater
 
+# Versjon 2025-10-31
+
+ - Fikset overflødige verdier i ***bufdir.xsd.oversikt.json***
+ - Alle xsd'er er oppdatert med nye versjonsnumre, dette skyldes for flere xsd'er at endring i en referert xsd tvinger frem en versjonsoppdatering på disse. Der hvor strukturen i meldingen ikke er berørt, angis dette.
+ 
+## Bufdir.applikasjonskvittering.v1.0.2.xsd
+ - Ny versjon, men struktur er ikke endret
+
+## Bufdir.barnevern.generelt.v1.0.2.xsd
+	
+- Nye elementtyper:
+***MorsFodselsnummer***  - Brukes dersom barnet ikke har et fødselsnummer, ved "Ufødt" valgt eller for nyfødt barn som ikke har (kjent) fødselsnummer. ***Ufødt*** - elementet er nå bare i bruk dersom MorsFodselsnummer er angitt. Tidligere ble mors fødselsnummer lagt i elementet ***Fodselsnummer***.
+***KlientBarnevernBaseType*** - Innført som basetype for klientvarianter med og uten ***MorsFodselsnummer***
+***KlientIdentifikatorMedMorsFnrType*** - Brukes hvor det er relevant å angi ***Ufodt***
+
+## bufdir.barnevern.henvisning.familierad.v1.0.2.xsd
+- Endrede elementer/typer:
+***ForeldreOgOmsorgspersoner*** er ikke lenger obligatorisk
+
+
+## Bufdir.barnevern.henvisning.fosterhjem.v1.2.0.xsd
+- Ingen endringer 
+
+## Bufdir.barnevern.henvisning.hjelpetiltak.v1.2.0.xsd
+ 
+- Endrede elementer/typer:
+  ***SoskenSamplassering*** er ikke lenger obligatorisk
+  ***ForeldreOgOmsorgspersoner*** er ikke lenger obligatorisk
+
+## Bufdir.barnevern.henvisning.institusjon.v1.2.0.xsd
+- Fjernet element:
+- ***PlasseringINettverk***
+
+## Bufdir.barnevern.henvisning.senterforeldrebarn.v1.2.0.xsd
+- Endrede elementer/typer:
+
+***SoskenSamplassering*** er ikke lenger obligatorisk
+***PlanEtterOnsketTiltak*** er nå bare aktuelt ved ForespurtBistand != 5 (Utredning)
+***ForeldreOgOmsorgspersoner*** er ikke lenger obligatorisk
+
+## Bufdir.barnevern.henvisning.tverrfaglighelsekartlegging.v1.2.0.xsd
+
+- Nye elementer:
+***Samtykke*** - bekreftelse på at samtykke er innhentet og vedlagt
+***DokumentSjekkliste*** - Liste med 26 aktuelle dokumentvedlegg som skal angis status for. Disse er implementert ved typedefinisjoner i samme fil.
+- En ny kodelistefil er opprettet for denne xsd'en (bufdir.barnevern.henvisning.tverrfaglighelsekartlegging.kodelister.v1.0.0.json)
+
+- Endrede elementer/typer:
+***ForeldreOgOmsorgspersoner*** er ikke lenger obligatorisk
+***IndividuellPlan*** er ikke lenger obligatorisk
+***ForeldreOgOmsorgspersoner*** er ikke lenger obligatorisk
+
+
+## Bufdir.barnevern.henvisning.v1.2.0.xsd
+- Endrede element:
+***SoskenSamplassering*** er ikke lenger obligatorisk
+***PlasseringINettverk*** tatt ut av OmsorgstiltakHenvisningType og flyttet inn i Fosterhjem-henvisningen
+***ForeldreOgOmsorgspersoner*** BarnetsOmsorgspersonerType lagt til minOccurs="0"
+***MedvirkningOgInvolveringAnnet*** lagt til minOccurs="0"
+
+Endrede typer:
+I ***HenvisningMeldingBaseType*** er ***Vedlegg*** - Endret fra type="bg:VedleggType til type="mld:VedleggType"
+I ***HenvisningLovparagrafTverrfagligHelsekartleggingType*** er enumeration value="2-6" "§ 2-6. Tverrfaglig helsekartlegging", fjernet
+
+## Bufdir./feilmelding.v1.0.1.xsd
+ - Ingen endring
+
+## Bufdir.generelt.v1.0.1.xsd
+- Nye typer:
+***SprakTypeNorsk*** lagt til Dokumentasjon: ISO 639-1 Språkkoder - norske
+***SprakTypeUtenNorsk*** lagt til Dokumentasjon: ISO 639-1 Språkkoder minus norske
+  fjernet "nb", "nn" og "no"
+
+- Endrede Typer:
+***VedleggType*** Flyttet til Bufdir.melding
+***VedleggTypeType*** Flyttet til Bufdir.melding
+***SprakType*** er endret, blitt en sammensatt liste av alle språk (minus norsk) + norsk.
+                med union memberTypes="SprakTypeUtenNorsk SprakTypeNorsk" (se over)
+
+
+## Bufdir.melding.v1.0.2.xsd
+- NyeTyper:
+***VedleggTypeType***
+***VedleggType***
+- Disse er flyttet fra ***bufdir.generelt.X.Y.Z***
+
+## Bufdir.saksbehandlerkvittering.v1.0.2.xsd
+ - Ingen endring
+
+## Bufdir.testmelding.v1.0.1.xsd
+ - Ingen endring
+
+## Bufdir.trukketmelding.v1.0.2.xsd
+ - Ingen endring
+
+## Bufdir.vedleggmelding.v1.0.1.xsd
+ - Ingen endring i struktur, men referanse til ***Vedlegg*** er oppdatert fra type="bg:VedleggType" til type="mld:VedleggType"
+
+# Tekster
+
+## bufdir.barnevern.henvisning.familierad.v1.0.0.json
+- ingen endring
+
+## bufdir.barnevern.henvisning.senterfamilieogbarn.v1.1.0.json
+- Lagt inn egne tekstvarianter (noe tilleggstekst til standard) for følgende av kunnskapsmodellens områder:
+  - Helse
+  - Følelser og uttrykk
+  - Grunnleggende omsorg
+  - Følelsesmessig tilgjengelighet
+
+## bufdir.barnevern.henvisning.veiledning.v1.1.0.json
+- Endret ledetekst til ***KanPlasseresINettverk***
+- Endret veiledningstekst til ***BarnetsBehovOgSituasjon***
+- Ny veiledningstekst (i header) til meldingen Henvisning Familieråd
+- Ny veiledningstekst (i header) til meldingen Henvisning Tverrfaglig helsekartlegging
+- Endring i veiledningstekst i elementet ***ForeldrenesMedvirkning***
+- Veiledningstekst til nytt element ***MorsFodselsnummer***
+- Ny veiledningstekst knyttet til elementet ***Vedtak*** i Tverrfaglig helsekartlegging
+- Ny veiledningstekst i elementet ***BehovForTolk***
+- Endret ledetekst og veiledningstekst til elementet ***PlanForTiltaket***
+- Endret ledetekst og veiledningstekst til elementet ***SoskenSamplassering***
+- Nye lede-/veiledningstekster til nye elementer i ***DokumentSjekkliste*** i Tverrfaglig helsekartlegging
+- Oppdaterte tekster til områdene i kunnskapsmodellen (***KunnskapsmodellOmradeType***)
+
+# Kodelister:
+
+## bufdir.barnevern.henvisning.kodelister.v1.0.2.json
+- Endret tekst på Hjelpetiltak i ***HenvisningForespurtBistandType***
+- Endret tekst på Hjelpetiltak i ***PlanEtterTiltakType***
+
+## bufdir.melding.kodelister.v1.1.0.json
+- ***VedleggTypeType*** flyttet fra bufdir.generelt.
+
+## bufdir.generelt.kodelister.v1.1.0.json
+- Nye kodelister ***SprakTypeNorsk*** og ***SprakTypeUtenNorsk***
+- Fjernet ***SprakType***
+- Fjernet ***VedleggTypeType*** (flyttet til bufdir.melding)
+
+## bufdir.barnevern.henvisning.tverrfaglighelsekartlegging.kodelister.v1.0.0.json
+- Ny kodelistefil
+
+---
 # Versjon 2025.06.13
 - Generelt:
 
@@ -16,6 +158,7 @@
 
   Vi lister ikke opp endringer som er gjort siden forrige publiserte versjon (ref endringer i filformater/-navn), men tar denne praksisen opp igjen fra og med nekste publisering. 
 
+---
 # Versjon 1.0.0 - 20.02.2025
 
 - Generelt:
@@ -299,7 +442,7 @@ Som et minimum vil disse reglene representere en oversikt over hvilke feilmeldin
 
 - Oppdatert iht. endringer i XSD-element
 
-    
+---    
 # Versjon 0.10.0 - 25.11.2024
 
 ## Bufdir_Generelt_v0.10.0.xsd

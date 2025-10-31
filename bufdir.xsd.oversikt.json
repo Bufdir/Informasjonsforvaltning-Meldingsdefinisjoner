@@ -1,14 +1,43 @@
 {
-  "dato": "27.05.2025",
+  "dato": "31.10.2025",
   "xsds": [
     {
-      "nmsp": "https://bufdir.no/barnevern.generelt.v1.0.0",
+      "nmsp": "https://bufdir.no/barnevern.generelt.v1.2.0",
       "beskrivelse": "Felles definisjoner på fagområde barnevern",
       "rotelement": "",
       "status": "produksjon",
-      "gyldigFra": "19.05.2025",
+      "gyldigFra": "28.10.2025",
       "gyldigTil": "",
-      "kodelister": "bufdir.barnevern.generelt.kodelister.v1.0.1.json",
+      "kodelister": "bufdir.barnevern.generelt.kodelister.v1.1.0.json",
+      "tekster": ""
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.generelt.v1.1.0",
+      "beskrivelse": "Felles definisjoner på fagområde barnevern",
+      "rotelement": "",
+      "status": "produksjon",
+      "gyldigFra": "19.08.2025",
+      "gyldigTil": "",
+      "kodelister": "bufdir.barnevern.generelt.kodelister.v1.0.0.json",
+      "tekster": ""
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.generelt.v1.0.0",
+      "beskrivelse": "Felles definisjoner på fagområde barnevern",
+      "status": "utgatt",
+      "gyldigFra": "19.05.2025",
+      "gyldigTil": "18.08.2025",
+      "kodelister": "bufdir.barnevern.generelt.kodelister.v1.0.0.json",
+      "tekster": ""
+    },
+    {
+      "nmsp": "https://bufdir.no/Applikasjonskvittering.v1.0.2",
+      "beskrivelse": "Applikasjonskvittering",
+      "rotelement": "Kvittering",
+      "status": "produksjon",
+      "gyldigFra": "28.10.2025",
+      "gyldigTil": "",
+      "kodelister": "",
       "tekster": ""
     },
     {
@@ -22,64 +51,194 @@
       "tekster": ""
     },
     {
-      "nmsp": "https://bufdir.no/barnevern.henvisning.familierad.v1.0.0",
+      "nmsp": "https://bufdir.no/barnevern.henvisning.familierad.v1.2.0",
+      "beskrivelse": "Henvisning til 2.linje - Familieråd",
+      "rotelement": "Henvisning",
+      "status": "produksjon",
+      "gyldigFra": "28.10.2025",
+      "gyldigTil": "",
+      "kodelister": "",
+      "tekster": "bufdir.barnevern.henvisning.familierad.v1.0.0.json;bufdir.barnevern.henvisning.veiledning.v1.1.0.json"
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.henvisning.familierad.v1.1.0",
       "beskrivelse": "Henvisning til 2.linje - Familieråd",
       "rotelement": "Henvisning",
       "status": "produksjon",
       "gyldigFra": "19.05.2025",
       "gyldigTil": "",
       "kodelister": "",
+      "tekster": "bufdir.barnevern.henvisning.familierad.v1.0.0.json;bufdir.barnevern.henvisning.veiledning.v1.0.2.json"
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.henvisning.familierad.v1.0.0",
+      "beskrivelse": "Henvisning til 2.linje - Familieråd",
+      "rotelement": "Henvisning",
+      "status": "utgatt",
+      "gyldigFra": "19.05.2025",
+      "gyldigTil": "18.08.2025",
+      "kodelister": "",
       "tekster": "bufdir.barnevern.henvisning.familierad.v1.0.0.json;bufdir.barnevern.henvisning.veiledning.v1.0.1.json"
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.henvisning.fosterhjem.v1.2.0",
+      "beskrivelse": "Henvisning til 2.linje - Fosterhjem",
+      "rotelement": "Henvisning",
+      "status": "produksjon",
+      "gyldigFra": "28.10.2025",
+      "gyldigTil": "",
+      "kodelister": "",
+      "tekster": "bufdir.barnevern.henvisning.veiledning.v1.1.0.json"
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.henvisning.fosterhjem.v1.1.0",
+      "beskrivelse": "Henvisning til 2.linje - Fosterhjem",
+      "rotelement": "Henvisning",
+      "status": "produksjon",
+      "gyldigFra": "19.08.2025",
+      "gyldigTil": "",
+      "kodelister": "",
+      "tekster": "bufdir.barnevern.henvisning.veiledning.v1.0.2.json"
     },
     {
       "nmsp": "https://bufdir.no/barnevern.henvisning.fosterhjem.v1.0.1",
       "beskrivelse": "Henvisning til 2.linje - Fosterhjem",
       "rotelement": "Henvisning",
-      "status": "produksjon",
+      "status": "utgatt",
       "gyldigFra": "19.05.2025",
-      "gyldigTil": "",
+      "gyldigTil": "18.08.2025",
       "kodelister": "",
       "tekster": "bufdir.barnevern.henvisning.veiledning.v1.0.1.json"
     },
     {
-      "nmsp": "https://bufdir.no/barnevern.henvisning.hjelpetiltak.v1.0.0",
+      "nmsp": "https://bufdir.no/barnevern.henvisning.hjelpetiltak.v1.2.0",
+      "beskrivelse": "Henvisning til 2.linje - Hjelpetiltak",
+      "rotelement": "Henvisning",
+      "status": "produksjon",
+      "gyldigFra": "28.10.2025",
+      "gyldigTil": "",
+      "kodelister": "",
+      "tekster": "bufdir.barnevern.henvisning.veiledning.v1.1.0.json"
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.henvisning.hjelpetiltak.v1.1.0",
       "beskrivelse": "Henvisning til 2.linje - Hjelpetiltak",
       "rotelement": "Henvisning",
       "status": "produksjon",
       "gyldigFra": "19.05.2025",
       "gyldigTil": "",
       "kodelister": "",
+      "tekster": "bufdir.barnevern.henvisning.veiledning.v1.0.2.json"
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.henvisning.hjelpetiltak.v1.0.0",
+      "beskrivelse": "Henvisning til 2.linje - Hjelpetiltak",
+      "rotelement": "Henvisning",
+      "status": "utgatt",
+      "gyldigFra": "19.05.2025",
+      "gyldigTil": "18.08.2025",
+      "kodelister": "",
       "tekster": "bufdir.barnevern.henvisning.veiledning.v1.0.1.json"
     },
     {
-      "nmsp": "https://bufdir.no/barnevern.henvisning.institusjon.v1.0.1",
+      "nmsp": "https://bufdir.no/barnevern.henvisning.institusjon.v1.2.0",
+      "beskrivelse": "Henvisning til 2.linje - Institusjon",
+      "rotelement": "Henvisning",
+      "status": "produksjon",
+      "gyldigFra": "28.10.2025",
+      "gyldigTil": "",
+      "kodelister": "",
+      "tekster": "bufdir.barnevern.henvisning.veiledning.v1.1.0.json"
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.henvisning.institusjon.v1.1.0",
       "beskrivelse": "Henvisning til 2.linje - Institusjon",
       "rotelement": "Henvisning",
       "status": "produksjon",
       "gyldigFra": "19.05.2025",
       "gyldigTil": "",
       "kodelister": "",
+      "tekster": "bufdir.barnevern.henvisning.veiledning.v1.0.2.json"
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.henvisning.institusjon.v1.0.1",
+      "beskrivelse": "Henvisning til 2.linje - Institusjon",
+      "rotelement": "Henvisning",
+      "status": "utgatt",
+      "gyldigFra": "19.05.2025",
+      "gyldigTil": "18.08.2025",
+      "kodelister": "",
       "tekster": "bufdir.barnevern.henvisning.veiledning.v1.0.1.json"
     },
     {
-      "nmsp": "https://bufdir.no/barnevern.henvisning.senterforeldrebarn.v1.0.0",
+      "nmsp": "https://bufdir.no/barnevern.henvisning.senterforeldrebarn.v1.2.0",
+      "beskrivelse": "Henvisning til 2.linje - Senter for foreldre og barn",
+      "rotelement": "Henvisning",
+      "status": "produksjon",
+      "gyldigFra": "28.10.2025",
+      "gyldigTil": "",
+      "kodelister": "",
+      "tekster": "bufdir.barnevern.henvisning.senterfamilieogbarn.v1.1.0.json;bufdir.barnevern.henvisning.veiledning.v1.1.0.json"
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.henvisning.senterforeldrebarn.v1.1.0",
       "beskrivelse": "Henvisning til 2.linje - Senter for foreldre og barn",
       "rotelement": "Henvisning",
       "status": "produksjon",
       "gyldigFra": "19.05.2025",
       "gyldigTil": "",
       "kodelister": "",
+      "tekster": "bufdir.barnevern.henvisning.senterfamilieogbarn.v1.0.0.json;bufdir.barnevern.henvisning.veiledning.v1.0.2.json"
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.henvisning.senterforeldrebarn.v1.0.0",
+      "beskrivelse": "Henvisning til 2.linje - Senter for foreldre og barn",
+      "rotelement": "Henvisning",
+      "status": "utgatt",
+      "gyldigFra": "19.05.2025",
+      "gyldigTil": "18.08.2025",
+      "kodelister": "",
       "tekster": "bufdir.barnevern.henvisning.senterfamilieogbarn.v1.0.0.json;bufdir.barnevern.henvisning.veiledning.v1.0.1.json"
     },
     {
-      "nmsp": "https://bufdir.no/barnevern.henvisning.tverrfaglighelsekartlegging.v1.0.0",
+      "nmsp": "https://bufdir.no/barnevern.henvisning.tverrfaglighelsekartlegging.v1.2.0",
+      "beskrivelse": "Henvisning til 2.linje - Tverrfaglig helsekartlegging",
+      "rotelement": "Henvisning",
+      "status": "produksjon",
+      "gyldigFra": "28.10.2025",
+      "gyldigTil": "",
+      "kodelister": "bufdir.barnevern.henvisning.tverrfaglighelsekartlegging.kodelister.v1.0.0.json",
+      "tekster": "bufdir.barnevern.henvisning.veiledning.v1.1.0.json"
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.henvisning.tverrfaglighelsekartlegging.v1.1.0",
       "beskrivelse": "Henvisning til 2.linje - Tverrfaglig helsekartlegging",
       "rotelement": "Henvisning",
       "status": "produksjon",
       "gyldigFra": "19.05.2025",
       "gyldigTil": "",
       "kodelister": "",
+      "tekster": "bufdir.barnevern.henvisning.veiledning.v1.0.2.json"
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.henvisning.tverrfaglighelsekartlegging.v1.0.0",
+      "beskrivelse": "Henvisning til 2.linje - Tverrfaglig helsekartlegging",
+      "rotelement": "Henvisning",
+      "status": "utgatt",
+      "gyldigFra": "19.05.2025",
+      "gyldigTil": "18.08.2025",
+      "kodelister": "",
       "tekster": "bufdir.barnevern.henvisning.veiledning.v1.0.1.json"
+    },
+    {
+      "nmsp": "https://bufdir.no/feilmelding.v1.0.1",
+      "beskrivelse": "Feilmelding fra meldingsmottak eller fagsystem",
+      "rotelement": "Feilmelding",
+      "status": "produksjon",
+      "gyldigFra": "28.10.2025",
+      "gyldigTil": "",
+      "kodelister": "bufdir.feilmelding.kodelister.v1.0.0.json",
+      "tekster": "bufdir.barnevern.henvisning.veiledning.v1.1.0.json"
     },
     {
       "nmsp": "https://bufdir.no/feilmelding.v1.0.0",
@@ -89,10 +248,20 @@
       "gyldigFra": "19.05.2025",
       "gyldigTil": "",
       "kodelister": "bufdir.feilmelding.kodelister.v1.0.0.json",
-      "tekster": "bufdir.barnevern.henvisning.veiledning.v1.0.1.json"
+      "tekster": "bufdir.barnevern.henvisning.veiledning.v1.0.2.json"
     },
     {
-      "nmsp": "https://bufdir.no/barnevern.henvisning.v1.0.1",
+      "nmsp": "https://bufdir.no/barnevern.henvisning.v1.2.0",
+      "beskrivelse": "Felles definisjoner for henvisning til 2. linje barnevern",
+      "rotelement": "",
+      "status": "produksjon",
+      "gyldigFra": "28.10.2025",
+      "gyldigTil": "",
+      "kodelister": "bufdir.barnevern.henvisning.kodelister.v1.0.2.json",
+      "tekster": ""
+    },
+    {
+      "nmsp": "https://bufdir.no/barnevern.henvisning.v1.1.0",
       "beskrivelse": "Felles definisjoner for henvisning til 2. linje barnevern",
       "rotelement": "",
       "status": "produksjon",
@@ -102,13 +271,43 @@
       "tekster": ""
     },
     {
+      "nmsp": "https://bufdir.no/barnevern.henvisning.v1.0.1",
+      "beskrivelse": "Felles definisjoner for henvisning til 2. linje barnevern",
+      "rotelement": "",
+      "status": "utgatt",
+      "gyldigFra": "19.05.2025",
+      "gyldigTil": "18.08.2025",
+      "kodelister": "bufdir.barnevern.henvisning.kodelister.v1.0.1.json",
+      "tekster": ""
+    },
+    {
+      "nmsp": "https://bufdir.no/generelt.v1.0.1",
+      "beskrivelse": "Felles definisjoner for Bufdir",
+      "rotelement": "",
+      "status": "produksjon",
+      "gyldigFra": "19.08.2025",
+      "gyldigTil": "",
+      "kodelister": "bufdir.generelt.kodelister.v1.0.0.json",
+      "tekster": ""
+    },
+    {
       "nmsp": "https://bufdir.no/generelt.v1.0.0",
       "beskrivelse": "Felles definisjoner for Bufdir",
       "rotelement": "",
       "status": "produksjon",
       "gyldigFra": "19.05.2025",
-      "gyldigTil": "",
+      "gyldigTil": "18.08.2025",
       "kodelister": "bufdir.generelt.kodelister.v1.0.0.json",
+      "tekster": ""
+    },
+    {
+      "nmsp": "https://bufdir.no/melding.v1.0.2",
+      "beskrivelse": "Definisjoner knyttet til meldingsformatet",
+      "rotelement": "",
+      "status": "produksjon",
+      "gyldigFra": "28.10.2025",
+      "gyldigTil": "",
+      "kodelister": "bufdir.melding.kodelister.v1.1.0.json",
       "tekster": ""
     },
     {
@@ -116,9 +315,29 @@
       "beskrivelse": "Definisjoner knyttet til meldingsformatet",
       "rotelement": "",
       "status": "produksjon",
-      "gyldigFra": "19.05.2025",
+      "gyldigFra": "19.08.2025",
       "gyldigTil": "",
       "kodelister": "bufdir.melding.kodelister.v1.0.0.json",
+      "tekster": ""
+    },
+    {
+      "nmsp": "https://bufdir.no/melding.v1.0.0",
+      "beskrivelse": "Definisjoner knyttet til meldingsformatet",
+      "rotelement": "",
+      "status": "utgatt",
+      "gyldigFra": "19.05.2025",
+      "gyldigTil": "18.08.2025",
+      "kodelister": "bufdir.melding.kodelister.v1.0.0.json",
+      "tekster": ""
+    },
+    {
+      "nmsp": "https://bufdir.no/saksbehandlerkvittering.v1.0.2",
+      "beskrivelse": "Kvittering fra saksbehandler - benyttes for manuelt svar",
+      "rotelement": "Kvittering",
+      "status": "produksjon",
+      "gyldigFra": "28.10.2025",
+      "gyldigTil": "",
+      "kodelister": "",
       "tekster": ""
     },
     {
@@ -127,6 +346,16 @@
       "rotelement": "Kvittering",
       "status": "produksjon",
       "gyldigFra": "19.05.2025",
+      "gyldigTil": "",
+      "kodelister": "",
+      "tekster": ""
+    },
+    {
+      "nmsp": "https://bufdir.no/vedleggmelding.v1.0.1",
+      "beskrivelse": "Melding for ettersendelse av vedlegg når melding ikke samtidig oppdateres",
+      "rotelement": "Vedlegg",
+      "status": "produksjon",
+      "gyldigFra": "28.10.2025",
       "gyldigTil": "",
       "kodelister": "",
       "tekster": ""
@@ -142,6 +371,16 @@
       "tekster": ""
     },
     {
+      "nmsp": "https://bufdir.no/testmelding.v1.0.1",
+      "beskrivelse": "Testmelding - benyttes også for test av systemer i produksjon.",
+      "rotelement": "Test",
+      "status": "produksjon",
+      "gyldigFra": "28.10.2025",
+      "gyldigTil": "",
+      "kodelister": "bufdir.testmelding.kodelister.v1.0.0.json",
+      "tekster": ""
+    },
+    {
       "nmsp": "https://bufdir.no/testmelding.v1.0.0",
       "beskrivelse": "Testmelding - benyttes også for test av systemer i produksjon.",
       "rotelement": "Test",
@@ -149,6 +388,16 @@
       "gyldigFra": "19.05.2025",
       "gyldigTil": "",
       "kodelister": "bufdir.testmelding.kodelister.v1.0.0.json",
+      "tekster": ""
+    },
+    {
+      "nmsp": "https://bufdir.no/trukketmelding.v1.0.2",
+      "beskrivelse": "Brukes til å trekke tilbake melding og/eller anmode om at sendt melding slettes (ved feil)",
+      "rotelement": "TrukketMelding",
+      "status": "produksjon",
+      "gyldigFra": "28.10.2025",
+      "gyldigTil": "",
+      "kodelister": "",
       "tekster": ""
     },
     {

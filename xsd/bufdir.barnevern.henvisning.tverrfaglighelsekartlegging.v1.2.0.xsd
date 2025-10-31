@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns="https://bufdir.no/barnevern.henvisning.tverrfaglighelsekartlegging.v1.2.0" 
+	targetNamespace="https://bufdir.no/barnevern.henvisning.tverrfaglighelsekartlegging.v1.2.0" 
+	xmlns:bg="https://bufdir.no/generelt.v1.0.1" 
+	xmlns:bv="https://bufdir.no/barnevern.generelt.v1.2.0" 
+	xmlns:henv="https://bufdir.no/barnevern.henvisning.v1.2.0" 
+	xmlns:mld="https://bufdir.no/melding.v1.0.2" 
+	elementFormDefault="qualified" 
+	version="1.2.0">
+	<xs:import namespace="https://bufdir.no/barnevern.henvisning.v1.2.0" schemaLocation="bufdir.barnevern.henvisning.v1.2.0.xsd"/>
+	<xs:import namespace="https://bufdir.no/barnevern.generelt.v1.2.0" schemaLocation="bufdir.barnevern.generelt.v1.2.0.xsd"/>
+	<xs:import namespace="https://bufdir.no/generelt.v1.0.1" schemaLocation="bufdir.generelt.v1.0.1.xsd"/>
+	<xs:complexType name="HenvisningTverrfagligHelsekartleggingVedtakType" id="BUF_FD7E984D-842E-409A-871D-A753BE86BA43">
+		<xs:complexContent>
+			<xs:extension base="bv:VedtakOmsorgType">
+				<xs:sequence>
+					<xs:element name="Lovhjemmel" type="henv:HenvisningLovparagrafTverrfagligHelsekartleggingType" id="BUF_793F062B-FF94-4566-B9C6-9CEA02D036FC">
+						<xs:annotation/>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="HenvisningTverrfagligHelsekartleggingType" id="BUF_846A2197-3E94-4F9B-83DC-7CF40A03715D">
+		<xs:complexContent>
+			<xs:extension base="henv:HenvisningMeldingBaseType">
+				<xs:sequence>
+					<xs:element name="Klient" type="bv:KlientBarnevernMedEMAType" id="BUF_87618026-19C0-4B4A-BEF2-DE20DBCBD2C6"/>
+					<xs:element name="ForespurtBistand" type="henv:HenvisningForespurtBistandType" fixed="11" id="BUF_0E3600ED-B5FA-4F33-94FE-5815C5899F8F"/>
+					<xs:element name="Vedtak" type="HenvisningTverrfagligHelsekartleggingVedtakType" id="BUF_55319561-5457-4702-89B2-6AC66D8016F5"/>
+					<xs:element name="PlanEtterOnsketTiltak" type="henv:PlanEtterOnsketTiltakType" id="BUF_CC17878B-D89D-40AA-AA43-A94D94141ACA"/>
+					<xs:element name="IndividuellPlan" type="bv:IndividuellPlanType" id="BUF_3F888520-7A2D-4BFD-8C77-62ED8F4888CB"/>
+					<xs:element name="Dagtilbud" type="bv:DagtilbudType" id="BUF_C4B6EEC5-231D-4F78-BCAD-49CD094381C0"/>
+					<xs:element name="ForeldreOgOmsorgspersoner" type="henv:BarnetsOmsorgspersonerType" id="BUF_B4EC7A38-CAAD-4820-9FBC-8E3B1499EF3D" minOccurs="0"/>
+					<xs:element name="MedvirkningOgInvolvering" type="henv:MedvirkningOgInvolveringUtenSamvaerType" id="BUF_52AF9FB4-088E-4102-B8F2-FAE1936957CF"/>
+					<xs:element name="BarnetsBehovOgSituasjon" type="bv:KunnskapsmodellBarnetsSituasjonOgBehovType" id="BUF_CC9A7CDF-B998-415D-995A-6275CBCCA465"/>
+					<xs:element name="Samtykke" type="xs:boolean" id="BUF_BDFBCB21-284F-4DE1-872A-594709C70490" />
+					<xs:element name="DokumentSjekkliste" type="DokumentSjekklisteTverrfagligHelsekartleggingType" id="BUF_5CA47489-BFC4-465A-805B-FB736032E2BF">
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DokumentSjekklisteTverrfagligHelsekartleggingType" id="BUF_BE7204BB-C29E-43D5-80A5-8358F5E4D91A">
+		<xs:sequence>
+			<xs:element name="Dokument" type="DokumentinformasjonTverrfagligHelsekartleggingType" id="BUF_DA29CAA1-2096-48D0-B40B-E3AA97A84FCC" minOccurs="26" maxOccurs="26">
+				<xs:unique name="Dokument">
+					<xs:selector xpath="DokumentType"/>
+					<xs:field xpath="."/>
+				</xs:unique>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DokumentinformasjonTverrfagligHelsekartleggingType" id="BUF_2010D308-2BE3-4682-94CC-0C38AE7E1516">
+		<xs:sequence>
+			<xs:element name="DokumentType" type="DokumentinformasjonTverrfagligHelsekartleggingTypeType" id="BUF_38EDE6FA-054D-457C-A9C7-846BDF788084"/>
+			<xs:element name="DokumentOversendelse" type="DokumentOversendelseType" id="BUF_C96B6142-282A-42FC-A2DF-177C858EAB90"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!-- Element-definisjon -->
+	<xs:element name="Henvisning" type="HenvisningTverrfagligHelsekartleggingType" id="BUF_675E4599-2478-4E48-95EE-9E52C542152F">
+		<xs:annotation>
+			<xs:appinfo>
+				<MeldingsForbindelse>Ny|Oppdatering</MeldingsForbindelse>
+				<AvsenderType>1.Linje</AvsenderType>
+				<MottakerType>2.Linje</MottakerType>
+			</xs:appinfo>
+		</xs:annotation>
+	</xs:element>
+	<!-- Enum, kodeliste = bufdir.barnevern.kodelister.v1.0.0.xml -->
+		<xs:simpleType name="DokumentinformasjonTverrfagligHelsekartleggingTypeType" id="BUF_C7BE4003-25A9-485D-9340-97DF87C507E6">
+		<xs:annotation>
+			<xs:documentation>
+				1 = Epikrise fra lege/sykehus
+				2 = Opplysninger fra helsestasjon
+				3 = Opplysninger fra tannlege
+				4 = Relevante helseopplysninger om foreldre som de samtykker til å gi
+				5 = Opplysninger om fosterlivet
+				6 = Dokumentasjon fra skolehelsetjenesten
+				7 = Utredninger fra Habiliteringstjenesten for barn og unge
+				8 = Opplysninger fra instanser som fysioterapeut, logoped etc.
+				9 = Opplysninger fra BUP
+				10 = Sakkyndig utredning
+				11 = Dokumentasjon fra undersøkelser på Barnehuset
+				12 = Dokumentasjon fra Flyktningehelsetjenesten eller flyktningmottak
+				13 = Opplysninger fra barnehage
+				14 = Opplysninger fra skole
+				15 = Opplysninger fra PPT
+				16 = Rapport fra opphold i beredskapshjem
+				17 = Barnevernets undersøkelsesrapport
+				18 = Rapport fra Senter for foreldre og barn
+				19 = Opplysninger om gjennomførte hjelpetiltak
+				20 = Samværsrapporter
+				21 = Barnevernets plasseringsvedtak (der dom/vedtak fra nemnd ikke foreligger)
+				22 = Vedtak om hjelpetiltak/flytting av barnet
+				23 = Vedtak fra barneverns- og helsenemnda
+				24 = Dom fra tingretten vedrørende tilbakeføringskrav/vurdering av samvær
+				25 = Uttalelse fra oppnevnt sakkyndig ifm. nemnds-/tingrettsbehandling
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="3"/>
+			<xs:enumeration value="4"/>
+			<xs:enumeration value="5"/>
+			<xs:enumeration value="6"/>
+			<xs:enumeration value="7"/>
+			<xs:enumeration value="8"/>
+			<xs:enumeration value="9"/>
+			<xs:enumeration value="10"/>
+			<xs:enumeration value="11"/>
+			<xs:enumeration value="12"/>
+			<xs:enumeration value="13"/>
+			<xs:enumeration value="14"/>
+			<xs:enumeration value="15"/>
+			<xs:enumeration value="16"/>
+			<xs:enumeration value="17"/>
+			<xs:enumeration value="18"/>
+			<xs:enumeration value="19"/>
+			<xs:enumeration value="20"/>
+			<xs:enumeration value="21"/>
+			<xs:enumeration value="22"/>
+			<xs:enumeration value="23"/>
+			<xs:enumeration value="24"/>
+			<xs:enumeration value="25"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DokumentOversendelseType" id="BUF_07A03FD6-E154-4317-9011-9B229E4FCF1F">
+		<xs:annotation>
+			<xs:documentation>
+                1 = Vedlegges henvisning
+				2 = Oversendt tidligere
+				3 = Vil bli oversendt
+				4 = Ikke relevant
+             </xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="2"/>
+			<xs:enumeration value="3"/>
+			<xs:enumeration value="4"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
